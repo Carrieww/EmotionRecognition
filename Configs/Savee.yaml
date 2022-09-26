@@ -1,0 +1,35 @@
+seed: 2022
+pretrained: False
+# dataset parameters
+dataset: Savee
+Zip_file_path: ./Dataset/Savee.zip  # file path
+class_labels: ['neutral', 'happy', 'sad','angry','fearful', 'disgust']
+# class_labels: ["positive", "negative", "neutral"]
+# class_labels: ["angry", "boredom", "disgust", "fear", "happy", "neutral", "sad"]
+
+# feature parameters
+sample_rate: 48000
+feature_folder: features/Savee/
+
+# checkpoints
+checkpoint_path: checkpoints/  # checkpoint file path
+checkpoint_name: Savee_IS1 # checkpoint file name
+loss_plot_path: Savee_loss_1png
+confusion_matrix_path: Savee_confusion_1.png
+
+# training parameters
+feature_exist: True
+data_size: None
+train_ratio: 0.8
+val_ratio: 0
+test_ratio: 0.2
+epochs: 100
+batch_size: 32
+lr: 0.00001
+weight_decay: 0.001
+
+
+# Model parameters
+rnn_size: 256  # LSTM hidden layer size
+# hidden_size: 32 
+dropout: 0

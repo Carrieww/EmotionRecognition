@@ -1,0 +1,35 @@
+seed: 2022
+pretrained: False
+# dataset parameters
+dataset: Crema
+Zip_file_path: ./Dataset/Crema.zip  # file path
+class_labels: ['neutral', 'happy', 'sad','angry','fearful', 'disgust']
+# class_labels: ["positive", "negative", "neutral"]
+# class_labels: ["angry", "boredom", "disgust", "fear", "happy", "neutral", "sad"]
+
+# feature parameters
+sample_rate: 48000
+feature_folder: features/Crema1/
+
+# checkpoints
+checkpoint_path: checkpoints/  # checkpoint file path
+checkpoint_name: Crema_IS2  # checkpoint file name
+loss_plot_path: Crema_loss_2.png
+confusion_matrix_path: Crema_confusion_2.png
+
+# training parameters
+feature_exist: True
+data_size: 3721
+train_ratio: 0.8
+val_ratio: 0
+test_ratio: 0.2
+epochs: 50
+batch_size: 64
+lr: 0.0001
+weight_decay: 0.0001
+
+
+# Model parameters
+rnn_size: 128  # LSTM hidden layer size
+# hidden_size: 32 
+dropout: 0.1

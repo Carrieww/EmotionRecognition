@@ -1,0 +1,34 @@
+model: cnn
+
+seed: 1
+# dataset parameters
+dataset: Ravdess
+Zip_file_path: ./Dataset/Ravdess.zip  # file path
+class_labels: ['neutral', 'happy', 'sad','angry','fearful', 'disgust']
+# class_labels: ["positive", "negative", "neutral"]
+# class_labels: ["angry", "boredom", "disgust", "fear", "happy", "neutral", "sad"]
+
+# feature parameters
+sample_rate: 48000
+feature_folder: features/Ravdess/
+
+# checkpoints
+checkpoint_path: checkpoints/  # checkpoint file path
+checkpoint_name: LSTM_OPENSMILE_IS10  # checkpoint file name
+
+# training parameters
+feature_exist: True
+data_size: None
+train_ratio: 0.8
+val_ratio: 0.1
+test_ratio: 0.1
+epochs: 10
+batch_size: 32
+lr: 0.01  
+weight_decay: 0.00001
+
+
+# Model parameters
+rnn_size: 128  # LSTM hidden layer size
+hidden_size: 32
+dropout: 0.5
