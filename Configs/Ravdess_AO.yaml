@@ -1,0 +1,42 @@
+seed: 2022
+pretrained: False
+# dataset parameters
+dataset: Ravdess
+Zip_file_path: ./Dataset/Ravdess_AO.zip  # file path
+class_labels: ['neutral', 'happy', 'sad','angry','fearful', 'disgust']
+# class_labels: ["positive", "negative", "neutral"]
+# class_labels: ["angry", "boredom", "disgust", "fear", "happy", "neutral", "sad"]
+
+# feature parameters
+sample_rate: 48000
+feature_folder: features/Ravdess_AO/
+
+# checkpoints & log files
+dataset_path: Output/Ravdess/  # checkpoint file path
+checkpoint_name: Ravdess_Trans_IS1  # checkpoint file name
+
+loss_plot_path: Ravdess_Trans_loss_1
+acc_plot_path: Ravdess_Trans_acc_1 # accuracy plot file name
+confusion_matrix_path: Ravdess_Trans_confusion_1
+
+# training parameters
+feature_exist: True
+data_size: None
+train_ratio: 0.8
+val_ratio: 0
+test_ratio: 0.2
+epochs: 200
+batch_size: 32
+lr: 0.0001
+weight_decay: 0.0001
+
+
+# Model parameters
+rnn_size: 256  # LSTM hidden layer size
+# hidden_size: 32 
+dropout: 0.1
+
+# Audio only - 1440 audios
+## 1: dropout 0.1, lr 0.0001, rnn_size:256, accuracy: # 80.xx
+## 2: dropout 0, lr 0.001, accuracy: 82.08
+## 3: dropout 0.1, lr 0.001, weight decay: 0.01 accuracy:83.02
