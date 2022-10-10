@@ -1,0 +1,687 @@
+2022-10-07 09:19:31,076 Selected device is cpu
+2022-10-07 09:25:40,740  Epoch 1: iteration 1/3
+2022-10-07 09:25:43,734  Epoch 1: iteration 2/3
+2022-10-07 09:25:43,923  Epoch 1: iteration 3/3
+2022-10-07 09:25:43,939 
+2022-10-07 09:25:43,939 Epoch 1 --> loss:2.1206, acc:4.76%, test_loss:2.5258, test_acc:0.00%, Time per epoch: 220.0212
+2022-10-07 09:25:47,668  Epoch 2: iteration 1/3
+2022-10-07 09:25:47,844  Epoch 2: iteration 2/3
+2022-10-07 09:25:48,035  Epoch 2: iteration 3/3
+2022-10-07 09:25:48,056 
+2022-10-07 09:25:48,056 Epoch 2 --> loss:1.9835, acc:12.38%, test_loss:2.4039, test_acc:0.00%, Time per epoch: 0.6598
+2022-10-07 09:25:48,304  Epoch 3: iteration 1/3
+2022-10-07 09:25:48,491  Epoch 3: iteration 2/3
+2022-10-07 09:25:48,677  Epoch 3: iteration 3/3
+2022-10-07 09:25:48,692 
+2022-10-07 09:25:48,692 Epoch 3 --> loss:1.8365, acc:20.00%, test_loss:2.2930, test_acc:0.00%, Time per epoch: 0.6358
+2022-10-07 09:25:48,934  Epoch 4: iteration 1/3
+2022-10-07 09:25:49,134  Epoch 4: iteration 2/3
+2022-10-07 09:25:49,313  Epoch 4: iteration 3/3
+2022-10-07 09:25:49,336 
+2022-10-07 09:25:49,336 Epoch 4 --> loss:1.7670, acc:27.62%, test_loss:2.1924, test_acc:22.22%, Time per epoch: 0.6434
+2022-10-07 09:25:49,374 The checkpoint is saved to Output/Ravdess/Ravdess_Trans_IS1.pt
+2022-10-07 09:25:49,374 The best model up to now is saved with test accuracy:22.22% at epoch: 4/200
+2022-10-07 09:25:49,628  Epoch 5: iteration 1/3
+2022-10-07 09:25:49,820  Epoch 5: iteration 2/3
+2022-10-07 09:25:50,012  Epoch 5: iteration 3/3
+2022-10-07 09:25:50,027 
+2022-10-07 09:25:50,027 Epoch 5 --> loss:1.6686, acc:27.62%, test_loss:2.1007, test_acc:22.22%, Time per epoch: 0.6527
+2022-10-07 09:25:50,267  Epoch 6: iteration 1/3
+2022-10-07 09:25:50,468  Epoch 6: iteration 2/3
+2022-10-07 09:25:50,652  Epoch 6: iteration 3/3
+2022-10-07 09:25:50,677 
+2022-10-07 09:25:50,677 Epoch 6 --> loss:1.5996, acc:37.14%, test_loss:2.0177, test_acc:22.22%, Time per epoch: 0.6504
+2022-10-07 09:25:50,924  Epoch 7: iteration 1/3
+2022-10-07 09:25:51,113  Epoch 7: iteration 2/3
+2022-10-07 09:25:51,301  Epoch 7: iteration 3/3
+2022-10-07 09:25:51,316 
+2022-10-07 09:25:51,316 Epoch 7 --> loss:1.5440, acc:35.24%, test_loss:1.9385, test_acc:33.33%, Time per epoch: 0.6385
+2022-10-07 09:25:51,353 The checkpoint is saved to Output/Ravdess/Ravdess_Trans_IS1.pt
+2022-10-07 09:25:51,353 The best model up to now is saved with test accuracy:33.33% at epoch: 7/200
+2022-10-07 09:25:51,610  Epoch 8: iteration 1/3
+2022-10-07 09:25:51,804  Epoch 8: iteration 2/3
+2022-10-07 09:25:51,999  Epoch 8: iteration 3/3
+2022-10-07 09:25:52,016 
+2022-10-07 09:25:52,017 Epoch 8 --> loss:1.5116, acc:40.00%, test_loss:1.8658, test_acc:33.33%, Time per epoch: 0.6633
+2022-10-07 09:25:52,282  Epoch 9: iteration 1/3
+2022-10-07 09:25:52,468  Epoch 9: iteration 2/3
+2022-10-07 09:25:52,670  Epoch 9: iteration 3/3
+2022-10-07 09:25:52,687 
+2022-10-07 09:25:52,687 Epoch 9 --> loss:1.4255, acc:43.81%, test_loss:1.8000, test_acc:33.33%, Time per epoch: 0.6708
+2022-10-07 09:25:52,947  Epoch 10: iteration 1/3
+2022-10-07 09:25:53,146  Epoch 10: iteration 2/3
+2022-10-07 09:25:53,333  Epoch 10: iteration 3/3
+2022-10-07 09:25:53,363 
+2022-10-07 09:25:53,364 Epoch 10 --> loss:1.3617, acc:51.43%, test_loss:1.7369, test_acc:33.33%, Time per epoch: 0.6760
+2022-10-07 09:25:53,624  Epoch 11: iteration 1/3
+2022-10-07 09:25:53,812  Epoch 11: iteration 2/3
+2022-10-07 09:25:54,012  Epoch 11: iteration 3/3
+2022-10-07 09:25:54,029 
+2022-10-07 09:25:54,029 Epoch 11 --> loss:1.3494, acc:49.52%, test_loss:1.6788, test_acc:44.44%, Time per epoch: 0.6657
+2022-10-07 09:25:54,069 The checkpoint is saved to Output/Ravdess/Ravdess_Trans_IS1.pt
+2022-10-07 09:25:54,069 The best model up to now is saved with test accuracy:44.44% at epoch: 11/200
+2022-10-07 09:25:54,321  Epoch 12: iteration 1/3
+2022-10-07 09:25:54,520  Epoch 12: iteration 2/3
+2022-10-07 09:25:54,712  Epoch 12: iteration 3/3
+2022-10-07 09:25:54,738 
+2022-10-07 09:25:54,738 Epoch 12 --> loss:1.2966, acc:53.33%, test_loss:1.6269, test_acc:44.44%, Time per epoch: 0.6695
+2022-10-07 09:25:55,000  Epoch 13: iteration 1/3
+2022-10-07 09:25:55,189  Epoch 13: iteration 2/3
+2022-10-07 09:25:55,388  Epoch 13: iteration 3/3
+2022-10-07 09:25:55,409 
+2022-10-07 09:25:55,409 Epoch 13 --> loss:1.3012, acc:52.38%, test_loss:1.5757, test_acc:44.44%, Time per epoch: 0.6705
+2022-10-07 09:25:55,661  Epoch 14: iteration 1/3
+2022-10-07 09:25:55,870  Epoch 14: iteration 2/3
+2022-10-07 09:25:56,064  Epoch 14: iteration 3/3
+2022-10-07 09:25:56,094 
+2022-10-07 09:25:56,094 Epoch 14 --> loss:1.1696, acc:60.00%, test_loss:1.5256, test_acc:44.44%, Time per epoch: 0.6846
+2022-10-07 09:25:56,355  Epoch 15: iteration 1/3
+2022-10-07 09:25:56,554  Epoch 15: iteration 2/3
+2022-10-07 09:25:56,743  Epoch 15: iteration 3/3
+2022-10-07 09:25:56,767 
+2022-10-07 09:25:56,767 Epoch 15 --> loss:1.1633, acc:59.05%, test_loss:1.4749, test_acc:66.67%, Time per epoch: 0.6734
+2022-10-07 09:25:56,806 The checkpoint is saved to Output/Ravdess/Ravdess_Trans_IS1.pt
+2022-10-07 09:25:56,807 The best model up to now is saved with test accuracy:66.67% at epoch: 15/200
+2022-10-07 09:25:57,059  Epoch 16: iteration 1/3
+2022-10-07 09:25:57,256  Epoch 16: iteration 2/3
+2022-10-07 09:25:57,466  Epoch 16: iteration 3/3
+2022-10-07 09:25:57,482 
+2022-10-07 09:25:57,483 Epoch 16 --> loss:1.1761, acc:58.10%, test_loss:1.4290, test_acc:66.67%, Time per epoch: 0.6758
+2022-10-07 09:25:57,733  Epoch 17: iteration 1/3
+2022-10-07 09:25:57,933  Epoch 17: iteration 2/3
+2022-10-07 09:25:58,130  Epoch 17: iteration 3/3
+2022-10-07 09:25:58,147 
+2022-10-07 09:25:58,147 Epoch 17 --> loss:1.0860, acc:65.71%, test_loss:1.3905, test_acc:66.67%, Time per epoch: 0.6644
+2022-10-07 09:25:58,413  Epoch 18: iteration 1/3
+2022-10-07 09:25:58,616  Epoch 18: iteration 2/3
+2022-10-07 09:25:58,803  Epoch 18: iteration 3/3
+2022-10-07 09:25:58,833 
+2022-10-07 09:25:58,833 Epoch 18 --> loss:1.0986, acc:63.81%, test_loss:1.3475, test_acc:66.67%, Time per epoch: 0.6856
+2022-10-07 09:25:59,098  Epoch 19: iteration 1/3
+2022-10-07 09:25:59,302  Epoch 19: iteration 2/3
+2022-10-07 09:25:59,495  Epoch 19: iteration 3/3
+2022-10-07 09:25:59,514 
+2022-10-07 09:25:59,514 Epoch 19 --> loss:0.9927, acc:72.38%, test_loss:1.3078, test_acc:66.67%, Time per epoch: 0.6811
+2022-10-07 09:25:59,763  Epoch 20: iteration 1/3
+2022-10-07 09:25:59,960  Epoch 20: iteration 2/3
+2022-10-07 09:26:00,153  Epoch 20: iteration 3/3
+2022-10-07 09:26:00,168 
+2022-10-07 09:26:00,168 Epoch 20 --> loss:1.0069, acc:67.62%, test_loss:1.2671, test_acc:66.67%, Time per epoch: 0.6537
+2022-10-07 09:26:00,417  Epoch 21: iteration 1/3
+2022-10-07 09:26:00,603  Epoch 21: iteration 2/3
+2022-10-07 09:26:00,794  Epoch 21: iteration 3/3
+2022-10-07 09:26:00,813 
+2022-10-07 09:26:00,813 Epoch 21 --> loss:0.9709, acc:67.62%, test_loss:1.2239, test_acc:66.67%, Time per epoch: 0.6447
+2022-10-07 09:26:01,066  Epoch 22: iteration 1/3
+2022-10-07 09:26:01,261  Epoch 22: iteration 2/3
+2022-10-07 09:26:01,464  Epoch 22: iteration 3/3
+2022-10-07 09:26:01,481 
+2022-10-07 09:26:01,481 Epoch 22 --> loss:0.9697, acc:66.67%, test_loss:1.1876, test_acc:66.67%, Time per epoch: 0.6675
+2022-10-07 09:26:01,729  Epoch 23: iteration 1/3
+2022-10-07 09:26:01,928  Epoch 23: iteration 2/3
+2022-10-07 09:26:02,117  Epoch 23: iteration 3/3
+2022-10-07 09:26:02,133 
+2022-10-07 09:26:02,133 Epoch 23 --> loss:0.8816, acc:73.33%, test_loss:1.1587, test_acc:66.67%, Time per epoch: 0.6521
+2022-10-07 09:26:02,391  Epoch 24: iteration 1/3
+2022-10-07 09:26:02,584  Epoch 24: iteration 2/3
+2022-10-07 09:26:02,750  Epoch 24: iteration 3/3
+2022-10-07 09:26:02,764 
+2022-10-07 09:26:02,764 Epoch 24 --> loss:0.9118, acc:69.52%, test_loss:1.1310, test_acc:66.67%, Time per epoch: 0.6311
+2022-10-07 09:26:02,992  Epoch 25: iteration 1/3
+2022-10-07 09:26:03,151  Epoch 25: iteration 2/3
+2022-10-07 09:26:03,310  Epoch 25: iteration 3/3
+2022-10-07 09:26:03,323 
+2022-10-07 09:26:03,324 Epoch 25 --> loss:0.8401, acc:74.29%, test_loss:1.0939, test_acc:66.67%, Time per epoch: 0.5590
+2022-10-07 09:26:03,576  Epoch 26: iteration 1/3
+2022-10-07 09:26:03,772  Epoch 26: iteration 2/3
+2022-10-07 09:26:03,962  Epoch 26: iteration 3/3
+2022-10-07 09:26:03,979 
+2022-10-07 09:26:03,979 Epoch 26 --> loss:0.8878, acc:68.57%, test_loss:1.0563, test_acc:77.78%, Time per epoch: 0.6554
+2022-10-07 09:26:04,018 The checkpoint is saved to Output/Ravdess/Ravdess_Trans_IS1.pt
+2022-10-07 09:26:04,018 The best model up to now is saved with test accuracy:77.78% at epoch: 26/200
+2022-10-07 09:26:04,270  Epoch 27: iteration 1/3
+2022-10-07 09:26:04,460  Epoch 27: iteration 2/3
+2022-10-07 09:26:04,651  Epoch 27: iteration 3/3
+2022-10-07 09:26:04,668 
+2022-10-07 09:26:04,668 Epoch 27 --> loss:0.7936, acc:75.24%, test_loss:1.0239, test_acc:88.89%, Time per epoch: 0.6500
+2022-10-07 09:26:04,706 The checkpoint is saved to Output/Ravdess/Ravdess_Trans_IS1.pt
+2022-10-07 09:26:04,707 The best model up to now is saved with test accuracy:88.89% at epoch: 27/200
+2022-10-07 09:26:04,962  Epoch 28: iteration 1/3
+2022-10-07 09:26:05,161  Epoch 28: iteration 2/3
+2022-10-07 09:26:05,349  Epoch 28: iteration 3/3
+2022-10-07 09:26:05,367 
+2022-10-07 09:26:05,367 Epoch 28 --> loss:0.7898, acc:79.05%, test_loss:0.9872, test_acc:88.89%, Time per epoch: 0.6608
+2022-10-07 09:26:05,623  Epoch 29: iteration 1/3
+2022-10-07 09:26:05,813  Epoch 29: iteration 2/3
+2022-10-07 09:26:06,000  Epoch 29: iteration 3/3
+2022-10-07 09:26:06,015 
+2022-10-07 09:26:06,015 Epoch 29 --> loss:0.8526, acc:69.52%, test_loss:0.9537, test_acc:88.89%, Time per epoch: 0.6476
+2022-10-07 09:26:06,265  Epoch 30: iteration 1/3
+2022-10-07 09:26:06,455  Epoch 30: iteration 2/3
+2022-10-07 09:26:06,611  Epoch 30: iteration 3/3
+2022-10-07 09:26:06,631 
+2022-10-07 09:26:06,631 Epoch 30 --> loss:0.7608, acc:78.10%, test_loss:0.9268, test_acc:88.89%, Time per epoch: 0.6157
+2022-10-07 09:26:06,872  Epoch 31: iteration 1/3
+2022-10-07 09:26:07,065  Epoch 31: iteration 2/3
+2022-10-07 09:26:07,248  Epoch 31: iteration 3/3
+2022-10-07 09:26:07,274 
+2022-10-07 09:26:07,274 Epoch 31 --> loss:0.7290, acc:80.00%, test_loss:0.8987, test_acc:88.89%, Time per epoch: 0.6427
+2022-10-07 09:26:07,524  Epoch 32: iteration 1/3
+2022-10-07 09:26:07,729  Epoch 32: iteration 2/3
+2022-10-07 09:26:07,922  Epoch 32: iteration 3/3
+2022-10-07 09:26:07,938 
+2022-10-07 09:26:07,938 Epoch 32 --> loss:0.7736, acc:75.24%, test_loss:0.8692, test_acc:88.89%, Time per epoch: 0.6642
+2022-10-07 09:26:08,197  Epoch 33: iteration 1/3
+2022-10-07 09:26:08,389  Epoch 33: iteration 2/3
+2022-10-07 09:26:08,576  Epoch 33: iteration 3/3
+2022-10-07 09:26:08,602 
+2022-10-07 09:26:08,602 Epoch 33 --> loss:0.7034, acc:80.00%, test_loss:0.8427, test_acc:88.89%, Time per epoch: 0.6636
+2022-10-07 09:26:08,858  Epoch 34: iteration 1/3
+2022-10-07 09:26:09,066  Epoch 34: iteration 2/3
+2022-10-07 09:26:09,256  Epoch 34: iteration 3/3
+2022-10-07 09:26:09,278 
+2022-10-07 09:26:09,279 Epoch 34 --> loss:0.7450, acc:76.19%, test_loss:0.8188, test_acc:88.89%, Time per epoch: 0.6761
+2022-10-07 09:26:09,540  Epoch 35: iteration 1/3
+2022-10-07 09:26:09,729  Epoch 35: iteration 2/3
+2022-10-07 09:26:09,917  Epoch 35: iteration 3/3
+2022-10-07 09:26:09,941 
+2022-10-07 09:26:09,941 Epoch 35 --> loss:0.6909, acc:81.90%, test_loss:0.7954, test_acc:100.00%, Time per epoch: 0.6623
+2022-10-07 09:26:09,977 The checkpoint is saved to Output/Ravdess/Ravdess_Trans_IS1.pt
+2022-10-07 09:26:09,977 The best model up to now is saved with test accuracy:100.00% at epoch: 35/200
+2022-10-07 09:26:10,236  Epoch 36: iteration 1/3
+2022-10-07 09:26:10,427  Epoch 36: iteration 2/3
+2022-10-07 09:26:10,609  Epoch 36: iteration 3/3
+2022-10-07 09:26:10,633 
+2022-10-07 09:26:10,633 Epoch 36 --> loss:0.6546, acc:82.86%, test_loss:0.7746, test_acc:100.00%, Time per epoch: 0.6553
+2022-10-07 09:26:10,884  Epoch 37: iteration 1/3
+2022-10-07 09:26:11,063  Epoch 37: iteration 2/3
+2022-10-07 09:26:11,261  Epoch 37: iteration 3/3
+2022-10-07 09:26:11,276 
+2022-10-07 09:26:11,276 Epoch 37 --> loss:0.7288, acc:74.29%, test_loss:0.7592, test_acc:100.00%, Time per epoch: 0.6428
+2022-10-07 09:26:11,531  Epoch 38: iteration 1/3
+2022-10-07 09:26:11,718  Epoch 38: iteration 2/3
+2022-10-07 09:26:11,909  Epoch 38: iteration 3/3
+2022-10-07 09:26:11,924 
+2022-10-07 09:26:11,924 Epoch 38 --> loss:0.5496, acc:84.76%, test_loss:0.7403, test_acc:100.00%, Time per epoch: 0.6485
+2022-10-07 09:26:12,174  Epoch 39: iteration 1/3
+2022-10-07 09:26:12,369  Epoch 39: iteration 2/3
+2022-10-07 09:26:12,552  Epoch 39: iteration 3/3
+2022-10-07 09:26:12,567 
+2022-10-07 09:26:12,567 Epoch 39 --> loss:0.6024, acc:80.00%, test_loss:0.7155, test_acc:100.00%, Time per epoch: 0.6428
+2022-10-07 09:26:12,814  Epoch 40: iteration 1/3
+2022-10-07 09:26:13,010  Epoch 40: iteration 2/3
+2022-10-07 09:26:13,195  Epoch 40: iteration 3/3
+2022-10-07 09:26:13,224 
+2022-10-07 09:26:13,224 Epoch 40 --> loss:0.5446, acc:86.67%, test_loss:0.6853, test_acc:100.00%, Time per epoch: 0.6569
+2022-10-07 09:26:13,479  Epoch 41: iteration 1/3
+2022-10-07 09:26:13,665  Epoch 41: iteration 2/3
+2022-10-07 09:26:13,859  Epoch 41: iteration 3/3
+2022-10-07 09:26:13,879 
+2022-10-07 09:26:13,879 Epoch 41 --> loss:0.5451, acc:85.71%, test_loss:0.6636, test_acc:100.00%, Time per epoch: 0.6544
+2022-10-07 09:26:14,130  Epoch 42: iteration 1/3
+2022-10-07 09:26:14,329  Epoch 42: iteration 2/3
+2022-10-07 09:26:14,514  Epoch 42: iteration 3/3
+2022-10-07 09:26:14,536 
+2022-10-07 09:26:14,536 Epoch 42 --> loss:0.5315, acc:83.81%, test_loss:0.6420, test_acc:100.00%, Time per epoch: 0.6571
+2022-10-07 09:26:14,789  Epoch 43: iteration 1/3
+2022-10-07 09:26:14,984  Epoch 43: iteration 2/3
+2022-10-07 09:26:15,170  Epoch 43: iteration 3/3
+2022-10-07 09:26:15,192 
+2022-10-07 09:26:15,192 Epoch 43 --> loss:0.5218, acc:85.71%, test_loss:0.6199, test_acc:100.00%, Time per epoch: 0.6560
+2022-10-07 09:26:15,455  Epoch 44: iteration 1/3
+2022-10-07 09:26:15,649  Epoch 44: iteration 2/3
+2022-10-07 09:26:15,837  Epoch 44: iteration 3/3
+2022-10-07 09:26:15,863 
+2022-10-07 09:26:15,863 Epoch 44 --> loss:0.4626, acc:86.67%, test_loss:0.5974, test_acc:100.00%, Time per epoch: 0.6708
+2022-10-07 09:26:16,120  Epoch 45: iteration 1/3
+2022-10-07 09:26:16,307  Epoch 45: iteration 2/3
+2022-10-07 09:26:16,495  Epoch 45: iteration 3/3
+2022-10-07 09:26:16,521 
+2022-10-07 09:26:16,521 Epoch 45 --> loss:0.6366, acc:76.19%, test_loss:0.5803, test_acc:100.00%, Time per epoch: 0.6574
+2022-10-07 09:26:16,744  Epoch 46: iteration 1/3
+2022-10-07 09:26:16,936  Epoch 46: iteration 2/3
+2022-10-07 09:26:17,124  Epoch 46: iteration 3/3
+2022-10-07 09:26:17,140 
+2022-10-07 09:26:17,141 Epoch 46 --> loss:0.5723, acc:78.10%, test_loss:0.5711, test_acc:100.00%, Time per epoch: 0.6194
+2022-10-07 09:26:17,394  Epoch 47: iteration 1/3
+2022-10-07 09:26:17,581  Epoch 47: iteration 2/3
+2022-10-07 09:26:17,772  Epoch 47: iteration 3/3
+2022-10-07 09:26:17,788 
+2022-10-07 09:26:17,788 Epoch 47 --> loss:0.5131, acc:82.86%, test_loss:0.5572, test_acc:100.00%, Time per epoch: 0.6470
+2022-10-07 09:26:18,046  Epoch 48: iteration 1/3
+2022-10-07 09:26:18,240  Epoch 48: iteration 2/3
+2022-10-07 09:26:18,436  Epoch 48: iteration 3/3
+2022-10-07 09:26:18,453 
+2022-10-07 09:26:18,453 Epoch 48 --> loss:0.4410, acc:86.67%, test_loss:0.5426, test_acc:100.00%, Time per epoch: 0.6649
+2022-10-07 09:26:18,711  Epoch 49: iteration 1/3
+2022-10-07 09:26:18,868  Epoch 49: iteration 2/3
+2022-10-07 09:26:19,053  Epoch 49: iteration 3/3
+2022-10-07 09:26:19,077 
+2022-10-07 09:26:19,078 Epoch 49 --> loss:0.4596, acc:83.81%, test_loss:0.5307, test_acc:100.00%, Time per epoch: 0.6247
+2022-10-07 09:26:19,326  Epoch 50: iteration 1/3
+2022-10-07 09:26:19,498  Epoch 50: iteration 2/3
+2022-10-07 09:26:19,688  Epoch 50: iteration 3/3
+2022-10-07 09:26:19,713 
+2022-10-07 09:26:19,714 Epoch 50 --> loss:0.4588, acc:82.86%, test_loss:0.5118, test_acc:100.00%, Time per epoch: 0.6356
+2022-10-07 09:26:19,969  Epoch 51: iteration 1/3
+2022-10-07 09:26:20,157  Epoch 51: iteration 2/3
+2022-10-07 09:26:20,344  Epoch 51: iteration 3/3
+2022-10-07 09:26:20,359 
+2022-10-07 09:26:20,359 Epoch 51 --> loss:0.4586, acc:84.76%, test_loss:0.4984, test_acc:100.00%, Time per epoch: 0.6458
+2022-10-07 09:26:20,608  Epoch 52: iteration 1/3
+2022-10-07 09:26:20,790  Epoch 52: iteration 2/3
+2022-10-07 09:26:20,950  Epoch 52: iteration 3/3
+2022-10-07 09:26:20,974 
+2022-10-07 09:26:20,974 Epoch 52 --> loss:0.4464, acc:82.86%, test_loss:0.4851, test_acc:100.00%, Time per epoch: 0.6148
+2022-10-07 09:26:21,225  Epoch 53: iteration 1/3
+2022-10-07 09:26:21,405  Epoch 53: iteration 2/3
+2022-10-07 09:26:21,573  Epoch 53: iteration 3/3
+2022-10-07 09:26:21,591 
+2022-10-07 09:26:21,591 Epoch 53 --> loss:0.3998, acc:84.76%, test_loss:0.4723, test_acc:100.00%, Time per epoch: 0.6162
+2022-10-07 09:26:21,814  Epoch 54: iteration 1/3
+2022-10-07 09:26:22,012  Epoch 54: iteration 2/3
+2022-10-07 09:26:22,208  Epoch 54: iteration 3/3
+2022-10-07 09:26:22,223 
+2022-10-07 09:26:22,223 Epoch 54 --> loss:0.4896, acc:78.10%, test_loss:0.4565, test_acc:100.00%, Time per epoch: 0.6318
+2022-10-07 09:26:22,481  Epoch 55: iteration 1/3
+2022-10-07 09:26:22,678  Epoch 55: iteration 2/3
+2022-10-07 09:26:22,866  Epoch 55: iteration 3/3
+2022-10-07 09:26:22,881 
+2022-10-07 09:26:22,881 Epoch 55 --> loss:0.4599, acc:80.00%, test_loss:0.4451, test_acc:100.00%, Time per epoch: 0.6582
+2022-10-07 09:26:23,137  Epoch 56: iteration 1/3
+2022-10-07 09:26:23,333  Epoch 56: iteration 2/3
+2022-10-07 09:26:23,518  Epoch 56: iteration 3/3
+2022-10-07 09:26:23,541 
+2022-10-07 09:26:23,542 Epoch 56 --> loss:0.3199, acc:88.57%, test_loss:0.4276, test_acc:100.00%, Time per epoch: 0.6602
+2022-10-07 09:26:23,792  Epoch 57: iteration 1/3
+2022-10-07 09:26:23,985  Epoch 57: iteration 2/3
+2022-10-07 09:26:24,157  Epoch 57: iteration 3/3
+2022-10-07 09:26:24,172 
+2022-10-07 09:26:24,172 Epoch 57 --> loss:0.4161, acc:81.90%, test_loss:0.4122, test_acc:100.00%, Time per epoch: 0.6302
+2022-10-07 09:26:24,432  Epoch 58: iteration 1/3
+2022-10-07 09:26:24,633  Epoch 58: iteration 2/3
+2022-10-07 09:26:24,814  Epoch 58: iteration 3/3
+2022-10-07 09:26:24,839 
+2022-10-07 09:26:24,839 Epoch 58 --> loss:0.4109, acc:81.90%, test_loss:0.3999, test_acc:100.00%, Time per epoch: 0.6669
+2022-10-07 09:26:25,092  Epoch 59: iteration 1/3
+2022-10-07 09:26:25,280  Epoch 59: iteration 2/3
+2022-10-07 09:26:25,471  Epoch 59: iteration 3/3
+2022-10-07 09:26:25,486 
+2022-10-07 09:26:25,486 Epoch 59 --> loss:0.3444, acc:84.76%, test_loss:0.3894, test_acc:100.00%, Time per epoch: 0.6464
+2022-10-07 09:26:25,744  Epoch 60: iteration 1/3
+2022-10-07 09:26:25,940  Epoch 60: iteration 2/3
+2022-10-07 09:26:26,142  Epoch 60: iteration 3/3
+2022-10-07 09:26:26,158 
+2022-10-07 09:26:26,159 Epoch 60 --> loss:0.3964, acc:81.90%, test_loss:0.3752, test_acc:100.00%, Time per epoch: 0.6726
+2022-10-07 09:26:26,413  Epoch 61: iteration 1/3
+2022-10-07 09:26:26,594  Epoch 61: iteration 2/3
+2022-10-07 09:26:26,795  Epoch 61: iteration 3/3
+2022-10-07 09:26:26,810 
+2022-10-07 09:26:26,811 Epoch 61 --> loss:0.3325, acc:84.76%, test_loss:0.3583, test_acc:100.00%, Time per epoch: 0.6520
+2022-10-07 09:26:27,053  Epoch 62: iteration 1/3
+2022-10-07 09:26:27,266  Epoch 62: iteration 2/3
+2022-10-07 09:26:27,452  Epoch 62: iteration 3/3
+2022-10-07 09:26:27,473 
+2022-10-07 09:26:27,473 Epoch 62 --> loss:0.3976, acc:81.90%, test_loss:0.3493, test_acc:100.00%, Time per epoch: 0.6626
+2022-10-07 09:26:27,729  Epoch 63: iteration 1/3
+2022-10-07 09:26:27,905  Epoch 63: iteration 2/3
+2022-10-07 09:26:28,071  Epoch 63: iteration 3/3
+2022-10-07 09:26:28,083 
+2022-10-07 09:26:28,084 Epoch 63 --> loss:0.3450, acc:83.81%, test_loss:0.3435, test_acc:100.00%, Time per epoch: 0.6100
+2022-10-07 09:26:28,315  Epoch 64: iteration 1/3
+2022-10-07 09:26:28,476  Epoch 64: iteration 2/3
+2022-10-07 09:26:28,655  Epoch 64: iteration 3/3
+2022-10-07 09:26:28,682 
+2022-10-07 09:26:28,682 Epoch 64 --> loss:0.4293, acc:79.05%, test_loss:0.3402, test_acc:100.00%, Time per epoch: 0.5983
+2022-10-07 09:26:28,932  Epoch 65: iteration 1/3
+2022-10-07 09:26:29,128  Epoch 65: iteration 2/3
+2022-10-07 09:26:29,314  Epoch 65: iteration 3/3
+2022-10-07 09:26:29,329 
+2022-10-07 09:26:29,329 Epoch 65 --> loss:0.3182, acc:84.76%, test_loss:0.3370, test_acc:100.00%, Time per epoch: 0.6468
+2022-10-07 09:26:29,584  Epoch 66: iteration 1/3
+2022-10-07 09:26:29,773  Epoch 66: iteration 2/3
+2022-10-07 09:26:29,955  Epoch 66: iteration 3/3
+2022-10-07 09:26:29,978 
+2022-10-07 09:26:29,979 Epoch 66 --> loss:0.3018, acc:85.71%, test_loss:0.3292, test_acc:100.00%, Time per epoch: 0.6492
+2022-10-07 09:26:30,227  Epoch 67: iteration 1/3
+2022-10-07 09:26:30,410  Epoch 67: iteration 2/3
+2022-10-07 09:26:30,602  Epoch 67: iteration 3/3
+2022-10-07 09:26:30,620 
+2022-10-07 09:26:30,620 Epoch 67 --> loss:0.2554, acc:87.62%, test_loss:0.3170, test_acc:100.00%, Time per epoch: 0.6411
+2022-10-07 09:26:30,861  Epoch 68: iteration 1/3
+2022-10-07 09:26:31,060  Epoch 68: iteration 2/3
+2022-10-07 09:26:31,248  Epoch 68: iteration 3/3
+2022-10-07 09:26:31,264 
+2022-10-07 09:26:31,264 Epoch 68 --> loss:0.3091, acc:83.81%, test_loss:0.3024, test_acc:100.00%, Time per epoch: 0.6441
+2022-10-07 09:26:31,512  Epoch 69: iteration 1/3
+2022-10-07 09:26:31,702  Epoch 69: iteration 2/3
+2022-10-07 09:26:31,889  Epoch 69: iteration 3/3
+2022-10-07 09:26:31,909 
+2022-10-07 09:26:31,909 Epoch 69 --> loss:0.3306, acc:81.90%, test_loss:0.2890, test_acc:100.00%, Time per epoch: 0.6450
+2022-10-07 09:26:32,157  Epoch 70: iteration 1/3
+2022-10-07 09:26:32,358  Epoch 70: iteration 2/3
+2022-10-07 09:26:32,549  Epoch 70: iteration 3/3
+2022-10-07 09:26:32,564 
+2022-10-07 09:26:32,564 Epoch 70 --> loss:0.2500, acc:87.62%, test_loss:0.2798, test_acc:100.00%, Time per epoch: 0.6550
+2022-10-07 09:26:32,817  Epoch 71: iteration 1/3
+2022-10-07 09:26:32,997  Epoch 71: iteration 2/3
+2022-10-07 09:26:33,190  Epoch 71: iteration 3/3
+2022-10-07 09:26:33,205 
+2022-10-07 09:26:33,205 Epoch 71 --> loss:0.3148, acc:82.86%, test_loss:0.2703, test_acc:100.00%, Time per epoch: 0.6401
+2022-10-07 09:26:33,454  Epoch 72: iteration 1/3
+2022-10-07 09:26:33,644  Epoch 72: iteration 2/3
+2022-10-07 09:26:33,831  Epoch 72: iteration 3/3
+2022-10-07 09:26:33,852 
+2022-10-07 09:26:33,852 Epoch 72 --> loss:0.2736, acc:84.76%, test_loss:0.2597, test_acc:100.00%, Time per epoch: 0.6473
+2022-10-07 09:26:34,104  Epoch 73: iteration 1/3
+2022-10-07 09:26:34,287  Epoch 73: iteration 2/3
+2022-10-07 09:26:34,480  Epoch 73: iteration 3/3
+2022-10-07 09:26:34,495 
+2022-10-07 09:26:34,495 Epoch 73 --> loss:0.3809, acc:79.05%, test_loss:0.2548, test_acc:100.00%, Time per epoch: 0.6425
+2022-10-07 09:26:34,745  Epoch 74: iteration 1/3
+2022-10-07 09:26:34,934  Epoch 74: iteration 2/3
+2022-10-07 09:26:35,138  Epoch 74: iteration 3/3
+2022-10-07 09:26:35,156 
+2022-10-07 09:26:35,156 Epoch 74 --> loss:0.3328, acc:81.90%, test_loss:0.2546, test_acc:100.00%, Time per epoch: 0.6609
+2022-10-07 09:26:35,412  Epoch 75: iteration 1/3
+2022-10-07 09:26:35,591  Epoch 75: iteration 2/3
+2022-10-07 09:26:35,777  Epoch 75: iteration 3/3
+2022-10-07 09:26:35,800 
+2022-10-07 09:26:35,800 Epoch 75 --> loss:0.3370, acc:82.86%, test_loss:0.2540, test_acc:100.00%, Time per epoch: 0.6437
+2022-10-07 09:26:36,048  Epoch 76: iteration 1/3
+2022-10-07 09:26:36,238  Epoch 76: iteration 2/3
+2022-10-07 09:26:36,440  Epoch 76: iteration 3/3
+2022-10-07 09:26:36,454 
+2022-10-07 09:26:36,455 Epoch 76 --> loss:0.2902, acc:83.81%, test_loss:0.2542, test_acc:100.00%, Time per epoch: 0.6544
+2022-10-07 09:26:36,706  Epoch 77: iteration 1/3
+2022-10-07 09:26:36,893  Epoch 77: iteration 2/3
+2022-10-07 09:26:37,072  Epoch 77: iteration 3/3
+2022-10-07 09:26:37,090 
+2022-10-07 09:26:37,091 Epoch 77 --> loss:0.2863, acc:84.76%, test_loss:0.2542, test_acc:100.00%, Time per epoch: 0.6359
+2022-10-07 09:26:37,334  Epoch 78: iteration 1/3
+2022-10-07 09:26:37,524  Epoch 78: iteration 2/3
+2022-10-07 09:26:37,718  Epoch 78: iteration 3/3
+2022-10-07 09:26:37,743 
+2022-10-07 09:26:37,744 Epoch 78 --> loss:0.2452, acc:85.71%, test_loss:0.2534, test_acc:100.00%, Time per epoch: 0.6529
+2022-10-07 09:26:37,998  Epoch 79: iteration 1/3
+2022-10-07 09:26:38,184  Epoch 79: iteration 2/3
+2022-10-07 09:26:38,368  Epoch 79: iteration 3/3
+2022-10-07 09:26:38,388 
+2022-10-07 09:26:38,388 Epoch 79 --> loss:0.2658, acc:84.76%, test_loss:0.2430, test_acc:100.00%, Time per epoch: 0.6444
+2022-10-07 09:26:38,637  Epoch 80: iteration 1/3
+2022-10-07 09:26:38,830  Epoch 80: iteration 2/3
+2022-10-07 09:26:39,024  Epoch 80: iteration 3/3
+2022-10-07 09:26:39,046 
+2022-10-07 09:26:39,047 Epoch 80 --> loss:0.3416, acc:79.05%, test_loss:0.2254, test_acc:100.00%, Time per epoch: 0.6582
+2022-10-07 09:26:39,295  Epoch 81: iteration 1/3
+2022-10-07 09:26:39,485  Epoch 81: iteration 2/3
+2022-10-07 09:26:39,668  Epoch 81: iteration 3/3
+2022-10-07 09:26:39,688 
+2022-10-07 09:26:39,688 Epoch 81 --> loss:0.3153, acc:82.86%, test_loss:0.2203, test_acc:100.00%, Time per epoch: 0.6417
+2022-10-07 09:26:39,934  Epoch 82: iteration 1/3
+2022-10-07 09:26:40,129  Epoch 82: iteration 2/3
+2022-10-07 09:26:40,316  Epoch 82: iteration 3/3
+2022-10-07 09:26:40,332 
+2022-10-07 09:26:40,332 Epoch 82 --> loss:0.2832, acc:83.81%, test_loss:0.2234, test_acc:100.00%, Time per epoch: 0.6435
+2022-10-07 09:26:40,573  Epoch 83: iteration 1/3
+2022-10-07 09:26:40,761  Epoch 83: iteration 2/3
+2022-10-07 09:26:40,964  Epoch 83: iteration 3/3
+2022-10-07 09:26:40,982 
+2022-10-07 09:26:40,982 Epoch 83 --> loss:0.2292, acc:85.71%, test_loss:0.2283, test_acc:100.00%, Time per epoch: 0.6499
+2022-10-07 09:26:41,246  Epoch 84: iteration 1/3
+2022-10-07 09:26:41,439  Epoch 84: iteration 2/3
+2022-10-07 09:26:41,636  Epoch 84: iteration 3/3
+2022-10-07 09:26:41,660 
+2022-10-07 09:26:41,660 Epoch 84 --> loss:0.2879, acc:80.95%, test_loss:0.2187, test_acc:100.00%, Time per epoch: 0.6779
+2022-10-07 09:26:41,918  Epoch 85: iteration 1/3
+2022-10-07 09:26:42,114  Epoch 85: iteration 2/3
+2022-10-07 09:26:42,315  Epoch 85: iteration 3/3
+2022-10-07 09:26:42,332 
+2022-10-07 09:26:42,332 Epoch 85 --> loss:0.3067, acc:82.86%, test_loss:0.2055, test_acc:100.00%, Time per epoch: 0.6719
+2022-10-07 09:26:42,584  Epoch 86: iteration 1/3
+2022-10-07 09:26:42,798  Epoch 86: iteration 2/3
+2022-10-07 09:26:42,996  Epoch 86: iteration 3/3
+2022-10-07 09:26:43,014 
+2022-10-07 09:26:43,014 Epoch 86 --> loss:0.2752, acc:83.81%, test_loss:0.2007, test_acc:100.00%, Time per epoch: 0.6812
+2022-10-07 09:26:43,269  Epoch 87: iteration 1/3
+2022-10-07 09:26:43,452  Epoch 87: iteration 2/3
+2022-10-07 09:26:43,646  Epoch 87: iteration 3/3
+2022-10-07 09:26:43,664 
+2022-10-07 09:26:43,664 Epoch 87 --> loss:0.3510, acc:79.05%, test_loss:0.2023, test_acc:100.00%, Time per epoch: 0.6500
+2022-10-07 09:26:43,913  Epoch 88: iteration 1/3
+2022-10-07 09:26:44,126  Epoch 88: iteration 2/3
+2022-10-07 09:26:44,309  Epoch 88: iteration 3/3
+2022-10-07 09:26:44,334 
+2022-10-07 09:26:44,334 Epoch 88 --> loss:0.2556, acc:84.76%, test_loss:0.2096, test_acc:100.00%, Time per epoch: 0.6701
+2022-10-07 09:26:44,586  Epoch 89: iteration 1/3
+2022-10-07 09:26:44,774  Epoch 89: iteration 2/3
+2022-10-07 09:26:44,961  Epoch 89: iteration 3/3
+2022-10-07 09:26:44,976 
+2022-10-07 09:26:44,976 Epoch 89 --> loss:0.2453, acc:83.81%, test_loss:0.1994, test_acc:100.00%, Time per epoch: 0.6415
+2022-10-07 09:26:45,221  Epoch 90: iteration 1/3
+2022-10-07 09:26:45,427  Epoch 90: iteration 2/3
+2022-10-07 09:26:45,623  Epoch 90: iteration 3/3
+2022-10-07 09:26:45,639 
+2022-10-07 09:26:45,639 Epoch 90 --> loss:0.2581, acc:81.90%, test_loss:0.1915, test_acc:100.00%, Time per epoch: 0.6628
+2022-10-07 09:26:45,892  Epoch 91: iteration 1/3
+2022-10-07 09:26:46,070  Epoch 91: iteration 2/3
+2022-10-07 09:26:46,276  Epoch 91: iteration 3/3
+2022-10-07 09:26:46,294 
+2022-10-07 09:26:46,294 Epoch 91 --> loss:0.1831, acc:87.62%, test_loss:0.1908, test_acc:100.00%, Time per epoch: 0.6545
+2022-10-07 09:26:46,536  Epoch 92: iteration 1/3
+2022-10-07 09:26:46,737  Epoch 92: iteration 2/3
+2022-10-07 09:26:46,925  Epoch 92: iteration 3/3
+2022-10-07 09:26:46,951 
+2022-10-07 09:26:46,951 Epoch 92 --> loss:0.2945, acc:83.81%, test_loss:0.2022, test_acc:100.00%, Time per epoch: 0.6574
+2022-10-07 09:26:47,202  Epoch 93: iteration 1/3
+2022-10-07 09:26:47,383  Epoch 93: iteration 2/3
+2022-10-07 09:26:47,578  Epoch 93: iteration 3/3
+2022-10-07 09:26:47,600 
+2022-10-07 09:26:47,600 Epoch 93 --> loss:0.1880, acc:85.71%, test_loss:0.2092, test_acc:100.00%, Time per epoch: 0.6488
+2022-10-07 09:26:47,857  Epoch 94: iteration 1/3
+2022-10-07 09:26:48,055  Epoch 94: iteration 2/3
+2022-10-07 09:26:48,237  Epoch 94: iteration 3/3
+2022-10-07 09:26:48,259 
+2022-10-07 09:26:48,260 Epoch 94 --> loss:0.2154, acc:87.62%, test_loss:0.1960, test_acc:100.00%, Time per epoch: 0.6592
+2022-10-07 09:26:48,503  Epoch 95: iteration 1/3
+2022-10-07 09:26:48,685  Epoch 95: iteration 2/3
+2022-10-07 09:26:48,865  Epoch 95: iteration 3/3
+2022-10-07 09:26:48,888 
+2022-10-07 09:26:48,888 Epoch 95 --> loss:0.2148, acc:84.76%, test_loss:0.1886, test_acc:100.00%, Time per epoch: 0.6283
+2022-10-07 09:26:49,133  Epoch 96: iteration 1/3
+2022-10-07 09:26:49,330  Epoch 96: iteration 2/3
+2022-10-07 09:26:49,513  Epoch 96: iteration 3/3
+2022-10-07 09:26:49,539 
+2022-10-07 09:26:49,539 Epoch 96 --> loss:0.2136, acc:83.81%, test_loss:0.1812, test_acc:100.00%, Time per epoch: 0.6507
+2022-10-07 09:26:49,786  Epoch 97: iteration 1/3
+2022-10-07 09:26:49,973  Epoch 97: iteration 2/3
+2022-10-07 09:26:50,157  Epoch 97: iteration 3/3
+2022-10-07 09:26:50,173 
+2022-10-07 09:26:50,173 Epoch 97 --> loss:0.1728, acc:89.52%, test_loss:0.1743, test_acc:100.00%, Time per epoch: 0.6335
+2022-10-07 09:26:50,413  Epoch 98: iteration 1/3
+2022-10-07 09:26:50,615  Epoch 98: iteration 2/3
+2022-10-07 09:26:50,808  Epoch 98: iteration 3/3
+2022-10-07 09:26:50,823 
+2022-10-07 09:26:50,823 Epoch 98 --> loss:0.2304, acc:86.67%, test_loss:0.1681, test_acc:100.00%, Time per epoch: 0.6504
+2022-10-07 09:26:51,077  Epoch 99: iteration 1/3
+2022-10-07 09:26:51,265  Epoch 99: iteration 2/3
+2022-10-07 09:26:51,460  Epoch 99: iteration 3/3
+2022-10-07 09:26:51,483 
+2022-10-07 09:26:51,483 Epoch 99 --> loss:0.2081, acc:84.76%, test_loss:0.1676, test_acc:100.00%, Time per epoch: 0.6595
+2022-10-07 09:26:51,729  Epoch 100: iteration 1/3
+2022-10-07 09:26:51,938  Epoch 100: iteration 2/3
+2022-10-07 09:26:52,139  Epoch 100: iteration 3/3
+2022-10-07 09:26:52,154 
+2022-10-07 09:26:52,154 Epoch 100 --> loss:0.1930, acc:87.62%, test_loss:0.1753, test_acc:100.00%, Time per epoch: 0.6712
+2022-10-07 09:26:52,398  Epoch 101: iteration 1/3
+2022-10-07 09:26:52,597  Epoch 101: iteration 2/3
+2022-10-07 09:26:52,783  Epoch 101: iteration 3/3
+2022-10-07 09:26:52,802 
+2022-10-07 09:26:52,803 Epoch 101 --> loss:0.1358, acc:89.52%, test_loss:0.1831, test_acc:100.00%, Time per epoch: 0.6480
+2022-10-07 09:26:53,049  Epoch 102: iteration 1/3
+2022-10-07 09:26:53,244  Epoch 102: iteration 2/3
+2022-10-07 09:26:53,454  Epoch 102: iteration 3/3
+2022-10-07 09:26:53,469 
+2022-10-07 09:26:53,469 Epoch 102 --> loss:0.2230, acc:84.76%, test_loss:0.1807, test_acc:100.00%, Time per epoch: 0.6660
+2022-10-07 09:26:53,722  Epoch 103: iteration 1/3
+2022-10-07 09:26:53,915  Epoch 103: iteration 2/3
+2022-10-07 09:26:54,105  Epoch 103: iteration 3/3
+2022-10-07 09:26:54,125 
+2022-10-07 09:26:54,125 Epoch 103 --> loss:0.1930, acc:86.67%, test_loss:0.1753, test_acc:100.00%, Time per epoch: 0.6561
+2022-10-07 09:26:54,370  Epoch 104: iteration 1/3
+2022-10-07 09:26:54,563  Epoch 104: iteration 2/3
+2022-10-07 09:26:54,765  Epoch 104: iteration 3/3
+2022-10-07 09:26:54,782 
+2022-10-07 09:26:54,782 Epoch 104 --> loss:0.1769, acc:85.71%, test_loss:0.1681, test_acc:100.00%, Time per epoch: 0.6567
+2022-10-07 09:26:55,037  Epoch 105: iteration 1/3
+2022-10-07 09:26:55,225  Epoch 105: iteration 2/3
+2022-10-07 09:26:55,429  Epoch 105: iteration 3/3
+2022-10-07 09:26:55,445 
+2022-10-07 09:26:55,446 Epoch 105 --> loss:0.1941, acc:87.62%, test_loss:0.1652, test_acc:100.00%, Time per epoch: 0.6633
+2022-10-07 09:26:55,709  Epoch 106: iteration 1/3
+2022-10-07 09:26:55,909  Epoch 106: iteration 2/3
+2022-10-07 09:26:56,114  Epoch 106: iteration 3/3
+2022-10-07 09:26:56,130 
+2022-10-07 09:26:56,130 Epoch 106 --> loss:0.2040, acc:86.67%, test_loss:0.1591, test_acc:100.00%, Time per epoch: 0.6846
+2022-10-07 09:26:56,393  Epoch 107: iteration 1/3
+2022-10-07 09:26:56,585  Epoch 107: iteration 2/3
+2022-10-07 09:26:56,778  Epoch 107: iteration 3/3
+2022-10-07 09:26:56,795 
+2022-10-07 09:26:56,795 Epoch 107 --> loss:0.1666, acc:85.71%, test_loss:0.1548, test_acc:100.00%, Time per epoch: 0.6650
+2022-10-07 09:26:57,056  Epoch 108: iteration 1/3
+2022-10-07 09:26:57,260  Epoch 108: iteration 2/3
+2022-10-07 09:26:57,449  Epoch 108: iteration 3/3
+2022-10-07 09:26:57,476 
+2022-10-07 09:26:57,476 Epoch 108 --> loss:0.1500, acc:86.67%, test_loss:0.1541, test_acc:100.00%, Time per epoch: 0.6803
+2022-10-07 09:26:57,723  Epoch 109: iteration 1/3
+2022-10-07 09:26:57,920  Epoch 109: iteration 2/3
+2022-10-07 09:26:58,110  Epoch 109: iteration 3/3
+2022-10-07 09:26:58,125 
+2022-10-07 09:26:58,125 Epoch 109 --> loss:0.2614, acc:84.76%, test_loss:0.1487, test_acc:100.00%, Time per epoch: 0.6487
+2022-10-07 09:26:58,359  Epoch 110: iteration 1/3
+2022-10-07 09:26:58,536  Epoch 110: iteration 2/3
+2022-10-07 09:26:58,729  Epoch 110: iteration 3/3
+2022-10-07 09:26:58,744 
+2022-10-07 09:26:58,744 Epoch 110 --> loss:0.1096, acc:88.57%, test_loss:0.1462, test_acc:100.00%, Time per epoch: 0.6193
+2022-10-07 09:26:59,002  Epoch 111: iteration 1/3
+2022-10-07 09:26:59,199  Epoch 111: iteration 2/3
+2022-10-07 09:26:59,399  Epoch 111: iteration 3/3
+2022-10-07 09:26:59,416 
+2022-10-07 09:26:59,417 Epoch 111 --> loss:0.2280, acc:85.71%, test_loss:0.1501, test_acc:100.00%, Time per epoch: 0.6720
+2022-10-07 09:26:59,680  Epoch 112: iteration 1/3
+2022-10-07 09:26:59,868  Epoch 112: iteration 2/3
+2022-10-07 09:27:00,068  Epoch 112: iteration 3/3
+2022-10-07 09:27:00,098 
+2022-10-07 09:27:00,098 Epoch 112 --> loss:0.1844, acc:86.67%, test_loss:0.1526, test_acc:100.00%, Time per epoch: 0.6817
+2022-10-07 09:27:00,352  Epoch 113: iteration 1/3
+2022-10-07 09:27:00,554  Epoch 113: iteration 2/3
+2022-10-07 09:27:00,750  Epoch 113: iteration 3/3
+2022-10-07 09:27:00,769 
+2022-10-07 09:27:00,769 Epoch 113 --> loss:0.1454, acc:88.57%, test_loss:0.1517, test_acc:100.00%, Time per epoch: 0.6702
+2022-10-07 09:27:01,037  Epoch 114: iteration 1/3
+2022-10-07 09:27:01,228  Epoch 114: iteration 2/3
+2022-10-07 09:27:01,445  Epoch 114: iteration 3/3
+2022-10-07 09:27:01,467 
+2022-10-07 09:27:01,468 Epoch 114 --> loss:0.2572, acc:82.86%, test_loss:0.1491, test_acc:100.00%, Time per epoch: 0.6986
+2022-10-07 09:27:01,730  Epoch 115: iteration 1/3
+2022-10-07 09:27:01,930  Epoch 115: iteration 2/3
+2022-10-07 09:27:02,127  Epoch 115: iteration 3/3
+2022-10-07 09:27:02,148 
+2022-10-07 09:27:02,148 Epoch 115 --> loss:0.2171, acc:84.76%, test_loss:0.1482, test_acc:100.00%, Time per epoch: 0.6806
+2022-10-07 09:27:02,417  Epoch 116: iteration 1/3
+2022-10-07 09:27:02,609  Epoch 116: iteration 2/3
+2022-10-07 09:27:02,804  Epoch 116: iteration 3/3
+2022-10-07 09:27:02,831 
+2022-10-07 09:27:02,831 Epoch 116 --> loss:0.2676, acc:83.81%, test_loss:0.1551, test_acc:100.00%, Time per epoch: 0.6825
+2022-10-07 09:27:03,091  Epoch 117: iteration 1/3
+2022-10-07 09:27:03,286  Epoch 117: iteration 2/3
+2022-10-07 09:27:03,484  Epoch 117: iteration 3/3
+2022-10-07 09:27:03,501 
+2022-10-07 09:27:03,501 Epoch 117 --> loss:0.1945, acc:86.67%, test_loss:0.1509, test_acc:100.00%, Time per epoch: 0.6702
+2022-10-07 09:27:03,747  Epoch 118: iteration 1/3
+2022-10-07 09:27:03,957  Epoch 118: iteration 2/3
+2022-10-07 09:27:04,156  Epoch 118: iteration 3/3
+2022-10-07 09:27:04,172 
+2022-10-07 09:27:04,173 Epoch 118 --> loss:0.1511, acc:88.57%, test_loss:0.1450, test_acc:100.00%, Time per epoch: 0.6711
+2022-10-07 09:27:04,435  Epoch 119: iteration 1/3
+2022-10-07 09:27:04,618  Epoch 119: iteration 2/3
+2022-10-07 09:27:04,813  Epoch 119: iteration 3/3
+2022-10-07 09:27:04,836 
+2022-10-07 09:27:04,837 Epoch 119 --> loss:0.1919, acc:86.67%, test_loss:0.1390, test_acc:100.00%, Time per epoch: 0.6638
+2022-10-07 09:27:05,067  Epoch 120: iteration 1/3
+2022-10-07 09:27:05,238  Epoch 120: iteration 2/3
+2022-10-07 09:27:05,420  Epoch 120: iteration 3/3
+2022-10-07 09:27:05,446 
+2022-10-07 09:27:05,446 Epoch 120 --> loss:0.1668, acc:87.62%, test_loss:0.1335, test_acc:100.00%, Time per epoch: 0.6095
+2022-10-07 09:27:05,705  Epoch 121: iteration 1/3
+2022-10-07 09:27:05,884  Epoch 121: iteration 2/3
+2022-10-07 09:27:06,049  Epoch 121: iteration 3/3
+2022-10-07 09:27:06,067 
+2022-10-07 09:27:06,067 Epoch 121 --> loss:0.1569, acc:86.67%, test_loss:0.1315, test_acc:100.00%, Time per epoch: 0.6203
+2022-10-07 09:27:06,297  Epoch 122: iteration 1/3
+2022-10-07 09:27:06,450  Epoch 122: iteration 2/3
+2022-10-07 09:27:06,640  Epoch 122: iteration 3/3
+2022-10-07 09:27:06,667 
+2022-10-07 09:27:06,667 Epoch 122 --> loss:0.2149, acc:85.71%, test_loss:0.1401, test_acc:100.00%, Time per epoch: 0.5997
+2022-10-07 09:27:06,920  Epoch 123: iteration 1/3
+2022-10-07 09:27:07,117  Epoch 123: iteration 2/3
+2022-10-07 09:27:07,307  Epoch 123: iteration 3/3
+2022-10-07 09:27:07,325 
+2022-10-07 09:27:07,325 Epoch 123 --> loss:0.2339, acc:82.86%, test_loss:0.1472, test_acc:100.00%, Time per epoch: 0.6583
+2022-10-07 09:27:07,568  Epoch 124: iteration 1/3
+2022-10-07 09:27:07,763  Epoch 124: iteration 2/3
+2022-10-07 09:27:07,962  Epoch 124: iteration 3/3
+2022-10-07 09:27:07,985 
+2022-10-07 09:27:07,985 Epoch 124 --> loss:0.1633, acc:87.62%, test_loss:0.1441, test_acc:100.00%, Time per epoch: 0.6597
+2022-10-07 09:27:08,237  Epoch 125: iteration 1/3
+2022-10-07 09:27:08,425  Epoch 125: iteration 2/3
+2022-10-07 09:27:08,621  Epoch 125: iteration 3/3
+2022-10-07 09:27:08,643 
+2022-10-07 09:27:08,643 Epoch 125 --> loss:0.1532, acc:88.57%, test_loss:0.1336, test_acc:100.00%, Time per epoch: 0.6580
+2022-10-07 09:27:08,900  Epoch 126: iteration 1/3
+2022-10-07 09:27:09,101  Epoch 126: iteration 2/3
+2022-10-07 09:27:09,293  Epoch 126: iteration 3/3
+2022-10-07 09:27:09,308 
+2022-10-07 09:27:09,309 Epoch 126 --> loss:0.1795, acc:86.67%, test_loss:0.1324, test_acc:100.00%, Time per epoch: 0.6650
+2022-10-07 09:27:09,563  Epoch 127: iteration 1/3
+2022-10-07 09:27:09,755  Epoch 127: iteration 2/3
+2022-10-07 09:27:09,950  Epoch 127: iteration 3/3
+2022-10-07 09:27:09,965 
+2022-10-07 09:27:09,965 Epoch 127 --> loss:0.1334, acc:88.57%, test_loss:0.1373, test_acc:100.00%, Time per epoch: 0.6566
+2022-10-07 09:27:10,222  Epoch 128: iteration 1/3
+2022-10-07 09:27:10,400  Epoch 128: iteration 2/3
+2022-10-07 09:27:10,589  Epoch 128: iteration 3/3
+2022-10-07 09:27:10,617 
+2022-10-07 09:27:10,617 Epoch 128 --> loss:0.1531, acc:89.52%, test_loss:0.1377, test_acc:100.00%, Time per epoch: 0.6515
+2022-10-07 09:27:10,872  Epoch 129: iteration 1/3
+2022-10-07 09:27:11,064  Epoch 129: iteration 2/3
+2022-10-07 09:27:11,251  Epoch 129: iteration 3/3
+2022-10-07 09:27:11,266 
+2022-10-07 09:27:11,266 Epoch 129 --> loss:0.2205, acc:82.86%, test_loss:0.1410, test_acc:100.00%, Time per epoch: 0.6485
+2022-10-07 09:27:11,521  Epoch 130: iteration 1/3
+2022-10-07 09:27:11,705  Epoch 130: iteration 2/3
+2022-10-07 09:27:11,900  Epoch 130: iteration 3/3
+2022-10-07 09:27:11,927 
+2022-10-07 09:27:11,927 Epoch 130 --> loss:0.1672, acc:88.57%, test_loss:0.1396, test_acc:100.00%, Time per epoch: 0.6612
+2022-10-07 09:27:12,155  Epoch 131: iteration 1/3
+2022-10-07 09:27:12,342  Epoch 131: iteration 2/3
+2022-10-07 09:27:12,528  Epoch 131: iteration 3/3
+2022-10-07 09:27:12,549 
+2022-10-07 09:27:12,549 Epoch 131 --> loss:0.2440, acc:85.71%, test_loss:0.1427, test_acc:100.00%, Time per epoch: 0.6213
+2022-10-07 09:27:12,805  Epoch 132: iteration 1/3
+2022-10-07 09:27:13,000  Epoch 132: iteration 2/3
+2022-10-07 09:27:13,174  Epoch 132: iteration 3/3
+2022-10-07 09:27:13,189 
+2022-10-07 09:27:13,189 Epoch 132 --> loss:0.1248, acc:89.52%, test_loss:0.1453, test_acc:100.00%, Time per epoch: 0.6399
+2022-10-07 09:27:13,446  Epoch 133: iteration 1/3
+2022-10-07 09:27:13,603  Epoch 133: iteration 2/3
+2022-10-07 09:27:13,770  Epoch 133: iteration 3/3
+2022-10-07 09:27:13,791 
+2022-10-07 09:27:13,791 Epoch 133 --> loss:0.2256, acc:87.62%, test_loss:0.1404, test_acc:100.00%, Time per epoch: 0.6020
+2022-10-07 09:27:14,038  Epoch 134: iteration 1/3
+2022-10-07 09:27:14,255  Epoch 134: iteration 2/3
+2022-10-07 09:27:14,447  Epoch 134: iteration 3/3
+2022-10-07 09:27:14,474 
+2022-10-07 09:27:14,474 Epoch 134 --> loss:0.1618, acc:89.52%, test_loss:0.1350, test_acc:100.00%, Time per epoch: 0.6830
+2022-10-07 09:27:14,732  Epoch 135: iteration 1/3
+2022-10-07 09:27:14,939  Epoch 135: iteration 2/3
