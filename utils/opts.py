@@ -29,7 +29,7 @@ def parse_opt():
     parser.add_argument(
         '--config',
         type = str,
-        default = 'Configs/Savee.yaml',
+        default = 'Configs/Ravdess.yaml',
         help = 'path to the configuration file (yaml)'
     )
     args = parser.parse_args()

@@ -1,0 +1,119 @@
+# AV================================================
+mode: train
+seed: 2022
+pretrained: False # whether the model is pretrained. If true, then we will continue training of a pretrained model
+# cross validation parameters
+K_Fold: 5
+cross_validation: True
+Emotion_Recognition_Mode: AV
+# dataset parameters
+dataset: RML
+Zip_file_path: ./Dataset/RML.zip  # file path
+class_labels: ['happy', 'sad','angry','fearful', 'disgust','surprised']
+video_features: ["AU01_r" ,"AU02_r" ,"AU04_r" , "AU05_r","AU06_r", "AU07_r", "AU09_r", "AU10_r","AU12_r","AU14_r","AU15_r", "AU17_r", "AU20_r", "AU23_r", "AU25_r", "AU26_r", "AU45_r", "AU01_c", "AU02_c", "AU04_c" ,"AU05_c", "AU06_c", "AU07_c", "AU09_c", "AU10_c", "AU12_c", "AU14_c", "AU15_c", "AU17_c", "AU20_c", "AU23_c", "AU25_c", "AU26_c", "AU28_c", "AU45_c"]
+
+# audio feature parameters
+sample_rate: 48000
+feature_folder: features
+
+# checkpoints & log file paths
+dataset_path: Output/RML_AV/  # checkpoint file path
+confusion_matrix_path: RML_AV_confusion_1
+loss_plot_path: RML_AV_loss_1
+checkpoint_name: RML_AV_IS_1 # checkpoint file name
+acc_plot_path: RML_AV_acc_1 # accuracy plot file name
+
+# training parameters
+data_size: None
+epochs: 50
+batch_size: 32
+lr: 0.00005
+weight_decay: 0.00001
+
+# Model parameters
+dim_feedforward: 64
+dropout: 0
+num_layers: 2
+
+# 95.0%
+
+# VO================================================
+# mode: train
+# seed: 2022
+# pretrained: False # whether the model is pretrained. If true, then we will continue training of a pretrained model
+# # cross validation parameters
+# K_Fold: 5
+# cross_validation: True
+# Emotion_Recognition_Mode: VO
+# # dataset parameters
+# dataset: RML
+# Zip_file_path: ./Dataset/RML.zip  # file path
+# class_labels: ['happy', 'sad','angry','fearful', 'disgust','surprised']
+# video_features: ["AU01_r" ,"AU02_r" ,"AU04_r" , "AU05_r","AU06_r", "AU07_r", "AU09_r", "AU10_r","AU12_r","AU14_r","AU15_r", "AU17_r", "AU20_r", "AU23_r", "AU25_r", "AU26_r", "AU45_r", "AU01_c", "AU02_c", "AU04_c" ,"AU05_c", "AU06_c", "AU07_c", "AU09_c", "AU10_c", "AU12_c", "AU14_c", "AU15_c", "AU17_c", "AU20_c", "AU23_c", "AU25_c", "AU26_c", "AU28_c", "AU45_c"]
+
+# # feature parameters
+# sample_rate: 48000
+# feature_folder: features
+
+# # checkpoints & log files
+# dataset_path: Output/RML_VO/  # checkpoint file path
+# confusion_matrix_path: RML_VO_confusion_1
+# loss_plot_path: RML_VO_loss_1
+# checkpoint_name: RML_VO_IS_1 # checkpoint file name
+# acc_plot_path: RML_VO_acc_1 # accuracy plot file name
+
+# # training parameters
+# data_size: None
+# epochs: 50
+# batch_size: 32
+# lr: 0.00005
+# weight_decay: 0.00001
+
+
+# # Model parameters
+# dim_feedforward: 64
+# dropout: 0
+# num_layers: 2
+
+# 89.17%
+
+
+# AO================================================
+# mode: train
+# seed: 2022
+# pretrained: False # whether the model is pretrained. If true, then we will continue training of a pretrained model
+# # cross validation parameters
+# K_Fold: 5
+# cross_validation: True
+# Emotion_Recognition_Mode: AO
+# # dataset parameters
+# dataset: RML
+# Zip_file_path: ./Dataset/RML.zip  # file path
+# class_labels: ['happy', 'sad','angry','fearful', 'disgust','surprised']
+# video_features: ["AU01_r" ,"AU02_r" ,"AU04_r" , "AU05_r","AU06_r", "AU07_r", "AU09_r", "AU10_r","AU12_r","AU14_r","AU15_r", "AU17_r", "AU20_r", "AU23_r", "AU25_r", "AU26_r", "AU45_r", "AU01_c", "AU02_c", "AU04_c" ,"AU05_c", "AU06_c", "AU07_c", "AU09_c", "AU10_c", "AU12_c", "AU14_c", "AU15_c", "AU17_c", "AU20_c", "AU23_c", "AU25_c", "AU26_c", "AU28_c", "AU45_c"]
+
+# # feature parameters
+# sample_rate: 48000
+# feature_folder: features
+
+# # checkpoints & log files
+# dataset_path: Output/RML_AO/  # checkpoint file path
+# confusion_matrix_path: RML_AO_confusion_1
+# loss_plot_path: RML_AO_loss_1
+# checkpoint_name: RML_AO_IS_1 # checkpoint file name
+# acc_plot_path: RML_AO_acc_1 # accuracy plot file name
+
+# # training parameters
+# data_size: None
+# epochs: 50
+# batch_size: 32
+# lr: 0.00005
+# weight_decay: 0.00001
+
+
+# # Model parameters
+# dim_feedforward: 1024
+# dropout: 0.1
+# num_layers: 4
+
+# 76.39

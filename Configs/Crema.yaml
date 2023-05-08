@@ -9,21 +9,23 @@ class_labels: ['neutral', 'happy', 'sad','angry','fearful', 'disgust']
 
 # feature parameters
 sample_rate: 48000
-feature_folder: features/Crema1/
+feature_folder: features/Crema1/ # Crema1 is half dataset
 
-# checkpoints
-checkpoint_path: checkpoints/  # checkpoint file path
-checkpoint_name: Crema_IS2  # checkpoint file name
-loss_plot_path: Crema_loss_2.png
-confusion_matrix_path: Crema_confusion_2.png
+# checkpoints & log files
+dataset_path: Output/Crema/  # checkpoint file path
+checkpoint_name: Crema_TransOnly_IS1  # checkpoint file name
+
+loss_plot_path: Crema_TransOnly_loss_1
+acc_plot_path: Crema_TransOnly_acc_1 # accuracy plot file name
+confusion_matrix_path: Crema_TransOnly_confusion_1
 
 # training parameters
-feature_exist: True
+feature_exist: False
 data_size: 3721
 train_ratio: 0.8
 val_ratio: 0
 test_ratio: 0.2
-epochs: 50
+epochs: 100
 batch_size: 64
 lr: 0.0001
 weight_decay: 0.0001

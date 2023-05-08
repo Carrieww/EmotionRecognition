@@ -1,35 +1,119 @@
+# AV
+# mode: train
+# seed: 2022
+# pretrained: False # whether the model is pretrained. If true, then we will continue training of a pretrained model
+# # cross validation parameters
+# K_Fold: 5
+# cross_validation: True
+# Emotion_Recognition_Mode: AV
+# # dataset parameters
+# dataset: Ravdess
+# Zip_file_path: ./Dataset/Ravdess.zip  # file path
+# class_labels: ['neutral','calm', 'happy', 'sad','angry','fearful', 'disgust','surprised']
+# video_features: ["AU01_r" ,"AU02_r" ,"AU04_r" , "AU05_r","AU06_r", "AU07_r", "AU09_r", "AU10_r","AU12_r","AU14_r","AU15_r", "AU17_r", "AU20_r", "AU23_r", "AU25_r", "AU26_r", "AU45_r", "AU01_c", "AU02_c", "AU04_c" ,"AU05_c", "AU06_c", "AU07_c", "AU09_c", "AU10_c", "AU12_c", "AU14_c", "AU15_c", "AU17_c", "AU20_c", "AU23_c", "AU25_c", "AU26_c", "AU28_c", "AU45_c"]
+
+# # feature parameters
+# sample_rate: 48000
+# feature_folder: features
+
+# # checkpoints & log files
+# dataset_path: Output/Ravdess_AV/  # checkpoint file path
+# confusion_matrix_path: Ravdess_AV_confusion_1
+# loss_plot_path: Ravdess_AV_loss_1
+# checkpoint_name: Ravdess_AV_IS_1 # checkpoint file name
+# acc_plot_path: Ravdess_AV_acc_1 # accuracy plot file name
+
+# # training parameters
+# data_size: None
+# epochs: 50
+# batch_size: 32
+# lr: 0.00005
+# weight_decay: 0.00001
+
+# # Model parameters
+# dim_feedforward: 64
+# dropout: 0
+# num_layers: 2
+
+# 93.96%  
+
+# VO================================================
+mode: train
 seed: 2022
-pretrained: False
+pretrained: False # whether the model is pretrained. If true, then we will continue training of a pretrained model
+# cross validation parameters
+K_Fold: 5
+cross_validation: True
+Emotion_Recognition_Mode: VO
 # dataset parameters
 dataset: Ravdess
 Zip_file_path: ./Dataset/Ravdess.zip  # file path
-class_labels: ['neutral', 'happy', 'sad','angry','fearful', 'disgust']
-# class_labels: ["positive", "negative", "neutral"]
-# class_labels: ["angry", "boredom", "disgust", "fear", "happy", "neutral", "sad"]
+class_labels: ['neutral','calm', 'happy', 'sad','angry','fearful', 'disgust','surprised']
+video_features: ["AU01_r" ,"AU02_r" ,"AU04_r" , "AU05_r","AU06_r", "AU07_r", "AU09_r", "AU10_r","AU12_r","AU14_r","AU15_r", "AU17_r", "AU20_r", "AU23_r", "AU25_r", "AU26_r", "AU45_r", "AU01_c", "AU02_c", "AU04_c" ,"AU05_c", "AU06_c", "AU07_c", "AU09_c", "AU10_c", "AU12_c", "AU14_c", "AU15_c", "AU17_c", "AU20_c", "AU23_c", "AU25_c", "AU26_c", "AU28_c", "AU45_c"]
 
 # feature parameters
 sample_rate: 48000
-feature_folder: features/Ravdess/
+feature_folder: features
 
-# checkpoints
-checkpoint_path: checkpoints/  # checkpoint file path
-checkpoint_name: Ravdess_IS3  # checkpoint file name
-loss_plot_path: Ravdess_loss_3.png
-confusion_matrix_path: Ravdess_confusion_3.png
+# checkpoints & log files
+dataset_path: Output/Ravdess_VO/  # checkpoint file path
+confusion_matrix_path: Ravdess_VO_confusion_2
+loss_plot_path: Ravdess_VO_loss_2
+checkpoint_name: Ravdess_VO_IS_2 # checkpoint file name
+acc_plot_path: Ravdess_VO_acc_2 # accuracy plot file name
 
 # training parameters
-feature_exist: True
 data_size: None
-train_ratio: 0.8
-val_ratio: 0
-test_ratio: 0.2
 epochs: 50
 batch_size: 32
-lr: 0.0001
-weight_decay: 0.0001
+lr: 0.00005
+weight_decay: 0.00001
 
 
 # Model parameters
-rnn_size: 256  # LSTM hidden layer size
-# hidden_size: 32 
+dim_feedforward: 64
 dropout: 0
+num_layers: 2
+
+# 86.25
+
+
+# AO================================================
+# mode: train
+# seed: 2022
+# pretrained: False # whether the model is pretrained. If true, then we will continue training of a pretrained model
+# # cross validation parameters
+# K_Fold: 5
+# cross_validation: True
+# Emotion_Recognition_Mode: AO
+# # dataset parameters
+# dataset: Ravdess
+# Zip_file_path: ./Dataset/Ravdess.zip  # file path
+# class_labels: ['neutral','calm', 'happy', 'sad','angry','fearful', 'disgust','surprised']
+# video_features: ["AU01_r" ,"AU02_r" ,"AU04_r" , "AU05_r","AU06_r", "AU07_r", "AU09_r", "AU10_r","AU12_r","AU14_r","AU15_r", "AU17_r", "AU20_r", "AU23_r", "AU25_r", "AU26_r", "AU45_r", "AU01_c", "AU02_c", "AU04_c" ,"AU05_c", "AU06_c", "AU07_c", "AU09_c", "AU10_c", "AU12_c", "AU14_c", "AU15_c", "AU17_c", "AU20_c", "AU23_c", "AU25_c", "AU26_c", "AU28_c", "AU45_c"]
+
+# # feature parameters
+# sample_rate: 48000
+# feature_folder: features
+
+# # checkpoints & log files
+# dataset_path: Output/Ravdess_AO/  # checkpoint file path
+# confusion_matrix_path: Ravdess_AO_confusion_1
+# loss_plot_path: Ravdess_AO_loss_1
+# checkpoint_name: Ravdess_AO_IS_1 # checkpoint file name
+# acc_plot_path: Ravdess_AO_acc_1 # accuracy plot file name
+
+# # training parameters
+# data_size: None
+# epochs: 50
+# batch_size: 32
+# lr: 0.00005
+# weight_decay: 0.00001
+
+
+# # Model parameters
+# dim_feedforward: 1024
+# dropout: 0.1
+# num_layers: 4
+
+#只有transformer 90.21

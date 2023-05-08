@@ -1,3335 +1,0 @@
-2022-10-08 16:14:24,092 Selected device is cuda
-2022-10-08 16:14:28,773  Epoch 1: iteration 1/31
-2022-10-08 16:14:28,795  Epoch 1: iteration 2/31
-2022-10-08 16:14:28,817  Epoch 1: iteration 3/31
-2022-10-08 16:14:28,839  Epoch 1: iteration 4/31
-2022-10-08 16:14:28,861  Epoch 1: iteration 5/31
-2022-10-08 16:14:28,883  Epoch 1: iteration 6/31
-2022-10-08 16:14:28,905  Epoch 1: iteration 7/31
-2022-10-08 16:14:28,926  Epoch 1: iteration 8/31
-2022-10-08 16:14:28,948  Epoch 1: iteration 9/31
-2022-10-08 16:14:28,969  Epoch 1: iteration 10/31
-2022-10-08 16:14:28,991  Epoch 1: iteration 11/31
-2022-10-08 16:14:29,012  Epoch 1: iteration 12/31
-2022-10-08 16:14:29,033  Epoch 1: iteration 13/31
-2022-10-08 16:14:29,054  Epoch 1: iteration 14/31
-2022-10-08 16:14:29,076  Epoch 1: iteration 15/31
-2022-10-08 16:14:29,097  Epoch 1: iteration 16/31
-2022-10-08 16:14:29,118  Epoch 1: iteration 17/31
-2022-10-08 16:14:29,140  Epoch 1: iteration 18/31
-2022-10-08 16:14:29,161  Epoch 1: iteration 19/31
-2022-10-08 16:14:29,182  Epoch 1: iteration 20/31
-2022-10-08 16:14:29,203  Epoch 1: iteration 21/31
-2022-10-08 16:14:29,224  Epoch 1: iteration 22/31
-2022-10-08 16:14:29,245  Epoch 1: iteration 23/31
-2022-10-08 16:14:29,266  Epoch 1: iteration 24/31
-2022-10-08 16:14:29,288  Epoch 1: iteration 25/31
-2022-10-08 16:14:29,310  Epoch 1: iteration 26/31
-2022-10-08 16:14:29,331  Epoch 1: iteration 27/31
-2022-10-08 16:14:29,353  Epoch 1: iteration 28/31
-2022-10-08 16:14:29,374  Epoch 1: iteration 29/31
-2022-10-08 16:14:29,395  Epoch 1: iteration 30/31
-2022-10-08 16:14:29,416  Epoch 1: iteration 31/31
-2022-10-08 16:14:29,435 
-2022-10-08 16:14:29,436 Epoch 1 --> loss:1.8013, acc:28.08%, test_loss:1.5995, test_acc:38.10%, Time per epoch: 1.6032
-2022-10-08 16:14:29,448 The checkpoint is saved to Output/Savee/Savee_VO_IS2.pt
-2022-10-08 16:14:29,448 The best model up to now is saved with test accuracy:38.10% at epoch: 1/100
-2022-10-08 16:14:30,374  Epoch 2: iteration 1/31
-2022-10-08 16:14:30,394  Epoch 2: iteration 2/31
-2022-10-08 16:14:30,415  Epoch 2: iteration 3/31
-2022-10-08 16:14:30,435  Epoch 2: iteration 4/31
-2022-10-08 16:14:30,456  Epoch 2: iteration 5/31
-2022-10-08 16:14:30,477  Epoch 2: iteration 6/31
-2022-10-08 16:14:30,499  Epoch 2: iteration 7/31
-2022-10-08 16:14:30,520  Epoch 2: iteration 8/31
-2022-10-08 16:14:30,541  Epoch 2: iteration 9/31
-2022-10-08 16:14:30,562  Epoch 2: iteration 10/31
-2022-10-08 16:14:30,584  Epoch 2: iteration 11/31
-2022-10-08 16:14:30,605  Epoch 2: iteration 12/31
-2022-10-08 16:14:30,626  Epoch 2: iteration 13/31
-2022-10-08 16:14:30,647  Epoch 2: iteration 14/31
-2022-10-08 16:14:30,668  Epoch 2: iteration 15/31
-2022-10-08 16:14:30,690  Epoch 2: iteration 16/31
-2022-10-08 16:14:30,711  Epoch 2: iteration 17/31
-2022-10-08 16:14:30,732  Epoch 2: iteration 18/31
-2022-10-08 16:14:30,754  Epoch 2: iteration 19/31
-2022-10-08 16:14:30,775  Epoch 2: iteration 20/31
-2022-10-08 16:14:30,796  Epoch 2: iteration 21/31
-2022-10-08 16:14:30,817  Epoch 2: iteration 22/31
-2022-10-08 16:14:30,839  Epoch 2: iteration 23/31
-2022-10-08 16:14:30,860  Epoch 2: iteration 24/31
-2022-10-08 16:14:30,881  Epoch 2: iteration 25/31
-2022-10-08 16:14:30,902  Epoch 2: iteration 26/31
-2022-10-08 16:14:30,923  Epoch 2: iteration 27/31
-2022-10-08 16:14:30,944  Epoch 2: iteration 28/31
-2022-10-08 16:14:30,965  Epoch 2: iteration 29/31
-2022-10-08 16:14:30,986  Epoch 2: iteration 30/31
-2022-10-08 16:14:31,007  Epoch 2: iteration 31/31
-2022-10-08 16:14:31,025 
-2022-10-08 16:14:31,025 Epoch 2 --> loss:1.4642, acc:43.95%, test_loss:1.3704, test_acc:52.38%, Time per epoch: 1.5772
-2022-10-08 16:14:31,037 The checkpoint is saved to Output/Savee/Savee_VO_IS2.pt
-2022-10-08 16:14:31,037 The best model up to now is saved with test accuracy:52.38% at epoch: 2/100
-2022-10-08 16:14:31,964  Epoch 3: iteration 1/31
-2022-10-08 16:14:31,985  Epoch 3: iteration 2/31
-2022-10-08 16:14:32,006  Epoch 3: iteration 3/31
-2022-10-08 16:14:32,027  Epoch 3: iteration 4/31
-2022-10-08 16:14:32,049  Epoch 3: iteration 5/31
-2022-10-08 16:14:32,070  Epoch 3: iteration 6/31
-2022-10-08 16:14:32,091  Epoch 3: iteration 7/31
-2022-10-08 16:14:32,111  Epoch 3: iteration 8/31
-2022-10-08 16:14:32,132  Epoch 3: iteration 9/31
-2022-10-08 16:14:32,154  Epoch 3: iteration 10/31
-2022-10-08 16:14:32,175  Epoch 3: iteration 11/31
-2022-10-08 16:14:32,196  Epoch 3: iteration 12/31
-2022-10-08 16:14:32,217  Epoch 3: iteration 13/31
-2022-10-08 16:14:32,244  Epoch 3: iteration 14/31
-2022-10-08 16:14:32,274  Epoch 3: iteration 15/31
-2022-10-08 16:14:32,301  Epoch 3: iteration 16/31
-2022-10-08 16:14:32,323  Epoch 3: iteration 17/31
-2022-10-08 16:14:32,345  Epoch 3: iteration 18/31
-2022-10-08 16:14:32,367  Epoch 3: iteration 19/31
-2022-10-08 16:14:32,389  Epoch 3: iteration 20/31
-2022-10-08 16:14:32,411  Epoch 3: iteration 21/31
-2022-10-08 16:14:32,433  Epoch 3: iteration 22/31
-2022-10-08 16:14:32,454  Epoch 3: iteration 23/31
-2022-10-08 16:14:32,476  Epoch 3: iteration 24/31
-2022-10-08 16:14:32,497  Epoch 3: iteration 25/31
-2022-10-08 16:14:32,519  Epoch 3: iteration 26/31
-2022-10-08 16:14:32,540  Epoch 3: iteration 27/31
-2022-10-08 16:14:32,561  Epoch 3: iteration 28/31
-2022-10-08 16:14:32,582  Epoch 3: iteration 29/31
-2022-10-08 16:14:32,604  Epoch 3: iteration 30/31
-2022-10-08 16:14:32,625  Epoch 3: iteration 31/31
-2022-10-08 16:14:32,643 
-2022-10-08 16:14:32,643 Epoch 3 --> loss:1.2429, acc:58.33%, test_loss:1.1995, test_acc:64.29%, Time per epoch: 1.6063
-2022-10-08 16:14:32,655 The checkpoint is saved to Output/Savee/Savee_VO_IS2.pt
-2022-10-08 16:14:32,655 The best model up to now is saved with test accuracy:64.29% at epoch: 3/100
-2022-10-08 16:14:33,590  Epoch 4: iteration 1/31
-2022-10-08 16:14:33,612  Epoch 4: iteration 2/31
-2022-10-08 16:14:33,632  Epoch 4: iteration 3/31
-2022-10-08 16:14:33,653  Epoch 4: iteration 4/31
-2022-10-08 16:14:33,674  Epoch 4: iteration 5/31
-2022-10-08 16:14:33,695  Epoch 4: iteration 6/31
-2022-10-08 16:14:33,716  Epoch 4: iteration 7/31
-2022-10-08 16:14:33,737  Epoch 4: iteration 8/31
-2022-10-08 16:14:33,758  Epoch 4: iteration 9/31
-2022-10-08 16:14:33,779  Epoch 4: iteration 10/31
-2022-10-08 16:14:33,800  Epoch 4: iteration 11/31
-2022-10-08 16:14:33,822  Epoch 4: iteration 12/31
-2022-10-08 16:14:33,843  Epoch 4: iteration 13/31
-2022-10-08 16:14:33,864  Epoch 4: iteration 14/31
-2022-10-08 16:14:33,885  Epoch 4: iteration 15/31
-2022-10-08 16:14:33,906  Epoch 4: iteration 16/31
-2022-10-08 16:14:33,927  Epoch 4: iteration 17/31
-2022-10-08 16:14:33,948  Epoch 4: iteration 18/31
-2022-10-08 16:14:33,970  Epoch 4: iteration 19/31
-2022-10-08 16:14:33,991  Epoch 4: iteration 20/31
-2022-10-08 16:14:34,012  Epoch 4: iteration 21/31
-2022-10-08 16:14:34,033  Epoch 4: iteration 22/31
-2022-10-08 16:14:34,055  Epoch 4: iteration 23/31
-2022-10-08 16:14:34,076  Epoch 4: iteration 24/31
-2022-10-08 16:14:34,097  Epoch 4: iteration 25/31
-2022-10-08 16:14:34,118  Epoch 4: iteration 26/31
-2022-10-08 16:14:34,138  Epoch 4: iteration 27/31
-2022-10-08 16:14:34,160  Epoch 4: iteration 28/31
-2022-10-08 16:14:34,181  Epoch 4: iteration 29/31
-2022-10-08 16:14:34,202  Epoch 4: iteration 30/31
-2022-10-08 16:14:34,223  Epoch 4: iteration 31/31
-2022-10-08 16:14:34,241 
-2022-10-08 16:14:34,242 Epoch 4 --> loss:1.0931, acc:65.97%, test_loss:1.0740, test_acc:64.29%, Time per epoch: 1.5860
-2022-10-08 16:14:35,169  Epoch 5: iteration 1/31
-2022-10-08 16:14:35,190  Epoch 5: iteration 2/31
-2022-10-08 16:14:35,211  Epoch 5: iteration 3/31
-2022-10-08 16:14:35,231  Epoch 5: iteration 4/31
-2022-10-08 16:14:35,252  Epoch 5: iteration 5/31
-2022-10-08 16:14:35,272  Epoch 5: iteration 6/31
-2022-10-08 16:14:35,293  Epoch 5: iteration 7/31
-2022-10-08 16:14:35,314  Epoch 5: iteration 8/31
-2022-10-08 16:14:35,335  Epoch 5: iteration 9/31
-2022-10-08 16:14:35,357  Epoch 5: iteration 10/31
-2022-10-08 16:14:35,378  Epoch 5: iteration 11/31
-2022-10-08 16:14:35,399  Epoch 5: iteration 12/31
-2022-10-08 16:14:35,420  Epoch 5: iteration 13/31
-2022-10-08 16:14:35,441  Epoch 5: iteration 14/31
-2022-10-08 16:14:35,462  Epoch 5: iteration 15/31
-2022-10-08 16:14:35,483  Epoch 5: iteration 16/31
-2022-10-08 16:14:35,504  Epoch 5: iteration 17/31
-2022-10-08 16:14:35,525  Epoch 5: iteration 18/31
-2022-10-08 16:14:35,546  Epoch 5: iteration 19/31
-2022-10-08 16:14:35,567  Epoch 5: iteration 20/31
-2022-10-08 16:14:35,588  Epoch 5: iteration 21/31
-2022-10-08 16:14:35,610  Epoch 5: iteration 22/31
-2022-10-08 16:14:35,631  Epoch 5: iteration 23/31
-2022-10-08 16:14:35,652  Epoch 5: iteration 24/31
-2022-10-08 16:14:35,672  Epoch 5: iteration 25/31
-2022-10-08 16:14:35,693  Epoch 5: iteration 26/31
-2022-10-08 16:14:35,714  Epoch 5: iteration 27/31
-2022-10-08 16:14:35,735  Epoch 5: iteration 28/31
-2022-10-08 16:14:35,756  Epoch 5: iteration 29/31
-2022-10-08 16:14:35,776  Epoch 5: iteration 30/31
-2022-10-08 16:14:35,797  Epoch 5: iteration 31/31
-2022-10-08 16:14:35,815 
-2022-10-08 16:14:35,815 Epoch 5 --> loss:0.9601, acc:70.34%, test_loss:0.9837, test_acc:66.67%, Time per epoch: 1.5738
-2022-10-08 16:14:35,827 The checkpoint is saved to Output/Savee/Savee_VO_IS2.pt
-2022-10-08 16:14:35,828 The best model up to now is saved with test accuracy:66.67% at epoch: 5/100
-2022-10-08 16:14:36,762  Epoch 6: iteration 1/31
-2022-10-08 16:14:36,783  Epoch 6: iteration 2/31
-2022-10-08 16:14:36,804  Epoch 6: iteration 3/31
-2022-10-08 16:14:36,825  Epoch 6: iteration 4/31
-2022-10-08 16:14:36,845  Epoch 6: iteration 5/31
-2022-10-08 16:14:36,866  Epoch 6: iteration 6/31
-2022-10-08 16:14:36,887  Epoch 6: iteration 7/31
-2022-10-08 16:14:36,909  Epoch 6: iteration 8/31
-2022-10-08 16:14:36,930  Epoch 6: iteration 9/31
-2022-10-08 16:14:36,951  Epoch 6: iteration 10/31
-2022-10-08 16:14:36,972  Epoch 6: iteration 11/31
-2022-10-08 16:14:36,993  Epoch 6: iteration 12/31
-2022-10-08 16:14:37,014  Epoch 6: iteration 13/31
-2022-10-08 16:14:37,035  Epoch 6: iteration 14/31
-2022-10-08 16:14:37,055  Epoch 6: iteration 15/31
-2022-10-08 16:14:37,076  Epoch 6: iteration 16/31
-2022-10-08 16:14:37,097  Epoch 6: iteration 17/31
-2022-10-08 16:14:37,124  Epoch 6: iteration 18/31
-2022-10-08 16:14:37,152  Epoch 6: iteration 19/31
-2022-10-08 16:14:37,178  Epoch 6: iteration 20/31
-2022-10-08 16:14:37,200  Epoch 6: iteration 21/31
-2022-10-08 16:14:37,222  Epoch 6: iteration 22/31
-2022-10-08 16:14:37,244  Epoch 6: iteration 23/31
-2022-10-08 16:14:37,266  Epoch 6: iteration 24/31
-2022-10-08 16:14:37,287  Epoch 6: iteration 25/31
-2022-10-08 16:14:37,309  Epoch 6: iteration 26/31
-2022-10-08 16:14:37,330  Epoch 6: iteration 27/31
-2022-10-08 16:14:37,351  Epoch 6: iteration 28/31
-2022-10-08 16:14:37,372  Epoch 6: iteration 29/31
-2022-10-08 16:14:37,393  Epoch 6: iteration 30/31
-2022-10-08 16:14:37,414  Epoch 6: iteration 31/31
-2022-10-08 16:14:37,432 
-2022-10-08 16:14:37,432 Epoch 6 --> loss:0.8756, acc:74.40%, test_loss:0.9136, test_acc:71.43%, Time per epoch: 1.6047
-2022-10-08 16:14:37,444 The checkpoint is saved to Output/Savee/Savee_VO_IS2.pt
-2022-10-08 16:14:37,445 The best model up to now is saved with test accuracy:71.43% at epoch: 6/100
-2022-10-08 16:14:38,371  Epoch 7: iteration 1/31
-2022-10-08 16:14:38,392  Epoch 7: iteration 2/31
-2022-10-08 16:14:38,412  Epoch 7: iteration 3/31
-2022-10-08 16:14:38,433  Epoch 7: iteration 4/31
-2022-10-08 16:14:38,453  Epoch 7: iteration 5/31
-2022-10-08 16:14:38,474  Epoch 7: iteration 6/31
-2022-10-08 16:14:38,495  Epoch 7: iteration 7/31
-2022-10-08 16:14:38,516  Epoch 7: iteration 8/31
-2022-10-08 16:14:38,537  Epoch 7: iteration 9/31
-2022-10-08 16:14:38,558  Epoch 7: iteration 10/31
-2022-10-08 16:14:38,579  Epoch 7: iteration 11/31
-2022-10-08 16:14:38,600  Epoch 7: iteration 12/31
-2022-10-08 16:14:38,621  Epoch 7: iteration 13/31
-2022-10-08 16:14:38,642  Epoch 7: iteration 14/31
-2022-10-08 16:14:38,663  Epoch 7: iteration 15/31
-2022-10-08 16:14:38,684  Epoch 7: iteration 16/31
-2022-10-08 16:14:38,705  Epoch 7: iteration 17/31
-2022-10-08 16:14:38,732  Epoch 7: iteration 18/31
-2022-10-08 16:14:38,758  Epoch 7: iteration 19/31
-2022-10-08 16:14:38,783  Epoch 7: iteration 20/31
-2022-10-08 16:14:38,804  Epoch 7: iteration 21/31
-2022-10-08 16:14:38,825  Epoch 7: iteration 22/31
-2022-10-08 16:14:38,846  Epoch 7: iteration 23/31
-2022-10-08 16:14:38,867  Epoch 7: iteration 24/31
-2022-10-08 16:14:38,888  Epoch 7: iteration 25/31
-2022-10-08 16:14:38,909  Epoch 7: iteration 26/31
-2022-10-08 16:14:38,930  Epoch 7: iteration 27/31
-2022-10-08 16:14:38,951  Epoch 7: iteration 28/31
-2022-10-08 16:14:38,972  Epoch 7: iteration 29/31
-2022-10-08 16:14:38,993  Epoch 7: iteration 30/31
-2022-10-08 16:14:39,014  Epoch 7: iteration 31/31
-2022-10-08 16:14:39,033 
-2022-10-08 16:14:39,033 Epoch 7 --> loss:0.8155, acc:75.50%, test_loss:0.8544, test_acc:75.00%, Time per epoch: 1.5880
-2022-10-08 16:14:39,045 The checkpoint is saved to Output/Savee/Savee_VO_IS2.pt
-2022-10-08 16:14:39,045 The best model up to now is saved with test accuracy:75.00% at epoch: 7/100
-2022-10-08 16:14:39,979  Epoch 8: iteration 1/31
-2022-10-08 16:14:40,000  Epoch 8: iteration 2/31
-2022-10-08 16:14:40,021  Epoch 8: iteration 3/31
-2022-10-08 16:14:40,041  Epoch 8: iteration 4/31
-2022-10-08 16:14:40,062  Epoch 8: iteration 5/31
-2022-10-08 16:14:40,082  Epoch 8: iteration 6/31
-2022-10-08 16:14:40,103  Epoch 8: iteration 7/31
-2022-10-08 16:14:40,124  Epoch 8: iteration 8/31
-2022-10-08 16:14:40,145  Epoch 8: iteration 9/31
-2022-10-08 16:14:40,167  Epoch 8: iteration 10/31
-2022-10-08 16:14:40,188  Epoch 8: iteration 11/31
-2022-10-08 16:14:40,210  Epoch 8: iteration 12/31
-2022-10-08 16:14:40,231  Epoch 8: iteration 13/31
-2022-10-08 16:14:40,252  Epoch 8: iteration 14/31
-2022-10-08 16:14:40,273  Epoch 8: iteration 15/31
-2022-10-08 16:14:40,294  Epoch 8: iteration 16/31
-2022-10-08 16:14:40,315  Epoch 8: iteration 17/31
-2022-10-08 16:14:40,336  Epoch 8: iteration 18/31
-2022-10-08 16:14:40,358  Epoch 8: iteration 19/31
-2022-10-08 16:14:40,379  Epoch 8: iteration 20/31
-2022-10-08 16:14:40,400  Epoch 8: iteration 21/31
-2022-10-08 16:14:40,421  Epoch 8: iteration 22/31
-2022-10-08 16:14:40,442  Epoch 8: iteration 23/31
-2022-10-08 16:14:40,463  Epoch 8: iteration 24/31
-2022-10-08 16:14:40,484  Epoch 8: iteration 25/31
-2022-10-08 16:14:40,505  Epoch 8: iteration 26/31
-2022-10-08 16:14:40,526  Epoch 8: iteration 27/31
-2022-10-08 16:14:40,547  Epoch 8: iteration 28/31
-2022-10-08 16:14:40,569  Epoch 8: iteration 29/31
-2022-10-08 16:14:40,590  Epoch 8: iteration 30/31
-2022-10-08 16:14:40,611  Epoch 8: iteration 31/31
-2022-10-08 16:14:40,629 
-2022-10-08 16:14:40,629 Epoch 8 --> loss:0.7318, acc:77.68%, test_loss:0.8086, test_acc:75.00%, Time per epoch: 1.5846
-2022-10-08 16:14:41,556  Epoch 9: iteration 1/31
-2022-10-08 16:14:41,576  Epoch 9: iteration 2/31
-2022-10-08 16:14:41,596  Epoch 9: iteration 3/31
-2022-10-08 16:14:41,616  Epoch 9: iteration 4/31
-2022-10-08 16:14:41,637  Epoch 9: iteration 5/31
-2022-10-08 16:14:41,658  Epoch 9: iteration 6/31
-2022-10-08 16:14:41,679  Epoch 9: iteration 7/31
-2022-10-08 16:14:41,700  Epoch 9: iteration 8/31
-2022-10-08 16:14:41,721  Epoch 9: iteration 9/31
-2022-10-08 16:14:41,742  Epoch 9: iteration 10/31
-2022-10-08 16:14:41,763  Epoch 9: iteration 11/31
-2022-10-08 16:14:41,784  Epoch 9: iteration 12/31
-2022-10-08 16:14:41,805  Epoch 9: iteration 13/31
-2022-10-08 16:14:41,826  Epoch 9: iteration 14/31
-2022-10-08 16:14:41,847  Epoch 9: iteration 15/31
-2022-10-08 16:14:41,868  Epoch 9: iteration 16/31
-2022-10-08 16:14:41,889  Epoch 9: iteration 17/31
-2022-10-08 16:14:41,909  Epoch 9: iteration 18/31
-2022-10-08 16:14:41,930  Epoch 9: iteration 19/31
-2022-10-08 16:14:41,950  Epoch 9: iteration 20/31
-2022-10-08 16:14:41,971  Epoch 9: iteration 21/31
-2022-10-08 16:14:41,992  Epoch 9: iteration 22/31
-2022-10-08 16:14:42,013  Epoch 9: iteration 23/31
-2022-10-08 16:14:42,035  Epoch 9: iteration 24/31
-2022-10-08 16:14:42,056  Epoch 9: iteration 25/31
-2022-10-08 16:14:42,077  Epoch 9: iteration 26/31
-2022-10-08 16:14:42,098  Epoch 9: iteration 27/31
-2022-10-08 16:14:42,118  Epoch 9: iteration 28/31
-2022-10-08 16:14:42,140  Epoch 9: iteration 29/31
-2022-10-08 16:14:42,161  Epoch 9: iteration 30/31
-2022-10-08 16:14:42,181  Epoch 9: iteration 31/31
-2022-10-08 16:14:42,199 
-2022-10-08 16:14:42,199 Epoch 9 --> loss:0.6812, acc:78.67%, test_loss:0.7613, test_acc:78.57%, Time per epoch: 1.5699
-2022-10-08 16:14:42,211 The checkpoint is saved to Output/Savee/Savee_VO_IS2.pt
-2022-10-08 16:14:42,211 The best model up to now is saved with test accuracy:78.57% at epoch: 9/100
-2022-10-08 16:14:43,146  Epoch 10: iteration 1/31
-2022-10-08 16:14:43,167  Epoch 10: iteration 2/31
-2022-10-08 16:14:43,187  Epoch 10: iteration 3/31
-2022-10-08 16:14:43,208  Epoch 10: iteration 4/31
-2022-10-08 16:14:43,229  Epoch 10: iteration 5/31
-2022-10-08 16:14:43,250  Epoch 10: iteration 6/31
-2022-10-08 16:14:43,271  Epoch 10: iteration 7/31
-2022-10-08 16:14:43,292  Epoch 10: iteration 8/31
-2022-10-08 16:14:43,313  Epoch 10: iteration 9/31
-2022-10-08 16:14:43,334  Epoch 10: iteration 10/31
-2022-10-08 16:14:43,355  Epoch 10: iteration 11/31
-2022-10-08 16:14:43,376  Epoch 10: iteration 12/31
-2022-10-08 16:14:43,397  Epoch 10: iteration 13/31
-2022-10-08 16:14:43,418  Epoch 10: iteration 14/31
-2022-10-08 16:14:43,439  Epoch 10: iteration 15/31
-2022-10-08 16:14:43,460  Epoch 10: iteration 16/31
-2022-10-08 16:14:43,480  Epoch 10: iteration 17/31
-2022-10-08 16:14:43,501  Epoch 10: iteration 18/31
-2022-10-08 16:14:43,521  Epoch 10: iteration 19/31
-2022-10-08 16:14:43,542  Epoch 10: iteration 20/31
-2022-10-08 16:14:43,563  Epoch 10: iteration 21/31
-2022-10-08 16:14:43,584  Epoch 10: iteration 22/31
-2022-10-08 16:14:43,604  Epoch 10: iteration 23/31
-2022-10-08 16:14:43,625  Epoch 10: iteration 24/31
-2022-10-08 16:14:43,646  Epoch 10: iteration 25/31
-2022-10-08 16:14:43,667  Epoch 10: iteration 26/31
-2022-10-08 16:14:43,688  Epoch 10: iteration 27/31
-2022-10-08 16:14:43,709  Epoch 10: iteration 28/31
-2022-10-08 16:14:43,729  Epoch 10: iteration 29/31
-2022-10-08 16:14:43,750  Epoch 10: iteration 30/31
-2022-10-08 16:14:43,771  Epoch 10: iteration 31/31
-2022-10-08 16:14:43,790 
-2022-10-08 16:14:43,790 Epoch 10 --> loss:0.5991, acc:82.54%, test_loss:0.7025, test_acc:78.57%, Time per epoch: 1.5783
-2022-10-08 16:14:44,717  Epoch 11: iteration 1/31
-2022-10-08 16:14:44,738  Epoch 11: iteration 2/31
-2022-10-08 16:14:44,759  Epoch 11: iteration 3/31
-2022-10-08 16:14:44,779  Epoch 11: iteration 4/31
-2022-10-08 16:14:44,799  Epoch 11: iteration 5/31
-2022-10-08 16:14:44,819  Epoch 11: iteration 6/31
-2022-10-08 16:14:44,839  Epoch 11: iteration 7/31
-2022-10-08 16:14:44,860  Epoch 11: iteration 8/31
-2022-10-08 16:14:44,881  Epoch 11: iteration 9/31
-2022-10-08 16:14:44,902  Epoch 11: iteration 10/31
-2022-10-08 16:14:44,922  Epoch 11: iteration 11/31
-2022-10-08 16:14:44,943  Epoch 11: iteration 12/31
-2022-10-08 16:14:44,963  Epoch 11: iteration 13/31
-2022-10-08 16:14:44,984  Epoch 11: iteration 14/31
-2022-10-08 16:14:45,005  Epoch 11: iteration 15/31
-2022-10-08 16:14:45,026  Epoch 11: iteration 16/31
-2022-10-08 16:14:45,046  Epoch 11: iteration 17/31
-2022-10-08 16:14:45,067  Epoch 11: iteration 18/31
-2022-10-08 16:14:45,088  Epoch 11: iteration 19/31
-2022-10-08 16:14:45,109  Epoch 11: iteration 20/31
-2022-10-08 16:14:45,129  Epoch 11: iteration 21/31
-2022-10-08 16:14:45,150  Epoch 11: iteration 22/31
-2022-10-08 16:14:45,171  Epoch 11: iteration 23/31
-2022-10-08 16:14:45,192  Epoch 11: iteration 24/31
-2022-10-08 16:14:45,213  Epoch 11: iteration 25/31
-2022-10-08 16:14:45,234  Epoch 11: iteration 26/31
-2022-10-08 16:14:45,255  Epoch 11: iteration 27/31
-2022-10-08 16:14:45,276  Epoch 11: iteration 28/31
-2022-10-08 16:14:45,297  Epoch 11: iteration 29/31
-2022-10-08 16:14:45,319  Epoch 11: iteration 30/31
-2022-10-08 16:14:45,340  Epoch 11: iteration 31/31
-2022-10-08 16:14:45,358 
-2022-10-08 16:14:45,358 Epoch 11 --> loss:0.5814, acc:82.04%, test_loss:0.6700, test_acc:78.57%, Time per epoch: 1.5682
-2022-10-08 16:14:46,290  Epoch 12: iteration 1/31
-2022-10-08 16:14:46,311  Epoch 12: iteration 2/31
-2022-10-08 16:14:46,332  Epoch 12: iteration 3/31
-2022-10-08 16:14:46,353  Epoch 12: iteration 4/31
-2022-10-08 16:14:46,374  Epoch 12: iteration 5/31
-2022-10-08 16:14:46,396  Epoch 12: iteration 6/31
-2022-10-08 16:14:46,417  Epoch 12: iteration 7/31
-2022-10-08 16:14:46,438  Epoch 12: iteration 8/31
-2022-10-08 16:14:46,459  Epoch 12: iteration 9/31
-2022-10-08 16:14:46,481  Epoch 12: iteration 10/31
-2022-10-08 16:14:46,502  Epoch 12: iteration 11/31
-2022-10-08 16:14:46,523  Epoch 12: iteration 12/31
-2022-10-08 16:14:46,544  Epoch 12: iteration 13/31
-2022-10-08 16:14:46,565  Epoch 12: iteration 14/31
-2022-10-08 16:14:46,586  Epoch 12: iteration 15/31
-2022-10-08 16:14:46,607  Epoch 12: iteration 16/31
-2022-10-08 16:14:46,628  Epoch 12: iteration 17/31
-2022-10-08 16:14:46,649  Epoch 12: iteration 18/31
-2022-10-08 16:14:46,670  Epoch 12: iteration 19/31
-2022-10-08 16:14:46,691  Epoch 12: iteration 20/31
-2022-10-08 16:14:46,711  Epoch 12: iteration 21/31
-2022-10-08 16:14:46,731  Epoch 12: iteration 22/31
-2022-10-08 16:14:46,751  Epoch 12: iteration 23/31
-2022-10-08 16:14:46,771  Epoch 12: iteration 24/31
-2022-10-08 16:14:46,792  Epoch 12: iteration 25/31
-2022-10-08 16:14:46,812  Epoch 12: iteration 26/31
-2022-10-08 16:14:46,832  Epoch 12: iteration 27/31
-2022-10-08 16:14:46,852  Epoch 12: iteration 28/31
-2022-10-08 16:14:46,873  Epoch 12: iteration 29/31
-2022-10-08 16:14:46,893  Epoch 12: iteration 30/31
-2022-10-08 16:14:46,914  Epoch 12: iteration 31/31
-2022-10-08 16:14:46,932 
-2022-10-08 16:14:46,932 Epoch 12 --> loss:0.4795, acc:86.61%, test_loss:0.6317, test_acc:80.95%, Time per epoch: 1.5743
-2022-10-08 16:14:46,945 The checkpoint is saved to Output/Savee/Savee_VO_IS2.pt
-2022-10-08 16:14:46,945 The best model up to now is saved with test accuracy:80.95% at epoch: 12/100
-2022-10-08 16:14:47,869  Epoch 13: iteration 1/31
-2022-10-08 16:14:47,890  Epoch 13: iteration 2/31
-2022-10-08 16:14:47,911  Epoch 13: iteration 3/31
-2022-10-08 16:14:47,933  Epoch 13: iteration 4/31
-2022-10-08 16:14:47,954  Epoch 13: iteration 5/31
-2022-10-08 16:14:47,975  Epoch 13: iteration 6/31
-2022-10-08 16:14:47,996  Epoch 13: iteration 7/31
-2022-10-08 16:14:48,016  Epoch 13: iteration 8/31
-2022-10-08 16:14:48,037  Epoch 13: iteration 9/31
-2022-10-08 16:14:48,058  Epoch 13: iteration 10/31
-2022-10-08 16:14:48,078  Epoch 13: iteration 11/31
-2022-10-08 16:14:48,099  Epoch 13: iteration 12/31
-2022-10-08 16:14:48,120  Epoch 13: iteration 13/31
-2022-10-08 16:14:48,140  Epoch 13: iteration 14/31
-2022-10-08 16:14:48,161  Epoch 13: iteration 15/31
-2022-10-08 16:14:48,181  Epoch 13: iteration 16/31
-2022-10-08 16:14:48,202  Epoch 13: iteration 17/31
-2022-10-08 16:14:48,223  Epoch 13: iteration 18/31
-2022-10-08 16:14:48,244  Epoch 13: iteration 19/31
-2022-10-08 16:14:48,264  Epoch 13: iteration 20/31
-2022-10-08 16:14:48,285  Epoch 13: iteration 21/31
-2022-10-08 16:14:48,306  Epoch 13: iteration 22/31
-2022-10-08 16:14:48,327  Epoch 13: iteration 23/31
-2022-10-08 16:14:48,349  Epoch 13: iteration 24/31
-2022-10-08 16:14:48,370  Epoch 13: iteration 25/31
-2022-10-08 16:14:48,391  Epoch 13: iteration 26/31
-2022-10-08 16:14:48,412  Epoch 13: iteration 27/31
-2022-10-08 16:14:48,433  Epoch 13: iteration 28/31
-2022-10-08 16:14:48,455  Epoch 13: iteration 29/31
-2022-10-08 16:14:48,475  Epoch 13: iteration 30/31
-2022-10-08 16:14:48,496  Epoch 13: iteration 31/31
-2022-10-08 16:14:48,514 
-2022-10-08 16:14:48,514 Epoch 13 --> loss:0.4522, acc:86.21%, test_loss:0.5983, test_acc:82.14%, Time per epoch: 1.5689
-2022-10-08 16:14:48,526 The checkpoint is saved to Output/Savee/Savee_VO_IS2.pt
-2022-10-08 16:14:48,526 The best model up to now is saved with test accuracy:82.14% at epoch: 13/100
-2022-10-08 16:14:49,459  Epoch 14: iteration 1/31
-2022-10-08 16:14:49,480  Epoch 14: iteration 2/31
-2022-10-08 16:14:49,500  Epoch 14: iteration 3/31
-2022-10-08 16:14:49,522  Epoch 14: iteration 4/31
-2022-10-08 16:14:49,542  Epoch 14: iteration 5/31
-2022-10-08 16:14:49,562  Epoch 14: iteration 6/31
-2022-10-08 16:14:49,583  Epoch 14: iteration 7/31
-2022-10-08 16:14:49,603  Epoch 14: iteration 8/31
-2022-10-08 16:14:49,624  Epoch 14: iteration 9/31
-2022-10-08 16:14:49,645  Epoch 14: iteration 10/31
-2022-10-08 16:14:49,665  Epoch 14: iteration 11/31
-2022-10-08 16:14:49,686  Epoch 14: iteration 12/31
-2022-10-08 16:14:49,707  Epoch 14: iteration 13/31
-2022-10-08 16:14:49,728  Epoch 14: iteration 14/31
-2022-10-08 16:14:49,750  Epoch 14: iteration 15/31
-2022-10-08 16:14:49,771  Epoch 14: iteration 16/31
-2022-10-08 16:14:49,792  Epoch 14: iteration 17/31
-2022-10-08 16:14:49,813  Epoch 14: iteration 18/31
-2022-10-08 16:14:49,834  Epoch 14: iteration 19/31
-2022-10-08 16:14:49,856  Epoch 14: iteration 20/31
-2022-10-08 16:14:49,877  Epoch 14: iteration 21/31
-2022-10-08 16:14:49,897  Epoch 14: iteration 22/31
-2022-10-08 16:14:49,918  Epoch 14: iteration 23/31
-2022-10-08 16:14:49,939  Epoch 14: iteration 24/31
-2022-10-08 16:14:49,961  Epoch 14: iteration 25/31
-2022-10-08 16:14:49,980  Epoch 14: iteration 26/31
-2022-10-08 16:14:50,001  Epoch 14: iteration 27/31
-2022-10-08 16:14:50,022  Epoch 14: iteration 28/31
-2022-10-08 16:14:50,042  Epoch 14: iteration 29/31
-2022-10-08 16:14:50,063  Epoch 14: iteration 30/31
-2022-10-08 16:14:50,084  Epoch 14: iteration 31/31
-2022-10-08 16:14:50,102 
-2022-10-08 16:14:50,102 Epoch 14 --> loss:0.4219, acc:87.00%, test_loss:0.5641, test_acc:80.95%, Time per epoch: 1.5764
-2022-10-08 16:14:51,028  Epoch 15: iteration 1/31
-2022-10-08 16:14:51,048  Epoch 15: iteration 2/31
-2022-10-08 16:14:51,068  Epoch 15: iteration 3/31
-2022-10-08 16:14:51,088  Epoch 15: iteration 4/31
-2022-10-08 16:14:51,109  Epoch 15: iteration 5/31
-2022-10-08 16:14:51,130  Epoch 15: iteration 6/31
-2022-10-08 16:14:51,149  Epoch 15: iteration 7/31
-2022-10-08 16:14:51,169  Epoch 15: iteration 8/31
-2022-10-08 16:14:51,190  Epoch 15: iteration 9/31
-2022-10-08 16:14:51,210  Epoch 15: iteration 10/31
-2022-10-08 16:14:51,231  Epoch 15: iteration 11/31
-2022-10-08 16:14:51,250  Epoch 15: iteration 12/31
-2022-10-08 16:14:51,271  Epoch 15: iteration 13/31
-2022-10-08 16:14:51,291  Epoch 15: iteration 14/31
-2022-10-08 16:14:51,312  Epoch 15: iteration 15/31
-2022-10-08 16:14:51,333  Epoch 15: iteration 16/31
-2022-10-08 16:14:51,354  Epoch 15: iteration 17/31
-2022-10-08 16:14:51,375  Epoch 15: iteration 18/31
-2022-10-08 16:14:51,396  Epoch 15: iteration 19/31
-2022-10-08 16:14:51,417  Epoch 15: iteration 20/31
-2022-10-08 16:14:51,441  Epoch 15: iteration 21/31
-2022-10-08 16:14:51,463  Epoch 15: iteration 22/31
-2022-10-08 16:14:51,483  Epoch 15: iteration 23/31
-2022-10-08 16:14:51,503  Epoch 15: iteration 24/31
-2022-10-08 16:14:51,524  Epoch 15: iteration 25/31
-2022-10-08 16:14:51,544  Epoch 15: iteration 26/31
-2022-10-08 16:14:51,564  Epoch 15: iteration 27/31
-2022-10-08 16:14:51,584  Epoch 15: iteration 28/31
-2022-10-08 16:14:51,605  Epoch 15: iteration 29/31
-2022-10-08 16:14:51,625  Epoch 15: iteration 30/31
-2022-10-08 16:14:51,646  Epoch 15: iteration 31/31
-2022-10-08 16:14:51,665 
-2022-10-08 16:14:51,665 Epoch 15 --> loss:0.3643, acc:91.07%, test_loss:0.5348, test_acc:82.14%, Time per epoch: 1.5626
-2022-10-08 16:14:52,597  Epoch 16: iteration 1/31
-2022-10-08 16:14:52,619  Epoch 16: iteration 2/31
-2022-10-08 16:14:52,639  Epoch 16: iteration 3/31
-2022-10-08 16:14:52,660  Epoch 16: iteration 4/31
-2022-10-08 16:14:52,681  Epoch 16: iteration 5/31
-2022-10-08 16:14:52,701  Epoch 16: iteration 6/31
-2022-10-08 16:14:52,723  Epoch 16: iteration 7/31
-2022-10-08 16:14:52,744  Epoch 16: iteration 8/31
-2022-10-08 16:14:52,765  Epoch 16: iteration 9/31
-2022-10-08 16:14:52,786  Epoch 16: iteration 10/31
-2022-10-08 16:14:52,807  Epoch 16: iteration 11/31
-2022-10-08 16:14:52,827  Epoch 16: iteration 12/31
-2022-10-08 16:14:52,848  Epoch 16: iteration 13/31
-2022-10-08 16:14:52,870  Epoch 16: iteration 14/31
-2022-10-08 16:14:52,891  Epoch 16: iteration 15/31
-2022-10-08 16:14:52,911  Epoch 16: iteration 16/31
-2022-10-08 16:14:52,932  Epoch 16: iteration 17/31
-2022-10-08 16:14:52,953  Epoch 16: iteration 18/31
-2022-10-08 16:14:52,974  Epoch 16: iteration 19/31
-2022-10-08 16:14:52,994  Epoch 16: iteration 20/31
-2022-10-08 16:14:53,016  Epoch 16: iteration 21/31
-2022-10-08 16:14:53,037  Epoch 16: iteration 22/31
-2022-10-08 16:14:53,058  Epoch 16: iteration 23/31
-2022-10-08 16:14:53,078  Epoch 16: iteration 24/31
-2022-10-08 16:14:53,098  Epoch 16: iteration 25/31
-2022-10-08 16:14:53,119  Epoch 16: iteration 26/31
-2022-10-08 16:14:53,139  Epoch 16: iteration 27/31
-2022-10-08 16:14:53,160  Epoch 16: iteration 28/31
-2022-10-08 16:14:53,181  Epoch 16: iteration 29/31
-2022-10-08 16:14:53,202  Epoch 16: iteration 30/31
-2022-10-08 16:14:53,222  Epoch 16: iteration 31/31
-2022-10-08 16:14:53,241 
-2022-10-08 16:14:53,241 Epoch 16 --> loss:0.3667, acc:89.48%, test_loss:0.5422, test_acc:83.33%, Time per epoch: 1.5760
-2022-10-08 16:14:53,253 The checkpoint is saved to Output/Savee/Savee_VO_IS2.pt
-2022-10-08 16:14:53,253 The best model up to now is saved with test accuracy:83.33% at epoch: 16/100
-2022-10-08 16:14:54,178  Epoch 17: iteration 1/31
-2022-10-08 16:14:54,199  Epoch 17: iteration 2/31
-2022-10-08 16:14:54,220  Epoch 17: iteration 3/31
-2022-10-08 16:14:54,241  Epoch 17: iteration 4/31
-2022-10-08 16:14:54,261  Epoch 17: iteration 5/31
-2022-10-08 16:14:54,281  Epoch 17: iteration 6/31
-2022-10-08 16:14:54,301  Epoch 17: iteration 7/31
-2022-10-08 16:14:54,322  Epoch 17: iteration 8/31
-2022-10-08 16:14:54,343  Epoch 17: iteration 9/31
-2022-10-08 16:14:54,364  Epoch 17: iteration 10/31
-2022-10-08 16:14:54,385  Epoch 17: iteration 11/31
-2022-10-08 16:14:54,406  Epoch 17: iteration 12/31
-2022-10-08 16:14:54,427  Epoch 17: iteration 13/31
-2022-10-08 16:14:54,448  Epoch 17: iteration 14/31
-2022-10-08 16:14:54,470  Epoch 17: iteration 15/31
-2022-10-08 16:14:54,489  Epoch 17: iteration 16/31
-2022-10-08 16:14:54,509  Epoch 17: iteration 17/31
-2022-10-08 16:14:54,530  Epoch 17: iteration 18/31
-2022-10-08 16:14:54,551  Epoch 17: iteration 19/31
-2022-10-08 16:14:54,573  Epoch 17: iteration 20/31
-2022-10-08 16:14:54,594  Epoch 17: iteration 21/31
-2022-10-08 16:14:54,615  Epoch 17: iteration 22/31
-2022-10-08 16:14:54,635  Epoch 17: iteration 23/31
-2022-10-08 16:14:54,656  Epoch 17: iteration 24/31
-2022-10-08 16:14:54,677  Epoch 17: iteration 25/31
-2022-10-08 16:14:54,698  Epoch 17: iteration 26/31
-2022-10-08 16:14:54,720  Epoch 17: iteration 27/31
-2022-10-08 16:14:54,741  Epoch 17: iteration 28/31
-2022-10-08 16:14:54,761  Epoch 17: iteration 29/31
-2022-10-08 16:14:54,781  Epoch 17: iteration 30/31
-2022-10-08 16:14:54,802  Epoch 17: iteration 31/31
-2022-10-08 16:14:54,820 
-2022-10-08 16:14:54,820 Epoch 17 --> loss:0.3173, acc:91.47%, test_loss:0.5155, test_acc:83.33%, Time per epoch: 1.5673
-2022-10-08 16:14:55,753  Epoch 18: iteration 1/31
-2022-10-08 16:14:55,774  Epoch 18: iteration 2/31
-2022-10-08 16:14:55,795  Epoch 18: iteration 3/31
-2022-10-08 16:14:55,816  Epoch 18: iteration 4/31
-2022-10-08 16:14:55,837  Epoch 18: iteration 5/31
-2022-10-08 16:14:55,858  Epoch 18: iteration 6/31
-2022-10-08 16:14:55,879  Epoch 18: iteration 7/31
-2022-10-08 16:14:55,900  Epoch 18: iteration 8/31
-2022-10-08 16:14:55,921  Epoch 18: iteration 9/31
-2022-10-08 16:14:55,942  Epoch 18: iteration 10/31
-2022-10-08 16:14:55,963  Epoch 18: iteration 11/31
-2022-10-08 16:14:55,984  Epoch 18: iteration 12/31
-2022-10-08 16:14:56,004  Epoch 18: iteration 13/31
-2022-10-08 16:14:56,025  Epoch 18: iteration 14/31
-2022-10-08 16:14:56,046  Epoch 18: iteration 15/31
-2022-10-08 16:14:56,067  Epoch 18: iteration 16/31
-2022-10-08 16:14:56,088  Epoch 18: iteration 17/31
-2022-10-08 16:14:56,110  Epoch 18: iteration 18/31
-2022-10-08 16:14:56,130  Epoch 18: iteration 19/31
-2022-10-08 16:14:56,151  Epoch 18: iteration 20/31
-2022-10-08 16:14:56,172  Epoch 18: iteration 21/31
-2022-10-08 16:14:56,193  Epoch 18: iteration 22/31
-2022-10-08 16:14:56,214  Epoch 18: iteration 23/31
-2022-10-08 16:14:56,235  Epoch 18: iteration 24/31
-2022-10-08 16:14:56,256  Epoch 18: iteration 25/31
-2022-10-08 16:14:56,277  Epoch 18: iteration 26/31
-2022-10-08 16:14:56,297  Epoch 18: iteration 27/31
-2022-10-08 16:14:56,317  Epoch 18: iteration 28/31
-2022-10-08 16:14:56,338  Epoch 18: iteration 29/31
-2022-10-08 16:14:56,359  Epoch 18: iteration 30/31
-2022-10-08 16:14:56,379  Epoch 18: iteration 31/31
-2022-10-08 16:14:56,397 
-2022-10-08 16:14:56,397 Epoch 18 --> loss:0.2833, acc:92.76%, test_loss:0.5136, test_acc:83.33%, Time per epoch: 1.5764
-2022-10-08 16:14:57,322  Epoch 19: iteration 1/31
-2022-10-08 16:14:57,343  Epoch 19: iteration 2/31
-2022-10-08 16:14:57,364  Epoch 19: iteration 3/31
-2022-10-08 16:14:57,388  Epoch 19: iteration 4/31
-2022-10-08 16:14:57,410  Epoch 19: iteration 5/31
-2022-10-08 16:14:57,431  Epoch 19: iteration 6/31
-2022-10-08 16:14:57,452  Epoch 19: iteration 7/31
-2022-10-08 16:14:57,472  Epoch 19: iteration 8/31
-2022-10-08 16:14:57,493  Epoch 19: iteration 9/31
-2022-10-08 16:14:57,513  Epoch 19: iteration 10/31
-2022-10-08 16:14:57,534  Epoch 19: iteration 11/31
-2022-10-08 16:14:57,555  Epoch 19: iteration 12/31
-2022-10-08 16:14:57,576  Epoch 19: iteration 13/31
-2022-10-08 16:14:57,598  Epoch 19: iteration 14/31
-2022-10-08 16:14:57,619  Epoch 19: iteration 15/31
-2022-10-08 16:14:57,640  Epoch 19: iteration 16/31
-2022-10-08 16:14:57,661  Epoch 19: iteration 17/31
-2022-10-08 16:14:57,681  Epoch 19: iteration 18/31
-2022-10-08 16:14:57,701  Epoch 19: iteration 19/31
-2022-10-08 16:14:57,722  Epoch 19: iteration 20/31
-2022-10-08 16:14:57,743  Epoch 19: iteration 21/31
-2022-10-08 16:14:57,765  Epoch 19: iteration 22/31
-2022-10-08 16:14:57,785  Epoch 19: iteration 23/31
-2022-10-08 16:14:57,806  Epoch 19: iteration 24/31
-2022-10-08 16:14:57,828  Epoch 19: iteration 25/31
-2022-10-08 16:14:57,849  Epoch 19: iteration 26/31
-2022-10-08 16:14:57,869  Epoch 19: iteration 27/31
-2022-10-08 16:14:57,890  Epoch 19: iteration 28/31
-2022-10-08 16:14:57,911  Epoch 19: iteration 29/31
-2022-10-08 16:14:57,931  Epoch 19: iteration 30/31
-2022-10-08 16:14:57,952  Epoch 19: iteration 31/31
-2022-10-08 16:14:57,970 
-2022-10-08 16:14:57,970 Epoch 19 --> loss:0.2822, acc:92.76%, test_loss:0.4809, test_acc:83.33%, Time per epoch: 1.5734
-2022-10-08 16:14:58,901  Epoch 20: iteration 1/31
-2022-10-08 16:14:58,923  Epoch 20: iteration 2/31
-2022-10-08 16:14:58,945  Epoch 20: iteration 3/31
-2022-10-08 16:14:58,965  Epoch 20: iteration 4/31
-2022-10-08 16:14:58,985  Epoch 20: iteration 5/31
-2022-10-08 16:14:59,006  Epoch 20: iteration 6/31
-2022-10-08 16:14:59,027  Epoch 20: iteration 7/31
-2022-10-08 16:14:59,047  Epoch 20: iteration 8/31
-2022-10-08 16:14:59,068  Epoch 20: iteration 9/31
-2022-10-08 16:14:59,090  Epoch 20: iteration 10/31
-2022-10-08 16:14:59,110  Epoch 20: iteration 11/31
-2022-10-08 16:14:59,133  Epoch 20: iteration 12/31
-2022-10-08 16:14:59,154  Epoch 20: iteration 13/31
-2022-10-08 16:14:59,175  Epoch 20: iteration 14/31
-2022-10-08 16:14:59,197  Epoch 20: iteration 15/31
-2022-10-08 16:14:59,218  Epoch 20: iteration 16/31
-2022-10-08 16:14:59,240  Epoch 20: iteration 17/31
-2022-10-08 16:14:59,262  Epoch 20: iteration 18/31
-2022-10-08 16:14:59,283  Epoch 20: iteration 19/31
-2022-10-08 16:14:59,305  Epoch 20: iteration 20/31
-2022-10-08 16:14:59,325  Epoch 20: iteration 21/31
-2022-10-08 16:14:59,346  Epoch 20: iteration 22/31
-2022-10-08 16:14:59,373  Epoch 20: iteration 23/31
-2022-10-08 16:14:59,399  Epoch 20: iteration 24/31
-2022-10-08 16:14:59,427  Epoch 20: iteration 25/31
-2022-10-08 16:14:59,455  Epoch 20: iteration 26/31
-2022-10-08 16:14:59,482  Epoch 20: iteration 27/31
-2022-10-08 16:14:59,505  Epoch 20: iteration 28/31
-2022-10-08 16:14:59,528  Epoch 20: iteration 29/31
-2022-10-08 16:14:59,549  Epoch 20: iteration 30/31
-2022-10-08 16:14:59,571  Epoch 20: iteration 31/31
-2022-10-08 16:14:59,590 
-2022-10-08 16:14:59,590 Epoch 20 --> loss:0.2907, acc:91.96%, test_loss:0.4970, test_acc:85.71%, Time per epoch: 1.6195
-2022-10-08 16:14:59,602 The checkpoint is saved to Output/Savee/Savee_VO_IS2.pt
-2022-10-08 16:14:59,602 The best model up to now is saved with test accuracy:85.71% at epoch: 20/100
-2022-10-08 16:15:00,525  Epoch 21: iteration 1/31
-2022-10-08 16:15:00,546  Epoch 21: iteration 2/31
-2022-10-08 16:15:00,567  Epoch 21: iteration 3/31
-2022-10-08 16:15:00,588  Epoch 21: iteration 4/31
-2022-10-08 16:15:00,609  Epoch 21: iteration 5/31
-2022-10-08 16:15:00,629  Epoch 21: iteration 6/31
-2022-10-08 16:15:00,650  Epoch 21: iteration 7/31
-2022-10-08 16:15:00,671  Epoch 21: iteration 8/31
-2022-10-08 16:15:00,692  Epoch 21: iteration 9/31
-2022-10-08 16:15:00,713  Epoch 21: iteration 10/31
-2022-10-08 16:15:00,734  Epoch 21: iteration 11/31
-2022-10-08 16:15:00,755  Epoch 21: iteration 12/31
-2022-10-08 16:15:00,776  Epoch 21: iteration 13/31
-2022-10-08 16:15:00,797  Epoch 21: iteration 14/31
-2022-10-08 16:15:00,817  Epoch 21: iteration 15/31
-2022-10-08 16:15:00,838  Epoch 21: iteration 16/31
-2022-10-08 16:15:00,858  Epoch 21: iteration 17/31
-2022-10-08 16:15:00,879  Epoch 21: iteration 18/31
-2022-10-08 16:15:00,899  Epoch 21: iteration 19/31
-2022-10-08 16:15:00,920  Epoch 21: iteration 20/31
-2022-10-08 16:15:00,941  Epoch 21: iteration 21/31
-2022-10-08 16:15:00,961  Epoch 21: iteration 22/31
-2022-10-08 16:15:00,982  Epoch 21: iteration 23/31
-2022-10-08 16:15:01,003  Epoch 21: iteration 24/31
-2022-10-08 16:15:01,024  Epoch 21: iteration 25/31
-2022-10-08 16:15:01,045  Epoch 21: iteration 26/31
-2022-10-08 16:15:01,066  Epoch 21: iteration 27/31
-2022-10-08 16:15:01,087  Epoch 21: iteration 28/31
-2022-10-08 16:15:01,108  Epoch 21: iteration 29/31
-2022-10-08 16:15:01,130  Epoch 21: iteration 30/31
-2022-10-08 16:15:01,151  Epoch 21: iteration 31/31
-2022-10-08 16:15:01,169 
-2022-10-08 16:15:01,169 Epoch 21 --> loss:0.2755, acc:92.56%, test_loss:0.4739, test_acc:83.33%, Time per epoch: 1.5666
-2022-10-08 16:15:02,101  Epoch 22: iteration 1/31
-2022-10-08 16:15:02,122  Epoch 22: iteration 2/31
-2022-10-08 16:15:02,143  Epoch 22: iteration 3/31
-2022-10-08 16:15:02,164  Epoch 22: iteration 4/31
-2022-10-08 16:15:02,185  Epoch 22: iteration 5/31
-2022-10-08 16:15:02,206  Epoch 22: iteration 6/31
-2022-10-08 16:15:02,227  Epoch 22: iteration 7/31
-2022-10-08 16:15:02,249  Epoch 22: iteration 8/31
-2022-10-08 16:15:02,270  Epoch 22: iteration 9/31
-2022-10-08 16:15:02,291  Epoch 22: iteration 10/31
-2022-10-08 16:15:02,318  Epoch 22: iteration 11/31
-2022-10-08 16:15:02,345  Epoch 22: iteration 12/31
-2022-10-08 16:15:02,368  Epoch 22: iteration 13/31
-2022-10-08 16:15:02,391  Epoch 22: iteration 14/31
-2022-10-08 16:15:02,412  Epoch 22: iteration 15/31
-2022-10-08 16:15:02,434  Epoch 22: iteration 16/31
-2022-10-08 16:15:02,455  Epoch 22: iteration 17/31
-2022-10-08 16:15:02,476  Epoch 22: iteration 18/31
-2022-10-08 16:15:02,497  Epoch 22: iteration 19/31
-2022-10-08 16:15:02,518  Epoch 22: iteration 20/31
-2022-10-08 16:15:02,538  Epoch 22: iteration 21/31
-2022-10-08 16:15:02,558  Epoch 22: iteration 22/31
-2022-10-08 16:15:02,578  Epoch 22: iteration 23/31
-2022-10-08 16:15:02,599  Epoch 22: iteration 24/31
-2022-10-08 16:15:02,619  Epoch 22: iteration 25/31
-2022-10-08 16:15:02,640  Epoch 22: iteration 26/31
-2022-10-08 16:15:02,662  Epoch 22: iteration 27/31
-2022-10-08 16:15:02,683  Epoch 22: iteration 28/31
-2022-10-08 16:15:02,704  Epoch 22: iteration 29/31
-2022-10-08 16:15:02,726  Epoch 22: iteration 30/31
-2022-10-08 16:15:02,746  Epoch 22: iteration 31/31
-2022-10-08 16:15:02,765 
-2022-10-08 16:15:02,765 Epoch 22 --> loss:0.2533, acc:93.65%, test_loss:0.4836, test_acc:84.52%, Time per epoch: 1.5959
-2022-10-08 16:15:03,690  Epoch 23: iteration 1/31
-2022-10-08 16:15:03,710  Epoch 23: iteration 2/31
-2022-10-08 16:15:03,731  Epoch 23: iteration 3/31
-2022-10-08 16:15:03,752  Epoch 23: iteration 4/31
-2022-10-08 16:15:03,773  Epoch 23: iteration 5/31
-2022-10-08 16:15:03,793  Epoch 23: iteration 6/31
-2022-10-08 16:15:03,814  Epoch 23: iteration 7/31
-2022-10-08 16:15:03,835  Epoch 23: iteration 8/31
-2022-10-08 16:15:03,855  Epoch 23: iteration 9/31
-2022-10-08 16:15:03,876  Epoch 23: iteration 10/31
-2022-10-08 16:15:03,897  Epoch 23: iteration 11/31
-2022-10-08 16:15:03,918  Epoch 23: iteration 12/31
-2022-10-08 16:15:03,939  Epoch 23: iteration 13/31
-2022-10-08 16:15:03,960  Epoch 23: iteration 14/31
-2022-10-08 16:15:03,981  Epoch 23: iteration 15/31
-2022-10-08 16:15:04,002  Epoch 23: iteration 16/31
-2022-10-08 16:15:04,023  Epoch 23: iteration 17/31
-2022-10-08 16:15:04,045  Epoch 23: iteration 18/31
-2022-10-08 16:15:04,066  Epoch 23: iteration 19/31
-2022-10-08 16:15:04,086  Epoch 23: iteration 20/31
-2022-10-08 16:15:04,107  Epoch 23: iteration 21/31
-2022-10-08 16:15:04,128  Epoch 23: iteration 22/31
-2022-10-08 16:15:04,149  Epoch 23: iteration 23/31
-2022-10-08 16:15:04,170  Epoch 23: iteration 24/31
-2022-10-08 16:15:04,191  Epoch 23: iteration 25/31
-2022-10-08 16:15:04,211  Epoch 23: iteration 26/31
-2022-10-08 16:15:04,232  Epoch 23: iteration 27/31
-2022-10-08 16:15:04,253  Epoch 23: iteration 28/31
-2022-10-08 16:15:04,273  Epoch 23: iteration 29/31
-2022-10-08 16:15:04,301  Epoch 23: iteration 30/31
-2022-10-08 16:15:04,328  Epoch 23: iteration 31/31
-2022-10-08 16:15:04,347 
-2022-10-08 16:15:04,348 Epoch 23 --> loss:0.2448, acc:93.45%, test_loss:0.4632, test_acc:84.52%, Time per epoch: 1.5825
-2022-10-08 16:15:05,275  Epoch 24: iteration 1/31
-2022-10-08 16:15:05,295  Epoch 24: iteration 2/31
-2022-10-08 16:15:05,316  Epoch 24: iteration 3/31
-2022-10-08 16:15:05,337  Epoch 24: iteration 4/31
-2022-10-08 16:15:05,358  Epoch 24: iteration 5/31
-2022-10-08 16:15:05,379  Epoch 24: iteration 6/31
-2022-10-08 16:15:05,399  Epoch 24: iteration 7/31
-2022-10-08 16:15:05,420  Epoch 24: iteration 8/31
-2022-10-08 16:15:05,441  Epoch 24: iteration 9/31
-2022-10-08 16:15:05,461  Epoch 24: iteration 10/31
-2022-10-08 16:15:05,482  Epoch 24: iteration 11/31
-2022-10-08 16:15:05,503  Epoch 24: iteration 12/31
-2022-10-08 16:15:05,524  Epoch 24: iteration 13/31
-2022-10-08 16:15:05,545  Epoch 24: iteration 14/31
-2022-10-08 16:15:05,566  Epoch 24: iteration 15/31
-2022-10-08 16:15:05,587  Epoch 24: iteration 16/31
-2022-10-08 16:15:05,608  Epoch 24: iteration 17/31
-2022-10-08 16:15:05,629  Epoch 24: iteration 18/31
-2022-10-08 16:15:05,651  Epoch 24: iteration 19/31
-2022-10-08 16:15:05,672  Epoch 24: iteration 20/31
-2022-10-08 16:15:05,692  Epoch 24: iteration 21/31
-2022-10-08 16:15:05,713  Epoch 24: iteration 22/31
-2022-10-08 16:15:05,734  Epoch 24: iteration 23/31
-2022-10-08 16:15:05,755  Epoch 24: iteration 24/31
-2022-10-08 16:15:05,776  Epoch 24: iteration 25/31
-2022-10-08 16:15:05,797  Epoch 24: iteration 26/31
-2022-10-08 16:15:05,818  Epoch 24: iteration 27/31
-2022-10-08 16:15:05,839  Epoch 24: iteration 28/31
-2022-10-08 16:15:05,860  Epoch 24: iteration 29/31
-2022-10-08 16:15:05,881  Epoch 24: iteration 30/31
-2022-10-08 16:15:05,903  Epoch 24: iteration 31/31
-2022-10-08 16:15:05,921 
-2022-10-08 16:15:05,921 Epoch 24 --> loss:0.2340, acc:93.55%, test_loss:0.4566, test_acc:85.71%, Time per epoch: 1.5736
-2022-10-08 16:15:06,840  Epoch 25: iteration 1/31
-2022-10-08 16:15:06,861  Epoch 25: iteration 2/31
-2022-10-08 16:15:06,882  Epoch 25: iteration 3/31
-2022-10-08 16:15:06,903  Epoch 25: iteration 4/31
-2022-10-08 16:15:06,924  Epoch 25: iteration 5/31
-2022-10-08 16:15:06,944  Epoch 25: iteration 6/31
-2022-10-08 16:15:06,964  Epoch 25: iteration 7/31
-2022-10-08 16:15:06,984  Epoch 25: iteration 8/31
-2022-10-08 16:15:07,004  Epoch 25: iteration 9/31
-2022-10-08 16:15:07,025  Epoch 25: iteration 10/31
-2022-10-08 16:15:07,046  Epoch 25: iteration 11/31
-2022-10-08 16:15:07,067  Epoch 25: iteration 12/31
-2022-10-08 16:15:07,088  Epoch 25: iteration 13/31
-2022-10-08 16:15:07,108  Epoch 25: iteration 14/31
-2022-10-08 16:15:07,128  Epoch 25: iteration 15/31
-2022-10-08 16:15:07,149  Epoch 25: iteration 16/31
-2022-10-08 16:15:07,170  Epoch 25: iteration 17/31
-2022-10-08 16:15:07,191  Epoch 25: iteration 18/31
-2022-10-08 16:15:07,212  Epoch 25: iteration 19/31
-2022-10-08 16:15:07,233  Epoch 25: iteration 20/31
-2022-10-08 16:15:07,254  Epoch 25: iteration 21/31
-2022-10-08 16:15:07,274  Epoch 25: iteration 22/31
-2022-10-08 16:15:07,294  Epoch 25: iteration 23/31
-2022-10-08 16:15:07,314  Epoch 25: iteration 24/31
-2022-10-08 16:15:07,334  Epoch 25: iteration 25/31
-2022-10-08 16:15:07,355  Epoch 25: iteration 26/31
-2022-10-08 16:15:07,375  Epoch 25: iteration 27/31
-2022-10-08 16:15:07,396  Epoch 25: iteration 28/31
-2022-10-08 16:15:07,416  Epoch 25: iteration 29/31
-2022-10-08 16:15:07,436  Epoch 25: iteration 30/31
-2022-10-08 16:15:07,456  Epoch 25: iteration 31/31
-2022-10-08 16:15:07,474 
-2022-10-08 16:15:07,474 Epoch 25 --> loss:0.2052, acc:93.65%, test_loss:0.4518, test_acc:85.71%, Time per epoch: 1.5527
-2022-10-08 16:15:08,401  Epoch 26: iteration 1/31
-2022-10-08 16:15:08,421  Epoch 26: iteration 2/31
-2022-10-08 16:15:08,442  Epoch 26: iteration 3/31
-2022-10-08 16:15:08,463  Epoch 26: iteration 4/31
-2022-10-08 16:15:08,484  Epoch 26: iteration 5/31
-2022-10-08 16:15:08,505  Epoch 26: iteration 6/31
-2022-10-08 16:15:08,527  Epoch 26: iteration 7/31
-2022-10-08 16:15:08,548  Epoch 26: iteration 8/31
-2022-10-08 16:15:08,567  Epoch 26: iteration 9/31
-2022-10-08 16:15:08,588  Epoch 26: iteration 10/31
-2022-10-08 16:15:08,608  Epoch 26: iteration 11/31
-2022-10-08 16:15:08,629  Epoch 26: iteration 12/31
-2022-10-08 16:15:08,649  Epoch 26: iteration 13/31
-2022-10-08 16:15:08,670  Epoch 26: iteration 14/31
-2022-10-08 16:15:08,691  Epoch 26: iteration 15/31
-2022-10-08 16:15:08,712  Epoch 26: iteration 16/31
-2022-10-08 16:15:08,732  Epoch 26: iteration 17/31
-2022-10-08 16:15:08,754  Epoch 26: iteration 18/31
-2022-10-08 16:15:08,774  Epoch 26: iteration 19/31
-2022-10-08 16:15:08,795  Epoch 26: iteration 20/31
-2022-10-08 16:15:08,816  Epoch 26: iteration 21/31
-2022-10-08 16:15:08,837  Epoch 26: iteration 22/31
-2022-10-08 16:15:08,858  Epoch 26: iteration 23/31
-2022-10-08 16:15:08,879  Epoch 26: iteration 24/31
-2022-10-08 16:15:08,898  Epoch 26: iteration 25/31
-2022-10-08 16:15:08,919  Epoch 26: iteration 26/31
-2022-10-08 16:15:08,939  Epoch 26: iteration 27/31
-2022-10-08 16:15:08,960  Epoch 26: iteration 28/31
-2022-10-08 16:15:08,981  Epoch 26: iteration 29/31
-2022-10-08 16:15:09,001  Epoch 26: iteration 30/31
-2022-10-08 16:15:09,021  Epoch 26: iteration 31/31
-2022-10-08 16:15:09,039 
-2022-10-08 16:15:09,039 Epoch 26 --> loss:0.2186, acc:93.85%, test_loss:0.4693, test_acc:85.71%, Time per epoch: 1.5653
-2022-10-08 16:15:09,961  Epoch 27: iteration 1/31
-2022-10-08 16:15:09,982  Epoch 27: iteration 2/31
-2022-10-08 16:15:10,003  Epoch 27: iteration 3/31
-2022-10-08 16:15:10,024  Epoch 27: iteration 4/31
-2022-10-08 16:15:10,045  Epoch 27: iteration 5/31
-2022-10-08 16:15:10,066  Epoch 27: iteration 6/31
-2022-10-08 16:15:10,087  Epoch 27: iteration 7/31
-2022-10-08 16:15:10,108  Epoch 27: iteration 8/31
-2022-10-08 16:15:10,129  Epoch 27: iteration 9/31
-2022-10-08 16:15:10,150  Epoch 27: iteration 10/31
-2022-10-08 16:15:10,171  Epoch 27: iteration 11/31
-2022-10-08 16:15:10,192  Epoch 27: iteration 12/31
-2022-10-08 16:15:10,213  Epoch 27: iteration 13/31
-2022-10-08 16:15:10,233  Epoch 27: iteration 14/31
-2022-10-08 16:15:10,254  Epoch 27: iteration 15/31
-2022-10-08 16:15:10,275  Epoch 27: iteration 16/31
-2022-10-08 16:15:10,295  Epoch 27: iteration 17/31
-2022-10-08 16:15:10,316  Epoch 27: iteration 18/31
-2022-10-08 16:15:10,337  Epoch 27: iteration 19/31
-2022-10-08 16:15:10,358  Epoch 27: iteration 20/31
-2022-10-08 16:15:10,379  Epoch 27: iteration 21/31
-2022-10-08 16:15:10,400  Epoch 27: iteration 22/31
-2022-10-08 16:15:10,421  Epoch 27: iteration 23/31
-2022-10-08 16:15:10,441  Epoch 27: iteration 24/31
-2022-10-08 16:15:10,462  Epoch 27: iteration 25/31
-2022-10-08 16:15:10,483  Epoch 27: iteration 26/31
-2022-10-08 16:15:10,505  Epoch 27: iteration 27/31
-2022-10-08 16:15:10,526  Epoch 27: iteration 28/31
-2022-10-08 16:15:10,547  Epoch 27: iteration 29/31
-2022-10-08 16:15:10,567  Epoch 27: iteration 30/31
-2022-10-08 16:15:10,588  Epoch 27: iteration 31/31
-2022-10-08 16:15:10,606 
-2022-10-08 16:15:10,607 Epoch 27 --> loss:0.1849, acc:94.74%, test_loss:0.4456, test_acc:84.52%, Time per epoch: 1.5670
-2022-10-08 16:15:11,535  Epoch 28: iteration 1/31
-2022-10-08 16:15:11,556  Epoch 28: iteration 2/31
-2022-10-08 16:15:11,575  Epoch 28: iteration 3/31
-2022-10-08 16:15:11,595  Epoch 28: iteration 4/31
-2022-10-08 16:15:11,616  Epoch 28: iteration 5/31
-2022-10-08 16:15:11,636  Epoch 28: iteration 6/31
-2022-10-08 16:15:11,657  Epoch 28: iteration 7/31
-2022-10-08 16:15:11,678  Epoch 28: iteration 8/31
-2022-10-08 16:15:11,699  Epoch 28: iteration 9/31
-2022-10-08 16:15:11,719  Epoch 28: iteration 10/31
-2022-10-08 16:15:11,740  Epoch 28: iteration 11/31
-2022-10-08 16:15:11,761  Epoch 28: iteration 12/31
-2022-10-08 16:15:11,782  Epoch 28: iteration 13/31
-2022-10-08 16:15:11,803  Epoch 28: iteration 14/31
-2022-10-08 16:15:11,824  Epoch 28: iteration 15/31
-2022-10-08 16:15:11,845  Epoch 28: iteration 16/31
-2022-10-08 16:15:11,865  Epoch 28: iteration 17/31
-2022-10-08 16:15:11,885  Epoch 28: iteration 18/31
-2022-10-08 16:15:11,906  Epoch 28: iteration 19/31
-2022-10-08 16:15:11,926  Epoch 28: iteration 20/31
-2022-10-08 16:15:11,947  Epoch 28: iteration 21/31
-2022-10-08 16:15:11,968  Epoch 28: iteration 22/31
-2022-10-08 16:15:11,989  Epoch 28: iteration 23/31
-2022-10-08 16:15:12,011  Epoch 28: iteration 24/31
-2022-10-08 16:15:12,031  Epoch 28: iteration 25/31
-2022-10-08 16:15:12,053  Epoch 28: iteration 26/31
-2022-10-08 16:15:12,073  Epoch 28: iteration 27/31
-2022-10-08 16:15:12,094  Epoch 28: iteration 28/31
-2022-10-08 16:15:12,115  Epoch 28: iteration 29/31
-2022-10-08 16:15:12,136  Epoch 28: iteration 30/31
-2022-10-08 16:15:12,157  Epoch 28: iteration 31/31
-2022-10-08 16:15:12,176 
-2022-10-08 16:15:12,176 Epoch 28 --> loss:0.2153, acc:94.15%, test_loss:0.4361, test_acc:86.90%, Time per epoch: 1.5690
-2022-10-08 16:15:12,187 The checkpoint is saved to Output/Savee/Savee_VO_IS2.pt
-2022-10-08 16:15:12,188 The best model up to now is saved with test accuracy:86.90% at epoch: 28/100
-2022-10-08 16:15:13,109  Epoch 29: iteration 1/31
-2022-10-08 16:15:13,129  Epoch 29: iteration 2/31
-2022-10-08 16:15:13,150  Epoch 29: iteration 3/31
-2022-10-08 16:15:13,171  Epoch 29: iteration 4/31
-2022-10-08 16:15:13,191  Epoch 29: iteration 5/31
-2022-10-08 16:15:13,212  Epoch 29: iteration 6/31
-2022-10-08 16:15:13,232  Epoch 29: iteration 7/31
-2022-10-08 16:15:13,253  Epoch 29: iteration 8/31
-2022-10-08 16:15:13,273  Epoch 29: iteration 9/31
-2022-10-08 16:15:13,294  Epoch 29: iteration 10/31
-2022-10-08 16:15:13,315  Epoch 29: iteration 11/31
-2022-10-08 16:15:13,336  Epoch 29: iteration 12/31
-2022-10-08 16:15:13,356  Epoch 29: iteration 13/31
-2022-10-08 16:15:13,377  Epoch 29: iteration 14/31
-2022-10-08 16:15:13,398  Epoch 29: iteration 15/31
-2022-10-08 16:15:13,419  Epoch 29: iteration 16/31
-2022-10-08 16:15:13,440  Epoch 29: iteration 17/31
-2022-10-08 16:15:13,461  Epoch 29: iteration 18/31
-2022-10-08 16:15:13,481  Epoch 29: iteration 19/31
-2022-10-08 16:15:13,503  Epoch 29: iteration 20/31
-2022-10-08 16:15:13,524  Epoch 29: iteration 21/31
-2022-10-08 16:15:13,545  Epoch 29: iteration 22/31
-2022-10-08 16:15:13,566  Epoch 29: iteration 23/31
-2022-10-08 16:15:13,587  Epoch 29: iteration 24/31
-2022-10-08 16:15:13,608  Epoch 29: iteration 25/31
-2022-10-08 16:15:13,628  Epoch 29: iteration 26/31
-2022-10-08 16:15:13,649  Epoch 29: iteration 27/31
-2022-10-08 16:15:13,670  Epoch 29: iteration 28/31
-2022-10-08 16:15:13,691  Epoch 29: iteration 29/31
-2022-10-08 16:15:13,712  Epoch 29: iteration 30/31
-2022-10-08 16:15:13,733  Epoch 29: iteration 31/31
-2022-10-08 16:15:13,751 
-2022-10-08 16:15:13,751 Epoch 29 --> loss:0.1841, acc:95.14%, test_loss:0.4404, test_acc:84.52%, Time per epoch: 1.5638
-2022-10-08 16:15:14,687  Epoch 30: iteration 1/31
-2022-10-08 16:15:14,708  Epoch 30: iteration 2/31
-2022-10-08 16:15:14,729  Epoch 30: iteration 3/31
-2022-10-08 16:15:14,751  Epoch 30: iteration 4/31
-2022-10-08 16:15:14,772  Epoch 30: iteration 5/31
-2022-10-08 16:15:14,793  Epoch 30: iteration 6/31
-2022-10-08 16:15:14,813  Epoch 30: iteration 7/31
-2022-10-08 16:15:14,834  Epoch 30: iteration 8/31
-2022-10-08 16:15:14,855  Epoch 30: iteration 9/31
-2022-10-08 16:15:14,877  Epoch 30: iteration 10/31
-2022-10-08 16:15:14,897  Epoch 30: iteration 11/31
-2022-10-08 16:15:14,918  Epoch 30: iteration 12/31
-2022-10-08 16:15:14,939  Epoch 30: iteration 13/31
-2022-10-08 16:15:14,960  Epoch 30: iteration 14/31
-2022-10-08 16:15:14,981  Epoch 30: iteration 15/31
-2022-10-08 16:15:15,002  Epoch 30: iteration 16/31
-2022-10-08 16:15:15,023  Epoch 30: iteration 17/31
-2022-10-08 16:15:15,044  Epoch 30: iteration 18/31
-2022-10-08 16:15:15,065  Epoch 30: iteration 19/31
-2022-10-08 16:15:15,086  Epoch 30: iteration 20/31
-2022-10-08 16:15:15,107  Epoch 30: iteration 21/31
-2022-10-08 16:15:15,128  Epoch 30: iteration 22/31
-2022-10-08 16:15:15,149  Epoch 30: iteration 23/31
-2022-10-08 16:15:15,170  Epoch 30: iteration 24/31
-2022-10-08 16:15:15,191  Epoch 30: iteration 25/31
-2022-10-08 16:15:15,211  Epoch 30: iteration 26/31
-2022-10-08 16:15:15,232  Epoch 30: iteration 27/31
-2022-10-08 16:15:15,253  Epoch 30: iteration 28/31
-2022-10-08 16:15:15,273  Epoch 30: iteration 29/31
-2022-10-08 16:15:15,294  Epoch 30: iteration 30/31
-2022-10-08 16:15:15,314  Epoch 30: iteration 31/31
-2022-10-08 16:15:15,332 
-2022-10-08 16:15:15,333 Epoch 30 --> loss:0.1872, acc:95.14%, test_loss:0.4357, test_acc:85.71%, Time per epoch: 1.5810
-2022-10-08 16:15:16,255  Epoch 31: iteration 1/31
-2022-10-08 16:15:16,276  Epoch 31: iteration 2/31
-2022-10-08 16:15:16,297  Epoch 31: iteration 3/31
-2022-10-08 16:15:16,317  Epoch 31: iteration 4/31
-2022-10-08 16:15:16,338  Epoch 31: iteration 5/31
-2022-10-08 16:15:16,359  Epoch 31: iteration 6/31
-2022-10-08 16:15:16,380  Epoch 31: iteration 7/31
-2022-10-08 16:15:16,401  Epoch 31: iteration 8/31
-2022-10-08 16:15:16,422  Epoch 31: iteration 9/31
-2022-10-08 16:15:16,442  Epoch 31: iteration 10/31
-2022-10-08 16:15:16,462  Epoch 31: iteration 11/31
-2022-10-08 16:15:16,483  Epoch 31: iteration 12/31
-2022-10-08 16:15:16,503  Epoch 31: iteration 13/31
-2022-10-08 16:15:16,524  Epoch 31: iteration 14/31
-2022-10-08 16:15:16,544  Epoch 31: iteration 15/31
-2022-10-08 16:15:16,565  Epoch 31: iteration 16/31
-2022-10-08 16:15:16,586  Epoch 31: iteration 17/31
-2022-10-08 16:15:16,606  Epoch 31: iteration 18/31
-2022-10-08 16:15:16,627  Epoch 31: iteration 19/31
-2022-10-08 16:15:16,647  Epoch 31: iteration 20/31
-2022-10-08 16:15:16,668  Epoch 31: iteration 21/31
-2022-10-08 16:15:16,689  Epoch 31: iteration 22/31
-2022-10-08 16:15:16,710  Epoch 31: iteration 23/31
-2022-10-08 16:15:16,731  Epoch 31: iteration 24/31
-2022-10-08 16:15:16,752  Epoch 31: iteration 25/31
-2022-10-08 16:15:16,773  Epoch 31: iteration 26/31
-2022-10-08 16:15:16,794  Epoch 31: iteration 27/31
-2022-10-08 16:15:16,816  Epoch 31: iteration 28/31
-2022-10-08 16:15:16,837  Epoch 31: iteration 29/31
-2022-10-08 16:15:16,857  Epoch 31: iteration 30/31
-2022-10-08 16:15:16,878  Epoch 31: iteration 31/31
-2022-10-08 16:15:16,896 
-2022-10-08 16:15:16,896 Epoch 31 --> loss:0.1686, acc:95.63%, test_loss:0.4255, test_acc:86.90%, Time per epoch: 1.5637
-2022-10-08 16:15:17,835  Epoch 32: iteration 1/31
-2022-10-08 16:15:17,855  Epoch 32: iteration 2/31
-2022-10-08 16:15:17,875  Epoch 32: iteration 3/31
-2022-10-08 16:15:17,896  Epoch 32: iteration 4/31
-2022-10-08 16:15:17,916  Epoch 32: iteration 5/31
-2022-10-08 16:15:17,937  Epoch 32: iteration 6/31
-2022-10-08 16:15:17,957  Epoch 32: iteration 7/31
-2022-10-08 16:15:17,978  Epoch 32: iteration 8/31
-2022-10-08 16:15:17,998  Epoch 32: iteration 9/31
-2022-10-08 16:15:18,019  Epoch 32: iteration 10/31
-2022-10-08 16:15:18,040  Epoch 32: iteration 11/31
-2022-10-08 16:15:18,061  Epoch 32: iteration 12/31
-2022-10-08 16:15:18,081  Epoch 32: iteration 13/31
-2022-10-08 16:15:18,102  Epoch 32: iteration 14/31
-2022-10-08 16:15:18,122  Epoch 32: iteration 15/31
-2022-10-08 16:15:18,143  Epoch 32: iteration 16/31
-2022-10-08 16:15:18,163  Epoch 32: iteration 17/31
-2022-10-08 16:15:18,182  Epoch 32: iteration 18/31
-2022-10-08 16:15:18,203  Epoch 32: iteration 19/31
-2022-10-08 16:15:18,224  Epoch 32: iteration 20/31
-2022-10-08 16:15:18,244  Epoch 32: iteration 21/31
-2022-10-08 16:15:18,265  Epoch 32: iteration 22/31
-2022-10-08 16:15:18,286  Epoch 32: iteration 23/31
-2022-10-08 16:15:18,307  Epoch 32: iteration 24/31
-2022-10-08 16:15:18,328  Epoch 32: iteration 25/31
-2022-10-08 16:15:18,349  Epoch 32: iteration 26/31
-2022-10-08 16:15:18,369  Epoch 32: iteration 27/31
-2022-10-08 16:15:18,390  Epoch 32: iteration 28/31
-2022-10-08 16:15:18,411  Epoch 32: iteration 29/31
-2022-10-08 16:15:18,433  Epoch 32: iteration 30/31
-2022-10-08 16:15:18,454  Epoch 32: iteration 31/31
-2022-10-08 16:15:18,472 
-2022-10-08 16:15:18,472 Epoch 32 --> loss:0.1652, acc:94.94%, test_loss:0.4353, test_acc:85.71%, Time per epoch: 1.5759
-2022-10-08 16:15:19,402  Epoch 33: iteration 1/31
-2022-10-08 16:15:19,422  Epoch 33: iteration 2/31
-2022-10-08 16:15:19,443  Epoch 33: iteration 3/31
-2022-10-08 16:15:19,464  Epoch 33: iteration 4/31
-2022-10-08 16:15:19,484  Epoch 33: iteration 5/31
-2022-10-08 16:15:19,505  Epoch 33: iteration 6/31
-2022-10-08 16:15:19,525  Epoch 33: iteration 7/31
-2022-10-08 16:15:19,545  Epoch 33: iteration 8/31
-2022-10-08 16:15:19,566  Epoch 33: iteration 9/31
-2022-10-08 16:15:19,587  Epoch 33: iteration 10/31
-2022-10-08 16:15:19,607  Epoch 33: iteration 11/31
-2022-10-08 16:15:19,628  Epoch 33: iteration 12/31
-2022-10-08 16:15:19,648  Epoch 33: iteration 13/31
-2022-10-08 16:15:19,669  Epoch 33: iteration 14/31
-2022-10-08 16:15:19,690  Epoch 33: iteration 15/31
-2022-10-08 16:15:19,710  Epoch 33: iteration 16/31
-2022-10-08 16:15:19,731  Epoch 33: iteration 17/31
-2022-10-08 16:15:19,752  Epoch 33: iteration 18/31
-2022-10-08 16:15:19,772  Epoch 33: iteration 19/31
-2022-10-08 16:15:19,793  Epoch 33: iteration 20/31
-2022-10-08 16:15:19,814  Epoch 33: iteration 21/31
-2022-10-08 16:15:19,834  Epoch 33: iteration 22/31
-2022-10-08 16:15:19,854  Epoch 33: iteration 23/31
-2022-10-08 16:15:19,875  Epoch 33: iteration 24/31
-2022-10-08 16:15:19,896  Epoch 33: iteration 25/31
-2022-10-08 16:15:19,917  Epoch 33: iteration 26/31
-2022-10-08 16:15:19,937  Epoch 33: iteration 27/31
-2022-10-08 16:15:19,958  Epoch 33: iteration 28/31
-2022-10-08 16:15:19,979  Epoch 33: iteration 29/31
-2022-10-08 16:15:20,000  Epoch 33: iteration 30/31
-2022-10-08 16:15:20,022  Epoch 33: iteration 31/31
-2022-10-08 16:15:20,040 
-2022-10-08 16:15:20,040 Epoch 33 --> loss:0.1607, acc:95.24%, test_loss:0.4398, test_acc:84.52%, Time per epoch: 1.5677
-2022-10-08 16:15:20,971  Epoch 34: iteration 1/31
-2022-10-08 16:15:20,991  Epoch 34: iteration 2/31
-2022-10-08 16:15:21,012  Epoch 34: iteration 3/31
-2022-10-08 16:15:21,032  Epoch 34: iteration 4/31
-2022-10-08 16:15:21,053  Epoch 34: iteration 5/31
-2022-10-08 16:15:21,074  Epoch 34: iteration 6/31
-2022-10-08 16:15:21,094  Epoch 34: iteration 7/31
-2022-10-08 16:15:21,115  Epoch 34: iteration 8/31
-2022-10-08 16:15:21,135  Epoch 34: iteration 9/31
-2022-10-08 16:15:21,156  Epoch 34: iteration 10/31
-2022-10-08 16:15:21,176  Epoch 34: iteration 11/31
-2022-10-08 16:15:21,197  Epoch 34: iteration 12/31
-2022-10-08 16:15:21,217  Epoch 34: iteration 13/31
-2022-10-08 16:15:21,238  Epoch 34: iteration 14/31
-2022-10-08 16:15:21,259  Epoch 34: iteration 15/31
-2022-10-08 16:15:21,279  Epoch 34: iteration 16/31
-2022-10-08 16:15:21,299  Epoch 34: iteration 17/31
-2022-10-08 16:15:21,320  Epoch 34: iteration 18/31
-2022-10-08 16:15:21,341  Epoch 34: iteration 19/31
-2022-10-08 16:15:21,362  Epoch 34: iteration 20/31
-2022-10-08 16:15:21,383  Epoch 34: iteration 21/31
-2022-10-08 16:15:21,404  Epoch 34: iteration 22/31
-2022-10-08 16:15:21,423  Epoch 34: iteration 23/31
-2022-10-08 16:15:21,444  Epoch 34: iteration 24/31
-2022-10-08 16:15:21,465  Epoch 34: iteration 25/31
-2022-10-08 16:15:21,486  Epoch 34: iteration 26/31
-2022-10-08 16:15:21,506  Epoch 34: iteration 27/31
-2022-10-08 16:15:21,527  Epoch 34: iteration 28/31
-2022-10-08 16:15:21,548  Epoch 34: iteration 29/31
-2022-10-08 16:15:21,568  Epoch 34: iteration 30/31
-2022-10-08 16:15:21,589  Epoch 34: iteration 31/31
-2022-10-08 16:15:21,607 
-2022-10-08 16:15:21,607 Epoch 34 --> loss:0.1850, acc:95.63%, test_loss:0.4261, test_acc:88.10%, Time per epoch: 1.5670
-2022-10-08 16:15:21,619 The checkpoint is saved to Output/Savee/Savee_VO_IS2.pt
-2022-10-08 16:15:21,619 The best model up to now is saved with test accuracy:88.10% at epoch: 34/100
-2022-10-08 16:15:22,539  Epoch 35: iteration 1/31
-2022-10-08 16:15:22,560  Epoch 35: iteration 2/31
-2022-10-08 16:15:22,581  Epoch 35: iteration 3/31
-2022-10-08 16:15:22,602  Epoch 35: iteration 4/31
-2022-10-08 16:15:22,623  Epoch 35: iteration 5/31
-2022-10-08 16:15:22,644  Epoch 35: iteration 6/31
-2022-10-08 16:15:22,665  Epoch 35: iteration 7/31
-2022-10-08 16:15:22,685  Epoch 35: iteration 8/31
-2022-10-08 16:15:22,707  Epoch 35: iteration 9/31
-2022-10-08 16:15:22,728  Epoch 35: iteration 10/31
-2022-10-08 16:15:22,749  Epoch 35: iteration 11/31
-2022-10-08 16:15:22,770  Epoch 35: iteration 12/31
-2022-10-08 16:15:22,791  Epoch 35: iteration 13/31
-2022-10-08 16:15:22,812  Epoch 35: iteration 14/31
-2022-10-08 16:15:22,833  Epoch 35: iteration 15/31
-2022-10-08 16:15:22,854  Epoch 35: iteration 16/31
-2022-10-08 16:15:22,874  Epoch 35: iteration 17/31
-2022-10-08 16:15:22,895  Epoch 35: iteration 18/31
-2022-10-08 16:15:22,916  Epoch 35: iteration 19/31
-2022-10-08 16:15:22,938  Epoch 35: iteration 20/31
-2022-10-08 16:15:22,959  Epoch 35: iteration 21/31
-2022-10-08 16:15:22,980  Epoch 35: iteration 22/31
-2022-10-08 16:15:22,999  Epoch 35: iteration 23/31
-2022-10-08 16:15:23,020  Epoch 35: iteration 24/31
-2022-10-08 16:15:23,040  Epoch 35: iteration 25/31
-2022-10-08 16:15:23,061  Epoch 35: iteration 26/31
-2022-10-08 16:15:23,082  Epoch 35: iteration 27/31
-2022-10-08 16:15:23,103  Epoch 35: iteration 28/31
-2022-10-08 16:15:23,124  Epoch 35: iteration 29/31
-2022-10-08 16:15:23,145  Epoch 35: iteration 30/31
-2022-10-08 16:15:23,165  Epoch 35: iteration 31/31
-2022-10-08 16:15:23,184 
-2022-10-08 16:15:23,184 Epoch 35 --> loss:0.1411, acc:96.03%, test_loss:0.4372, test_acc:86.90%, Time per epoch: 1.5646
-2022-10-08 16:15:24,110  Epoch 36: iteration 1/31
-2022-10-08 16:15:24,130  Epoch 36: iteration 2/31
-2022-10-08 16:15:24,150  Epoch 36: iteration 3/31
-2022-10-08 16:15:24,172  Epoch 36: iteration 4/31
-2022-10-08 16:15:24,192  Epoch 36: iteration 5/31
-2022-10-08 16:15:24,213  Epoch 36: iteration 6/31
-2022-10-08 16:15:24,233  Epoch 36: iteration 7/31
-2022-10-08 16:15:24,254  Epoch 36: iteration 8/31
-2022-10-08 16:15:24,274  Epoch 36: iteration 9/31
-2022-10-08 16:15:24,295  Epoch 36: iteration 10/31
-2022-10-08 16:15:24,316  Epoch 36: iteration 11/31
-2022-10-08 16:15:24,337  Epoch 36: iteration 12/31
-2022-10-08 16:15:24,357  Epoch 36: iteration 13/31
-2022-10-08 16:15:24,377  Epoch 36: iteration 14/31
-2022-10-08 16:15:24,398  Epoch 36: iteration 15/31
-2022-10-08 16:15:24,418  Epoch 36: iteration 16/31
-2022-10-08 16:15:24,439  Epoch 36: iteration 17/31
-2022-10-08 16:15:24,460  Epoch 36: iteration 18/31
-2022-10-08 16:15:24,480  Epoch 36: iteration 19/31
-2022-10-08 16:15:24,501  Epoch 36: iteration 20/31
-2022-10-08 16:15:24,521  Epoch 36: iteration 21/31
-2022-10-08 16:15:24,541  Epoch 36: iteration 22/31
-2022-10-08 16:15:24,562  Epoch 36: iteration 23/31
-2022-10-08 16:15:24,589  Epoch 36: iteration 24/31
-2022-10-08 16:15:24,615  Epoch 36: iteration 25/31
-2022-10-08 16:15:24,637  Epoch 36: iteration 26/31
-2022-10-08 16:15:24,659  Epoch 36: iteration 27/31
-2022-10-08 16:15:24,681  Epoch 36: iteration 28/31
-2022-10-08 16:15:24,703  Epoch 36: iteration 29/31
-2022-10-08 16:15:24,724  Epoch 36: iteration 30/31
-2022-10-08 16:15:24,746  Epoch 36: iteration 31/31
-2022-10-08 16:15:24,765 
-2022-10-08 16:15:24,765 Epoch 36 --> loss:0.1601, acc:95.34%, test_loss:0.4395, test_acc:85.71%, Time per epoch: 1.5809
-2022-10-08 16:15:25,686  Epoch 37: iteration 1/31
-2022-10-08 16:15:25,707  Epoch 37: iteration 2/31
-2022-10-08 16:15:25,728  Epoch 37: iteration 3/31
-2022-10-08 16:15:25,748  Epoch 37: iteration 4/31
-2022-10-08 16:15:25,769  Epoch 37: iteration 5/31
-2022-10-08 16:15:25,790  Epoch 37: iteration 6/31
-2022-10-08 16:15:25,811  Epoch 37: iteration 7/31
-2022-10-08 16:15:25,832  Epoch 37: iteration 8/31
-2022-10-08 16:15:25,853  Epoch 37: iteration 9/31
-2022-10-08 16:15:25,874  Epoch 37: iteration 10/31
-2022-10-08 16:15:25,895  Epoch 37: iteration 11/31
-2022-10-08 16:15:25,916  Epoch 37: iteration 12/31
-2022-10-08 16:15:25,936  Epoch 37: iteration 13/31
-2022-10-08 16:15:25,957  Epoch 37: iteration 14/31
-2022-10-08 16:15:25,977  Epoch 37: iteration 15/31
-2022-10-08 16:15:25,998  Epoch 37: iteration 16/31
-2022-10-08 16:15:26,018  Epoch 37: iteration 17/31
-2022-10-08 16:15:26,039  Epoch 37: iteration 18/31
-2022-10-08 16:15:26,059  Epoch 37: iteration 19/31
-2022-10-08 16:15:26,080  Epoch 37: iteration 20/31
-2022-10-08 16:15:26,100  Epoch 37: iteration 21/31
-2022-10-08 16:15:26,121  Epoch 37: iteration 22/31
-2022-10-08 16:15:26,142  Epoch 37: iteration 23/31
-2022-10-08 16:15:26,163  Epoch 37: iteration 24/31
-2022-10-08 16:15:26,183  Epoch 37: iteration 25/31
-2022-10-08 16:15:26,203  Epoch 37: iteration 26/31
-2022-10-08 16:15:26,224  Epoch 37: iteration 27/31
-2022-10-08 16:15:26,245  Epoch 37: iteration 28/31
-2022-10-08 16:15:26,266  Epoch 37: iteration 29/31
-2022-10-08 16:15:26,287  Epoch 37: iteration 30/31
-2022-10-08 16:15:26,306  Epoch 37: iteration 31/31
-2022-10-08 16:15:26,324 
-2022-10-08 16:15:26,324 Epoch 37 --> loss:0.1610, acc:95.93%, test_loss:0.4413, test_acc:85.71%, Time per epoch: 1.5597
-2022-10-08 16:15:27,256  Epoch 38: iteration 1/31
-2022-10-08 16:15:27,276  Epoch 38: iteration 2/31
-2022-10-08 16:15:27,296  Epoch 38: iteration 3/31
-2022-10-08 16:15:27,317  Epoch 38: iteration 4/31
-2022-10-08 16:15:27,338  Epoch 38: iteration 5/31
-2022-10-08 16:15:27,359  Epoch 38: iteration 6/31
-2022-10-08 16:15:27,379  Epoch 38: iteration 7/31
-2022-10-08 16:15:27,401  Epoch 38: iteration 8/31
-2022-10-08 16:15:27,422  Epoch 38: iteration 9/31
-2022-10-08 16:15:27,443  Epoch 38: iteration 10/31
-2022-10-08 16:15:27,464  Epoch 38: iteration 11/31
-2022-10-08 16:15:27,484  Epoch 38: iteration 12/31
-2022-10-08 16:15:27,505  Epoch 38: iteration 13/31
-2022-10-08 16:15:27,526  Epoch 38: iteration 14/31
-2022-10-08 16:15:27,546  Epoch 38: iteration 15/31
-2022-10-08 16:15:27,567  Epoch 38: iteration 16/31
-2022-10-08 16:15:27,588  Epoch 38: iteration 17/31
-2022-10-08 16:15:27,608  Epoch 38: iteration 18/31
-2022-10-08 16:15:27,629  Epoch 38: iteration 19/31
-2022-10-08 16:15:27,650  Epoch 38: iteration 20/31
-2022-10-08 16:15:27,671  Epoch 38: iteration 21/31
-2022-10-08 16:15:27,692  Epoch 38: iteration 22/31
-2022-10-08 16:15:27,713  Epoch 38: iteration 23/31
-2022-10-08 16:15:27,734  Epoch 38: iteration 24/31
-2022-10-08 16:15:27,755  Epoch 38: iteration 25/31
-2022-10-08 16:15:27,776  Epoch 38: iteration 26/31
-2022-10-08 16:15:27,797  Epoch 38: iteration 27/31
-2022-10-08 16:15:27,817  Epoch 38: iteration 28/31
-2022-10-08 16:15:27,838  Epoch 38: iteration 29/31
-2022-10-08 16:15:27,859  Epoch 38: iteration 30/31
-2022-10-08 16:15:27,879  Epoch 38: iteration 31/31
-2022-10-08 16:15:27,898 
-2022-10-08 16:15:27,898 Epoch 38 --> loss:0.1630, acc:95.54%, test_loss:0.4232, test_acc:88.10%, Time per epoch: 1.5732
-2022-10-08 16:15:28,825  Epoch 39: iteration 1/31
-2022-10-08 16:15:28,846  Epoch 39: iteration 2/31
-2022-10-08 16:15:28,867  Epoch 39: iteration 3/31
-2022-10-08 16:15:28,888  Epoch 39: iteration 4/31
-2022-10-08 16:15:28,909  Epoch 39: iteration 5/31
-2022-10-08 16:15:28,930  Epoch 39: iteration 6/31
-2022-10-08 16:15:28,951  Epoch 39: iteration 7/31
-2022-10-08 16:15:28,972  Epoch 39: iteration 8/31
-2022-10-08 16:15:28,992  Epoch 39: iteration 9/31
-2022-10-08 16:15:29,013  Epoch 39: iteration 10/31
-2022-10-08 16:15:29,034  Epoch 39: iteration 11/31
-2022-10-08 16:15:29,055  Epoch 39: iteration 12/31
-2022-10-08 16:15:29,077  Epoch 39: iteration 13/31
-2022-10-08 16:15:29,098  Epoch 39: iteration 14/31
-2022-10-08 16:15:29,119  Epoch 39: iteration 15/31
-2022-10-08 16:15:29,140  Epoch 39: iteration 16/31
-2022-10-08 16:15:29,162  Epoch 39: iteration 17/31
-2022-10-08 16:15:29,183  Epoch 39: iteration 18/31
-2022-10-08 16:15:29,204  Epoch 39: iteration 19/31
-2022-10-08 16:15:29,226  Epoch 39: iteration 20/31
-2022-10-08 16:15:29,247  Epoch 39: iteration 21/31
-2022-10-08 16:15:29,268  Epoch 39: iteration 22/31
-2022-10-08 16:15:29,289  Epoch 39: iteration 23/31
-2022-10-08 16:15:29,310  Epoch 39: iteration 24/31
-2022-10-08 16:15:29,331  Epoch 39: iteration 25/31
-2022-10-08 16:15:29,352  Epoch 39: iteration 26/31
-2022-10-08 16:15:29,374  Epoch 39: iteration 27/31
-2022-10-08 16:15:29,395  Epoch 39: iteration 28/31
-2022-10-08 16:15:29,416  Epoch 39: iteration 29/31
-2022-10-08 16:15:29,438  Epoch 39: iteration 30/31
-2022-10-08 16:15:29,459  Epoch 39: iteration 31/31
-2022-10-08 16:15:29,477 
-2022-10-08 16:15:29,477 Epoch 39 --> loss:0.1235, acc:96.83%, test_loss:0.4304, test_acc:85.71%, Time per epoch: 1.5795
-2022-10-08 16:15:30,416  Epoch 40: iteration 1/31
-2022-10-08 16:15:30,437  Epoch 40: iteration 2/31
-2022-10-08 16:15:30,458  Epoch 40: iteration 3/31
-2022-10-08 16:15:30,479  Epoch 40: iteration 4/31
-2022-10-08 16:15:30,500  Epoch 40: iteration 5/31
-2022-10-08 16:15:30,521  Epoch 40: iteration 6/31
-2022-10-08 16:15:30,542  Epoch 40: iteration 7/31
-2022-10-08 16:15:30,563  Epoch 40: iteration 8/31
-2022-10-08 16:15:30,584  Epoch 40: iteration 9/31
-2022-10-08 16:15:30,605  Epoch 40: iteration 10/31
-2022-10-08 16:15:30,626  Epoch 40: iteration 11/31
-2022-10-08 16:15:30,647  Epoch 40: iteration 12/31
-2022-10-08 16:15:30,668  Epoch 40: iteration 13/31
-2022-10-08 16:15:30,689  Epoch 40: iteration 14/31
-2022-10-08 16:15:30,710  Epoch 40: iteration 15/31
-2022-10-08 16:15:30,731  Epoch 40: iteration 16/31
-2022-10-08 16:15:30,753  Epoch 40: iteration 17/31
-2022-10-08 16:15:30,774  Epoch 40: iteration 18/31
-2022-10-08 16:15:30,795  Epoch 40: iteration 19/31
-2022-10-08 16:15:30,816  Epoch 40: iteration 20/31
-2022-10-08 16:15:30,837  Epoch 40: iteration 21/31
-2022-10-08 16:15:30,857  Epoch 40: iteration 22/31
-2022-10-08 16:15:30,878  Epoch 40: iteration 23/31
-2022-10-08 16:15:30,899  Epoch 40: iteration 24/31
-2022-10-08 16:15:30,919  Epoch 40: iteration 25/31
-2022-10-08 16:15:30,941  Epoch 40: iteration 26/31
-2022-10-08 16:15:30,963  Epoch 40: iteration 27/31
-2022-10-08 16:15:30,984  Epoch 40: iteration 28/31
-2022-10-08 16:15:31,005  Epoch 40: iteration 29/31
-2022-10-08 16:15:31,026  Epoch 40: iteration 30/31
-2022-10-08 16:15:31,048  Epoch 40: iteration 31/31
-2022-10-08 16:15:31,066 
-2022-10-08 16:15:31,066 Epoch 40 --> loss:0.1403, acc:96.33%, test_loss:0.4346, test_acc:85.71%, Time per epoch: 1.5885
-2022-10-08 16:15:31,995  Epoch 41: iteration 1/31
-2022-10-08 16:15:32,016  Epoch 41: iteration 2/31
-2022-10-08 16:15:32,037  Epoch 41: iteration 3/31
-2022-10-08 16:15:32,058  Epoch 41: iteration 4/31
-2022-10-08 16:15:32,079  Epoch 41: iteration 5/31
-2022-10-08 16:15:32,100  Epoch 41: iteration 6/31
-2022-10-08 16:15:32,121  Epoch 41: iteration 7/31
-2022-10-08 16:15:32,142  Epoch 41: iteration 8/31
-2022-10-08 16:15:32,163  Epoch 41: iteration 9/31
-2022-10-08 16:15:32,183  Epoch 41: iteration 10/31
-2022-10-08 16:15:32,204  Epoch 41: iteration 11/31
-2022-10-08 16:15:32,225  Epoch 41: iteration 12/31
-2022-10-08 16:15:32,247  Epoch 41: iteration 13/31
-2022-10-08 16:15:32,267  Epoch 41: iteration 14/31
-2022-10-08 16:15:32,288  Epoch 41: iteration 15/31
-2022-10-08 16:15:32,309  Epoch 41: iteration 16/31
-2022-10-08 16:15:32,330  Epoch 41: iteration 17/31
-2022-10-08 16:15:32,351  Epoch 41: iteration 18/31
-2022-10-08 16:15:32,372  Epoch 41: iteration 19/31
-2022-10-08 16:15:32,393  Epoch 41: iteration 20/31
-2022-10-08 16:15:32,414  Epoch 41: iteration 21/31
-2022-10-08 16:15:32,435  Epoch 41: iteration 22/31
-2022-10-08 16:15:32,456  Epoch 41: iteration 23/31
-2022-10-08 16:15:32,477  Epoch 41: iteration 24/31
-2022-10-08 16:15:32,498  Epoch 41: iteration 25/31
-2022-10-08 16:15:32,519  Epoch 41: iteration 26/31
-2022-10-08 16:15:32,540  Epoch 41: iteration 27/31
-2022-10-08 16:15:32,561  Epoch 41: iteration 28/31
-2022-10-08 16:15:32,582  Epoch 41: iteration 29/31
-2022-10-08 16:15:32,602  Epoch 41: iteration 30/31
-2022-10-08 16:15:32,623  Epoch 41: iteration 31/31
-2022-10-08 16:15:32,642 
-2022-10-08 16:15:32,642 Epoch 41 --> loss:0.1331, acc:96.73%, test_loss:0.4400, test_acc:86.90%, Time per epoch: 1.5758
-2022-10-08 16:15:33,577  Epoch 42: iteration 1/31
-2022-10-08 16:15:33,598  Epoch 42: iteration 2/31
-2022-10-08 16:15:33,619  Epoch 42: iteration 3/31
-2022-10-08 16:15:33,640  Epoch 42: iteration 4/31
-2022-10-08 16:15:33,661  Epoch 42: iteration 5/31
-2022-10-08 16:15:33,682  Epoch 42: iteration 6/31
-2022-10-08 16:15:33,702  Epoch 42: iteration 7/31
-2022-10-08 16:15:33,724  Epoch 42: iteration 8/31
-2022-10-08 16:15:33,745  Epoch 42: iteration 9/31
-2022-10-08 16:15:33,766  Epoch 42: iteration 10/31
-2022-10-08 16:15:33,787  Epoch 42: iteration 11/31
-2022-10-08 16:15:33,808  Epoch 42: iteration 12/31
-2022-10-08 16:15:33,829  Epoch 42: iteration 13/31
-2022-10-08 16:15:33,849  Epoch 42: iteration 14/31
-2022-10-08 16:15:33,871  Epoch 42: iteration 15/31
-2022-10-08 16:15:33,892  Epoch 42: iteration 16/31
-2022-10-08 16:15:33,913  Epoch 42: iteration 17/31
-2022-10-08 16:15:33,934  Epoch 42: iteration 18/31
-2022-10-08 16:15:33,955  Epoch 42: iteration 19/31
-2022-10-08 16:15:33,975  Epoch 42: iteration 20/31
-2022-10-08 16:15:33,997  Epoch 42: iteration 21/31
-2022-10-08 16:15:34,018  Epoch 42: iteration 22/31
-2022-10-08 16:15:34,039  Epoch 42: iteration 23/31
-2022-10-08 16:15:34,060  Epoch 42: iteration 24/31
-2022-10-08 16:15:34,081  Epoch 42: iteration 25/31
-2022-10-08 16:15:34,102  Epoch 42: iteration 26/31
-2022-10-08 16:15:34,123  Epoch 42: iteration 27/31
-2022-10-08 16:15:34,144  Epoch 42: iteration 28/31
-2022-10-08 16:15:34,165  Epoch 42: iteration 29/31
-2022-10-08 16:15:34,186  Epoch 42: iteration 30/31
-2022-10-08 16:15:34,207  Epoch 42: iteration 31/31
-2022-10-08 16:15:34,225 
-2022-10-08 16:15:34,225 Epoch 42 --> loss:0.1396, acc:96.53%, test_loss:0.4383, test_acc:86.90%, Time per epoch: 1.5835
-2022-10-08 16:15:35,153  Epoch 43: iteration 1/31
-2022-10-08 16:15:35,175  Epoch 43: iteration 2/31
-2022-10-08 16:15:35,196  Epoch 43: iteration 3/31
-2022-10-08 16:15:35,216  Epoch 43: iteration 4/31
-2022-10-08 16:15:35,237  Epoch 43: iteration 5/31
-2022-10-08 16:15:35,258  Epoch 43: iteration 6/31
-2022-10-08 16:15:35,279  Epoch 43: iteration 7/31
-2022-10-08 16:15:35,300  Epoch 43: iteration 8/31
-2022-10-08 16:15:35,321  Epoch 43: iteration 9/31
-2022-10-08 16:15:35,342  Epoch 43: iteration 10/31
-2022-10-08 16:15:35,363  Epoch 43: iteration 11/31
-2022-10-08 16:15:35,384  Epoch 43: iteration 12/31
-2022-10-08 16:15:35,405  Epoch 43: iteration 13/31
-2022-10-08 16:15:35,425  Epoch 43: iteration 14/31
-2022-10-08 16:15:35,445  Epoch 43: iteration 15/31
-2022-10-08 16:15:35,467  Epoch 43: iteration 16/31
-2022-10-08 16:15:35,488  Epoch 43: iteration 17/31
-2022-10-08 16:15:35,509  Epoch 43: iteration 18/31
-2022-10-08 16:15:35,530  Epoch 43: iteration 19/31
-2022-10-08 16:15:35,551  Epoch 43: iteration 20/31
-2022-10-08 16:15:35,573  Epoch 43: iteration 21/31
-2022-10-08 16:15:35,594  Epoch 43: iteration 22/31
-2022-10-08 16:15:35,614  Epoch 43: iteration 23/31
-2022-10-08 16:15:35,636  Epoch 43: iteration 24/31
-2022-10-08 16:15:35,657  Epoch 43: iteration 25/31
-2022-10-08 16:15:35,678  Epoch 43: iteration 26/31
-2022-10-08 16:15:35,699  Epoch 43: iteration 27/31
-2022-10-08 16:15:35,720  Epoch 43: iteration 28/31
-2022-10-08 16:15:35,741  Epoch 43: iteration 29/31
-2022-10-08 16:15:35,762  Epoch 43: iteration 30/31
-2022-10-08 16:15:35,783  Epoch 43: iteration 31/31
-2022-10-08 16:15:35,802 
-2022-10-08 16:15:35,802 Epoch 43 --> loss:0.1215, acc:96.43%, test_loss:0.4244, test_acc:85.71%, Time per epoch: 1.5764
-2022-10-08 16:15:36,736  Epoch 44: iteration 1/31
-2022-10-08 16:15:36,756  Epoch 44: iteration 2/31
-2022-10-08 16:15:36,777  Epoch 44: iteration 3/31
-2022-10-08 16:15:36,798  Epoch 44: iteration 4/31
-2022-10-08 16:15:36,818  Epoch 44: iteration 5/31
-2022-10-08 16:15:36,839  Epoch 44: iteration 6/31
-2022-10-08 16:15:36,860  Epoch 44: iteration 7/31
-2022-10-08 16:15:36,881  Epoch 44: iteration 8/31
-2022-10-08 16:15:36,902  Epoch 44: iteration 9/31
-2022-10-08 16:15:36,923  Epoch 44: iteration 10/31
-2022-10-08 16:15:36,944  Epoch 44: iteration 11/31
-2022-10-08 16:15:36,965  Epoch 44: iteration 12/31
-2022-10-08 16:15:36,987  Epoch 44: iteration 13/31
-2022-10-08 16:15:37,008  Epoch 44: iteration 14/31
-2022-10-08 16:15:37,029  Epoch 44: iteration 15/31
-2022-10-08 16:15:37,050  Epoch 44: iteration 16/31
-2022-10-08 16:15:37,071  Epoch 44: iteration 17/31
-2022-10-08 16:15:37,092  Epoch 44: iteration 18/31
-2022-10-08 16:15:37,114  Epoch 44: iteration 19/31
-2022-10-08 16:15:37,135  Epoch 44: iteration 20/31
-2022-10-08 16:15:37,156  Epoch 44: iteration 21/31
-2022-10-08 16:15:37,177  Epoch 44: iteration 22/31
-2022-10-08 16:15:37,198  Epoch 44: iteration 23/31
-2022-10-08 16:15:37,219  Epoch 44: iteration 24/31
-2022-10-08 16:15:37,240  Epoch 44: iteration 25/31
-2022-10-08 16:15:37,261  Epoch 44: iteration 26/31
-2022-10-08 16:15:37,283  Epoch 44: iteration 27/31
-2022-10-08 16:15:37,304  Epoch 44: iteration 28/31
-2022-10-08 16:15:37,325  Epoch 44: iteration 29/31
-2022-10-08 16:15:37,346  Epoch 44: iteration 30/31
-2022-10-08 16:15:37,367  Epoch 44: iteration 31/31
-2022-10-08 16:15:37,386 
-2022-10-08 16:15:37,386 Epoch 44 --> loss:0.1338, acc:96.63%, test_loss:0.4309, test_acc:88.10%, Time per epoch: 1.5839
-2022-10-08 16:15:38,314  Epoch 45: iteration 1/31
-2022-10-08 16:15:38,336  Epoch 45: iteration 2/31
-2022-10-08 16:15:38,357  Epoch 45: iteration 3/31
-2022-10-08 16:15:38,378  Epoch 45: iteration 4/31
-2022-10-08 16:15:38,398  Epoch 45: iteration 5/31
-2022-10-08 16:15:38,419  Epoch 45: iteration 6/31
-2022-10-08 16:15:38,440  Epoch 45: iteration 7/31
-2022-10-08 16:15:38,461  Epoch 45: iteration 8/31
-2022-10-08 16:15:38,482  Epoch 45: iteration 9/31
-2022-10-08 16:15:38,503  Epoch 45: iteration 10/31
-2022-10-08 16:15:38,524  Epoch 45: iteration 11/31
-2022-10-08 16:15:38,545  Epoch 45: iteration 12/31
-2022-10-08 16:15:38,566  Epoch 45: iteration 13/31
-2022-10-08 16:15:38,587  Epoch 45: iteration 14/31
-2022-10-08 16:15:38,609  Epoch 45: iteration 15/31
-2022-10-08 16:15:38,630  Epoch 45: iteration 16/31
-2022-10-08 16:15:38,651  Epoch 45: iteration 17/31
-2022-10-08 16:15:38,672  Epoch 45: iteration 18/31
-2022-10-08 16:15:38,693  Epoch 45: iteration 19/31
-2022-10-08 16:15:38,714  Epoch 45: iteration 20/31
-2022-10-08 16:15:38,735  Epoch 45: iteration 21/31
-2022-10-08 16:15:38,756  Epoch 45: iteration 22/31
-2022-10-08 16:15:38,777  Epoch 45: iteration 23/31
-2022-10-08 16:15:38,798  Epoch 45: iteration 24/31
-2022-10-08 16:15:38,819  Epoch 45: iteration 25/31
-2022-10-08 16:15:38,840  Epoch 45: iteration 26/31
-2022-10-08 16:15:38,861  Epoch 45: iteration 27/31
-2022-10-08 16:15:38,881  Epoch 45: iteration 28/31
-2022-10-08 16:15:38,902  Epoch 45: iteration 29/31
-2022-10-08 16:15:38,923  Epoch 45: iteration 30/31
-2022-10-08 16:15:38,943  Epoch 45: iteration 31/31
-2022-10-08 16:15:38,961 
-2022-10-08 16:15:38,962 Epoch 45 --> loss:0.1369, acc:96.73%, test_loss:0.4438, test_acc:88.10%, Time per epoch: 1.5755
-2022-10-08 16:15:39,889  Epoch 46: iteration 1/31
-2022-10-08 16:15:39,909  Epoch 46: iteration 2/31
-2022-10-08 16:15:39,930  Epoch 46: iteration 3/31
-2022-10-08 16:15:39,951  Epoch 46: iteration 4/31
-2022-10-08 16:15:39,972  Epoch 46: iteration 5/31
-2022-10-08 16:15:39,993  Epoch 46: iteration 6/31
-2022-10-08 16:15:40,014  Epoch 46: iteration 7/31
-2022-10-08 16:15:40,034  Epoch 46: iteration 8/31
-2022-10-08 16:15:40,055  Epoch 46: iteration 9/31
-2022-10-08 16:15:40,075  Epoch 46: iteration 10/31
-2022-10-08 16:15:40,096  Epoch 46: iteration 11/31
-2022-10-08 16:15:40,117  Epoch 46: iteration 12/31
-2022-10-08 16:15:40,137  Epoch 46: iteration 13/31
-2022-10-08 16:15:40,158  Epoch 46: iteration 14/31
-2022-10-08 16:15:40,178  Epoch 46: iteration 15/31
-2022-10-08 16:15:40,199  Epoch 46: iteration 16/31
-2022-10-08 16:15:40,219  Epoch 46: iteration 17/31
-2022-10-08 16:15:40,240  Epoch 46: iteration 18/31
-2022-10-08 16:15:40,262  Epoch 46: iteration 19/31
-2022-10-08 16:15:40,282  Epoch 46: iteration 20/31
-2022-10-08 16:15:40,303  Epoch 46: iteration 21/31
-2022-10-08 16:15:40,324  Epoch 46: iteration 22/31
-2022-10-08 16:15:40,345  Epoch 46: iteration 23/31
-2022-10-08 16:15:40,367  Epoch 46: iteration 24/31
-2022-10-08 16:15:40,387  Epoch 46: iteration 25/31
-2022-10-08 16:15:40,407  Epoch 46: iteration 26/31
-2022-10-08 16:15:40,428  Epoch 46: iteration 27/31
-2022-10-08 16:15:40,449  Epoch 46: iteration 28/31
-2022-10-08 16:15:40,469  Epoch 46: iteration 29/31
-2022-10-08 16:15:40,489  Epoch 46: iteration 30/31
-2022-10-08 16:15:40,510  Epoch 46: iteration 31/31
-2022-10-08 16:15:40,528 
-2022-10-08 16:15:40,528 Epoch 46 --> loss:0.1247, acc:96.03%, test_loss:0.4277, test_acc:89.29%, Time per epoch: 1.5666
-2022-10-08 16:15:40,540 The checkpoint is saved to Output/Savee/Savee_VO_IS2.pt
-2022-10-08 16:15:40,540 The best model up to now is saved with test accuracy:89.29% at epoch: 46/100
-2022-10-08 16:15:41,464  Epoch 47: iteration 1/31
-2022-10-08 16:15:41,485  Epoch 47: iteration 2/31
-2022-10-08 16:15:41,506  Epoch 47: iteration 3/31
-2022-10-08 16:15:41,527  Epoch 47: iteration 4/31
-2022-10-08 16:15:41,548  Epoch 47: iteration 5/31
-2022-10-08 16:15:41,572  Epoch 47: iteration 6/31
-2022-10-08 16:15:41,599  Epoch 47: iteration 7/31
-2022-10-08 16:15:41,622  Epoch 47: iteration 8/31
-2022-10-08 16:15:41,644  Epoch 47: iteration 9/31
-2022-10-08 16:15:41,665  Epoch 47: iteration 10/31
-2022-10-08 16:15:41,686  Epoch 47: iteration 11/31
-2022-10-08 16:15:41,708  Epoch 47: iteration 12/31
-2022-10-08 16:15:41,729  Epoch 47: iteration 13/31
-2022-10-08 16:15:41,750  Epoch 47: iteration 14/31
-2022-10-08 16:15:41,771  Epoch 47: iteration 15/31
-2022-10-08 16:15:41,792  Epoch 47: iteration 16/31
-2022-10-08 16:15:41,813  Epoch 47: iteration 17/31
-2022-10-08 16:15:41,834  Epoch 47: iteration 18/31
-2022-10-08 16:15:41,856  Epoch 47: iteration 19/31
-2022-10-08 16:15:41,876  Epoch 47: iteration 20/31
-2022-10-08 16:15:41,898  Epoch 47: iteration 21/31
-2022-10-08 16:15:41,919  Epoch 47: iteration 22/31
-2022-10-08 16:15:41,940  Epoch 47: iteration 23/31
-2022-10-08 16:15:41,961  Epoch 47: iteration 24/31
-2022-10-08 16:15:41,982  Epoch 47: iteration 25/31
-2022-10-08 16:15:42,003  Epoch 47: iteration 26/31
-2022-10-08 16:15:42,024  Epoch 47: iteration 27/31
-2022-10-08 16:15:42,045  Epoch 47: iteration 28/31
-2022-10-08 16:15:42,066  Epoch 47: iteration 29/31
-2022-10-08 16:15:42,087  Epoch 47: iteration 30/31
-2022-10-08 16:15:42,108  Epoch 47: iteration 31/31
-2022-10-08 16:15:42,127 
-2022-10-08 16:15:42,127 Epoch 47 --> loss:0.1301, acc:96.03%, test_loss:0.4239, test_acc:86.90%, Time per epoch: 1.5869
-2022-10-08 16:15:43,056  Epoch 48: iteration 1/31
-2022-10-08 16:15:43,077  Epoch 48: iteration 2/31
-2022-10-08 16:15:43,098  Epoch 48: iteration 3/31
-2022-10-08 16:15:43,119  Epoch 48: iteration 4/31
-2022-10-08 16:15:43,139  Epoch 48: iteration 5/31
-2022-10-08 16:15:43,160  Epoch 48: iteration 6/31
-2022-10-08 16:15:43,181  Epoch 48: iteration 7/31
-2022-10-08 16:15:43,201  Epoch 48: iteration 8/31
-2022-10-08 16:15:43,222  Epoch 48: iteration 9/31
-2022-10-08 16:15:43,243  Epoch 48: iteration 10/31
-2022-10-08 16:15:43,264  Epoch 48: iteration 11/31
-2022-10-08 16:15:43,285  Epoch 48: iteration 12/31
-2022-10-08 16:15:43,306  Epoch 48: iteration 13/31
-2022-10-08 16:15:43,327  Epoch 48: iteration 14/31
-2022-10-08 16:15:43,348  Epoch 48: iteration 15/31
-2022-10-08 16:15:43,369  Epoch 48: iteration 16/31
-2022-10-08 16:15:43,390  Epoch 48: iteration 17/31
-2022-10-08 16:15:43,411  Epoch 48: iteration 18/31
-2022-10-08 16:15:43,432  Epoch 48: iteration 19/31
-2022-10-08 16:15:43,453  Epoch 48: iteration 20/31
-2022-10-08 16:15:43,474  Epoch 48: iteration 21/31
-2022-10-08 16:15:43,494  Epoch 48: iteration 22/31
-2022-10-08 16:15:43,515  Epoch 48: iteration 23/31
-2022-10-08 16:15:43,536  Epoch 48: iteration 24/31
-2022-10-08 16:15:43,557  Epoch 48: iteration 25/31
-2022-10-08 16:15:43,577  Epoch 48: iteration 26/31
-2022-10-08 16:15:43,598  Epoch 48: iteration 27/31
-2022-10-08 16:15:43,619  Epoch 48: iteration 28/31
-2022-10-08 16:15:43,640  Epoch 48: iteration 29/31
-2022-10-08 16:15:43,661  Epoch 48: iteration 30/31
-2022-10-08 16:15:43,682  Epoch 48: iteration 31/31
-2022-10-08 16:15:43,701 
-2022-10-08 16:15:43,701 Epoch 48 --> loss:0.1194, acc:96.23%, test_loss:0.4387, test_acc:86.90%, Time per epoch: 1.5736
-2022-10-08 16:15:44,623  Epoch 49: iteration 1/31
-2022-10-08 16:15:44,644  Epoch 49: iteration 2/31
-2022-10-08 16:15:44,665  Epoch 49: iteration 3/31
-2022-10-08 16:15:44,686  Epoch 49: iteration 4/31
-2022-10-08 16:15:44,707  Epoch 49: iteration 5/31
-2022-10-08 16:15:44,727  Epoch 49: iteration 6/31
-2022-10-08 16:15:44,748  Epoch 49: iteration 7/31
-2022-10-08 16:15:44,768  Epoch 49: iteration 8/31
-2022-10-08 16:15:44,789  Epoch 49: iteration 9/31
-2022-10-08 16:15:44,810  Epoch 49: iteration 10/31
-2022-10-08 16:15:44,831  Epoch 49: iteration 11/31
-2022-10-08 16:15:44,851  Epoch 49: iteration 12/31
-2022-10-08 16:15:44,872  Epoch 49: iteration 13/31
-2022-10-08 16:15:44,893  Epoch 49: iteration 14/31
-2022-10-08 16:15:44,914  Epoch 49: iteration 15/31
-2022-10-08 16:15:44,935  Epoch 49: iteration 16/31
-2022-10-08 16:15:44,955  Epoch 49: iteration 17/31
-2022-10-08 16:15:44,976  Epoch 49: iteration 18/31
-2022-10-08 16:15:44,998  Epoch 49: iteration 19/31
-2022-10-08 16:15:45,020  Epoch 49: iteration 20/31
-2022-10-08 16:15:45,041  Epoch 49: iteration 21/31
-2022-10-08 16:15:45,062  Epoch 49: iteration 22/31
-2022-10-08 16:15:45,083  Epoch 49: iteration 23/31
-2022-10-08 16:15:45,104  Epoch 49: iteration 24/31
-2022-10-08 16:15:45,125  Epoch 49: iteration 25/31
-2022-10-08 16:15:45,147  Epoch 49: iteration 26/31
-2022-10-08 16:15:45,167  Epoch 49: iteration 27/31
-2022-10-08 16:15:45,188  Epoch 49: iteration 28/31
-2022-10-08 16:15:45,209  Epoch 49: iteration 29/31
-2022-10-08 16:15:45,230  Epoch 49: iteration 30/31
-2022-10-08 16:15:45,251  Epoch 49: iteration 31/31
-2022-10-08 16:15:45,270 
-2022-10-08 16:15:45,270 Epoch 49 --> loss:0.1288, acc:95.63%, test_loss:0.4389, test_acc:86.90%, Time per epoch: 1.5690
-2022-10-08 16:15:46,203  Epoch 50: iteration 1/31
-2022-10-08 16:15:46,224  Epoch 50: iteration 2/31
-2022-10-08 16:15:46,245  Epoch 50: iteration 3/31
-2022-10-08 16:15:46,266  Epoch 50: iteration 4/31
-2022-10-08 16:15:46,287  Epoch 50: iteration 5/31
-2022-10-08 16:15:46,308  Epoch 50: iteration 6/31
-2022-10-08 16:15:46,328  Epoch 50: iteration 7/31
-2022-10-08 16:15:46,349  Epoch 50: iteration 8/31
-2022-10-08 16:15:46,370  Epoch 50: iteration 9/31
-2022-10-08 16:15:46,391  Epoch 50: iteration 10/31
-2022-10-08 16:15:46,413  Epoch 50: iteration 11/31
-2022-10-08 16:15:46,434  Epoch 50: iteration 12/31
-2022-10-08 16:15:46,455  Epoch 50: iteration 13/31
-2022-10-08 16:15:46,475  Epoch 50: iteration 14/31
-2022-10-08 16:15:46,496  Epoch 50: iteration 15/31
-2022-10-08 16:15:46,516  Epoch 50: iteration 16/31
-2022-10-08 16:15:46,536  Epoch 50: iteration 17/31
-2022-10-08 16:15:46,557  Epoch 50: iteration 18/31
-2022-10-08 16:15:46,578  Epoch 50: iteration 19/31
-2022-10-08 16:15:46,599  Epoch 50: iteration 20/31
-2022-10-08 16:15:46,620  Epoch 50: iteration 21/31
-2022-10-08 16:15:46,641  Epoch 50: iteration 22/31
-2022-10-08 16:15:46,662  Epoch 50: iteration 23/31
-2022-10-08 16:15:46,683  Epoch 50: iteration 24/31
-2022-10-08 16:15:46,703  Epoch 50: iteration 25/31
-2022-10-08 16:15:46,725  Epoch 50: iteration 26/31
-2022-10-08 16:15:46,744  Epoch 50: iteration 27/31
-2022-10-08 16:15:46,764  Epoch 50: iteration 28/31
-2022-10-08 16:15:46,785  Epoch 50: iteration 29/31
-2022-10-08 16:15:46,807  Epoch 50: iteration 30/31
-2022-10-08 16:15:46,828  Epoch 50: iteration 31/31
-2022-10-08 16:15:46,847 
-2022-10-08 16:15:46,847 Epoch 50 --> loss:0.1175, acc:95.83%, test_loss:0.4147, test_acc:85.71%, Time per epoch: 1.5768
-2022-10-08 16:15:47,772  Epoch 51: iteration 1/31
-2022-10-08 16:15:47,793  Epoch 51: iteration 2/31
-2022-10-08 16:15:47,814  Epoch 51: iteration 3/31
-2022-10-08 16:15:47,834  Epoch 51: iteration 4/31
-2022-10-08 16:15:47,855  Epoch 51: iteration 5/31
-2022-10-08 16:15:47,876  Epoch 51: iteration 6/31
-2022-10-08 16:15:47,897  Epoch 51: iteration 7/31
-2022-10-08 16:15:47,918  Epoch 51: iteration 8/31
-2022-10-08 16:15:47,939  Epoch 51: iteration 9/31
-2022-10-08 16:15:47,959  Epoch 51: iteration 10/31
-2022-10-08 16:15:47,980  Epoch 51: iteration 11/31
-2022-10-08 16:15:48,000  Epoch 51: iteration 12/31
-2022-10-08 16:15:48,020  Epoch 51: iteration 13/31
-2022-10-08 16:15:48,041  Epoch 51: iteration 14/31
-2022-10-08 16:15:48,062  Epoch 51: iteration 15/31
-2022-10-08 16:15:48,082  Epoch 51: iteration 16/31
-2022-10-08 16:15:48,103  Epoch 51: iteration 17/31
-2022-10-08 16:15:48,124  Epoch 51: iteration 18/31
-2022-10-08 16:15:48,145  Epoch 51: iteration 19/31
-2022-10-08 16:15:48,166  Epoch 51: iteration 20/31
-2022-10-08 16:15:48,187  Epoch 51: iteration 21/31
-2022-10-08 16:15:48,207  Epoch 51: iteration 22/31
-2022-10-08 16:15:48,228  Epoch 51: iteration 23/31
-2022-10-08 16:15:48,249  Epoch 51: iteration 24/31
-2022-10-08 16:15:48,271  Epoch 51: iteration 25/31
-2022-10-08 16:15:48,292  Epoch 51: iteration 26/31
-2022-10-08 16:15:48,313  Epoch 51: iteration 27/31
-2022-10-08 16:15:48,333  Epoch 51: iteration 28/31
-2022-10-08 16:15:48,354  Epoch 51: iteration 29/31
-2022-10-08 16:15:48,374  Epoch 51: iteration 30/31
-2022-10-08 16:15:48,395  Epoch 51: iteration 31/31
-2022-10-08 16:15:48,413 
-2022-10-08 16:15:48,413 Epoch 51 --> loss:0.1102, acc:96.63%, test_loss:0.4154, test_acc:88.10%, Time per epoch: 1.5666
-2022-10-08 16:15:49,348  Epoch 52: iteration 1/31
-2022-10-08 16:15:49,369  Epoch 52: iteration 2/31
-2022-10-08 16:15:49,389  Epoch 52: iteration 3/31
-2022-10-08 16:15:49,409  Epoch 52: iteration 4/31
-2022-10-08 16:15:49,430  Epoch 52: iteration 5/31
-2022-10-08 16:15:49,450  Epoch 52: iteration 6/31
-2022-10-08 16:15:49,471  Epoch 52: iteration 7/31
-2022-10-08 16:15:49,491  Epoch 52: iteration 8/31
-2022-10-08 16:15:49,512  Epoch 52: iteration 9/31
-2022-10-08 16:15:49,533  Epoch 52: iteration 10/31
-2022-10-08 16:15:49,553  Epoch 52: iteration 11/31
-2022-10-08 16:15:49,574  Epoch 52: iteration 12/31
-2022-10-08 16:15:49,594  Epoch 52: iteration 13/31
-2022-10-08 16:15:49,615  Epoch 52: iteration 14/31
-2022-10-08 16:15:49,635  Epoch 52: iteration 15/31
-2022-10-08 16:15:49,656  Epoch 52: iteration 16/31
-2022-10-08 16:15:49,676  Epoch 52: iteration 17/31
-2022-10-08 16:15:49,697  Epoch 52: iteration 18/31
-2022-10-08 16:15:49,717  Epoch 52: iteration 19/31
-2022-10-08 16:15:49,738  Epoch 52: iteration 20/31
-2022-10-08 16:15:49,759  Epoch 52: iteration 21/31
-2022-10-08 16:15:49,780  Epoch 52: iteration 22/31
-2022-10-08 16:15:49,800  Epoch 52: iteration 23/31
-2022-10-08 16:15:49,821  Epoch 52: iteration 24/31
-2022-10-08 16:15:49,842  Epoch 52: iteration 25/31
-2022-10-08 16:15:49,862  Epoch 52: iteration 26/31
-2022-10-08 16:15:49,883  Epoch 52: iteration 27/31
-2022-10-08 16:15:49,904  Epoch 52: iteration 28/31
-2022-10-08 16:15:49,925  Epoch 52: iteration 29/31
-2022-10-08 16:15:49,946  Epoch 52: iteration 30/31
-2022-10-08 16:15:49,967  Epoch 52: iteration 31/31
-2022-10-08 16:15:49,985 
-2022-10-08 16:15:49,985 Epoch 52 --> loss:0.1039, acc:96.53%, test_loss:0.4439, test_acc:86.90%, Time per epoch: 1.5721
-2022-10-08 16:15:50,917  Epoch 53: iteration 1/31
-2022-10-08 16:15:50,944  Epoch 53: iteration 2/31
-2022-10-08 16:15:50,966  Epoch 53: iteration 3/31
-2022-10-08 16:15:50,988  Epoch 53: iteration 4/31
-2022-10-08 16:15:51,009  Epoch 53: iteration 5/31
-2022-10-08 16:15:51,030  Epoch 53: iteration 6/31
-2022-10-08 16:15:51,051  Epoch 53: iteration 7/31
-2022-10-08 16:15:51,073  Epoch 53: iteration 8/31
-2022-10-08 16:15:51,094  Epoch 53: iteration 9/31
-2022-10-08 16:15:51,115  Epoch 53: iteration 10/31
-2022-10-08 16:15:51,136  Epoch 53: iteration 11/31
-2022-10-08 16:15:51,157  Epoch 53: iteration 12/31
-2022-10-08 16:15:51,178  Epoch 53: iteration 13/31
-2022-10-08 16:15:51,199  Epoch 53: iteration 14/31
-2022-10-08 16:15:51,220  Epoch 53: iteration 15/31
-2022-10-08 16:15:51,242  Epoch 53: iteration 16/31
-2022-10-08 16:15:51,263  Epoch 53: iteration 17/31
-2022-10-08 16:15:51,284  Epoch 53: iteration 18/31
-2022-10-08 16:15:51,304  Epoch 53: iteration 19/31
-2022-10-08 16:15:51,324  Epoch 53: iteration 20/31
-2022-10-08 16:15:51,345  Epoch 53: iteration 21/31
-2022-10-08 16:15:51,365  Epoch 53: iteration 22/31
-2022-10-08 16:15:51,386  Epoch 53: iteration 23/31
-2022-10-08 16:15:51,406  Epoch 53: iteration 24/31
-2022-10-08 16:15:51,427  Epoch 53: iteration 25/31
-2022-10-08 16:15:51,448  Epoch 53: iteration 26/31
-2022-10-08 16:15:51,468  Epoch 53: iteration 27/31
-2022-10-08 16:15:51,489  Epoch 53: iteration 28/31
-2022-10-08 16:15:51,510  Epoch 53: iteration 29/31
-2022-10-08 16:15:51,531  Epoch 53: iteration 30/31
-2022-10-08 16:15:51,552  Epoch 53: iteration 31/31
-2022-10-08 16:15:51,570 
-2022-10-08 16:15:51,571 Epoch 53 --> loss:0.1066, acc:96.53%, test_loss:0.4568, test_acc:85.71%, Time per epoch: 1.5850
-2022-10-08 16:15:52,500  Epoch 54: iteration 1/31
-2022-10-08 16:15:52,521  Epoch 54: iteration 2/31
-2022-10-08 16:15:52,542  Epoch 54: iteration 3/31
-2022-10-08 16:15:52,563  Epoch 54: iteration 4/31
-2022-10-08 16:15:52,584  Epoch 54: iteration 5/31
-2022-10-08 16:15:52,605  Epoch 54: iteration 6/31
-2022-10-08 16:15:52,626  Epoch 54: iteration 7/31
-2022-10-08 16:15:52,648  Epoch 54: iteration 8/31
-2022-10-08 16:15:52,669  Epoch 54: iteration 9/31
-2022-10-08 16:15:52,690  Epoch 54: iteration 10/31
-2022-10-08 16:15:52,711  Epoch 54: iteration 11/31
-2022-10-08 16:15:52,732  Epoch 54: iteration 12/31
-2022-10-08 16:15:52,754  Epoch 54: iteration 13/31
-2022-10-08 16:15:52,775  Epoch 54: iteration 14/31
-2022-10-08 16:15:52,796  Epoch 54: iteration 15/31
-2022-10-08 16:15:52,817  Epoch 54: iteration 16/31
-2022-10-08 16:15:52,838  Epoch 54: iteration 17/31
-2022-10-08 16:15:52,859  Epoch 54: iteration 18/31
-2022-10-08 16:15:52,881  Epoch 54: iteration 19/31
-2022-10-08 16:15:52,902  Epoch 54: iteration 20/31
-2022-10-08 16:15:52,923  Epoch 54: iteration 21/31
-2022-10-08 16:15:52,944  Epoch 54: iteration 22/31
-2022-10-08 16:15:52,965  Epoch 54: iteration 23/31
-2022-10-08 16:15:52,986  Epoch 54: iteration 24/31
-2022-10-08 16:15:53,007  Epoch 54: iteration 25/31
-2022-10-08 16:15:53,028  Epoch 54: iteration 26/31
-2022-10-08 16:15:53,049  Epoch 54: iteration 27/31
-2022-10-08 16:15:53,070  Epoch 54: iteration 28/31
-2022-10-08 16:15:53,091  Epoch 54: iteration 29/31
-2022-10-08 16:15:53,112  Epoch 54: iteration 30/31
-2022-10-08 16:15:53,133  Epoch 54: iteration 31/31
-2022-10-08 16:15:53,152 
-2022-10-08 16:15:53,152 Epoch 54 --> loss:0.1095, acc:96.92%, test_loss:0.4320, test_acc:85.71%, Time per epoch: 1.5810
-2022-10-08 16:15:54,075  Epoch 55: iteration 1/31
-2022-10-08 16:15:54,096  Epoch 55: iteration 2/31
-2022-10-08 16:15:54,116  Epoch 55: iteration 3/31
-2022-10-08 16:15:54,137  Epoch 55: iteration 4/31
-2022-10-08 16:15:54,158  Epoch 55: iteration 5/31
-2022-10-08 16:15:54,179  Epoch 55: iteration 6/31
-2022-10-08 16:15:54,199  Epoch 55: iteration 7/31
-2022-10-08 16:15:54,220  Epoch 55: iteration 8/31
-2022-10-08 16:15:54,241  Epoch 55: iteration 9/31
-2022-10-08 16:15:54,262  Epoch 55: iteration 10/31
-2022-10-08 16:15:54,283  Epoch 55: iteration 11/31
-2022-10-08 16:15:54,304  Epoch 55: iteration 12/31
-2022-10-08 16:15:54,325  Epoch 55: iteration 13/31
-2022-10-08 16:15:54,346  Epoch 55: iteration 14/31
-2022-10-08 16:15:54,366  Epoch 55: iteration 15/31
-2022-10-08 16:15:54,387  Epoch 55: iteration 16/31
-2022-10-08 16:15:54,408  Epoch 55: iteration 17/31
-2022-10-08 16:15:54,429  Epoch 55: iteration 18/31
-2022-10-08 16:15:54,450  Epoch 55: iteration 19/31
-2022-10-08 16:15:54,471  Epoch 55: iteration 20/31
-2022-10-08 16:15:54,492  Epoch 55: iteration 21/31
-2022-10-08 16:15:54,513  Epoch 55: iteration 22/31
-2022-10-08 16:15:54,534  Epoch 55: iteration 23/31
-2022-10-08 16:15:54,555  Epoch 55: iteration 24/31
-2022-10-08 16:15:54,576  Epoch 55: iteration 25/31
-2022-10-08 16:15:54,597  Epoch 55: iteration 26/31
-2022-10-08 16:15:54,618  Epoch 55: iteration 27/31
-2022-10-08 16:15:54,640  Epoch 55: iteration 28/31
-2022-10-08 16:15:54,661  Epoch 55: iteration 29/31
-2022-10-08 16:15:54,682  Epoch 55: iteration 30/31
-2022-10-08 16:15:54,703  Epoch 55: iteration 31/31
-2022-10-08 16:15:54,722 
-2022-10-08 16:15:54,722 Epoch 55 --> loss:0.1061, acc:97.02%, test_loss:0.4260, test_acc:86.90%, Time per epoch: 1.5703
-2022-10-08 16:15:55,659  Epoch 56: iteration 1/31
-2022-10-08 16:15:55,680  Epoch 56: iteration 2/31
-2022-10-08 16:15:55,701  Epoch 56: iteration 3/31
-2022-10-08 16:15:55,722  Epoch 56: iteration 4/31
-2022-10-08 16:15:55,743  Epoch 56: iteration 5/31
-2022-10-08 16:15:55,763  Epoch 56: iteration 6/31
-2022-10-08 16:15:55,784  Epoch 56: iteration 7/31
-2022-10-08 16:15:55,805  Epoch 56: iteration 8/31
-2022-10-08 16:15:55,826  Epoch 56: iteration 9/31
-2022-10-08 16:15:55,846  Epoch 56: iteration 10/31
-2022-10-08 16:15:55,867  Epoch 56: iteration 11/31
-2022-10-08 16:15:55,888  Epoch 56: iteration 12/31
-2022-10-08 16:15:55,909  Epoch 56: iteration 13/31
-2022-10-08 16:15:55,930  Epoch 56: iteration 14/31
-2022-10-08 16:15:55,951  Epoch 56: iteration 15/31
-2022-10-08 16:15:55,972  Epoch 56: iteration 16/31
-2022-10-08 16:15:55,993  Epoch 56: iteration 17/31
-2022-10-08 16:15:56,014  Epoch 56: iteration 18/31
-2022-10-08 16:15:56,035  Epoch 56: iteration 19/31
-2022-10-08 16:15:56,055  Epoch 56: iteration 20/31
-2022-10-08 16:15:56,076  Epoch 56: iteration 21/31
-2022-10-08 16:15:56,103  Epoch 56: iteration 22/31
-2022-10-08 16:15:56,131  Epoch 56: iteration 23/31
-2022-10-08 16:15:56,154  Epoch 56: iteration 24/31
-2022-10-08 16:15:56,177  Epoch 56: iteration 25/31
-2022-10-08 16:15:56,198  Epoch 56: iteration 26/31
-2022-10-08 16:15:56,219  Epoch 56: iteration 27/31
-2022-10-08 16:15:56,240  Epoch 56: iteration 28/31
-2022-10-08 16:15:56,262  Epoch 56: iteration 29/31
-2022-10-08 16:15:56,283  Epoch 56: iteration 30/31
-2022-10-08 16:15:56,304  Epoch 56: iteration 31/31
-2022-10-08 16:15:56,323 
-2022-10-08 16:15:56,323 Epoch 56 --> loss:0.1124, acc:96.03%, test_loss:0.4124, test_acc:86.90%, Time per epoch: 1.6010
-2022-10-08 16:15:57,249  Epoch 57: iteration 1/31
-2022-10-08 16:15:57,270  Epoch 57: iteration 2/31
-2022-10-08 16:15:57,290  Epoch 57: iteration 3/31
-2022-10-08 16:15:57,311  Epoch 57: iteration 4/31
-2022-10-08 16:15:57,332  Epoch 57: iteration 5/31
-2022-10-08 16:15:57,353  Epoch 57: iteration 6/31
-2022-10-08 16:15:57,374  Epoch 57: iteration 7/31
-2022-10-08 16:15:57,395  Epoch 57: iteration 8/31
-2022-10-08 16:15:57,417  Epoch 57: iteration 9/31
-2022-10-08 16:15:57,438  Epoch 57: iteration 10/31
-2022-10-08 16:15:57,459  Epoch 57: iteration 11/31
-2022-10-08 16:15:57,480  Epoch 57: iteration 12/31
-2022-10-08 16:15:57,501  Epoch 57: iteration 13/31
-2022-10-08 16:15:57,522  Epoch 57: iteration 14/31
-2022-10-08 16:15:57,543  Epoch 57: iteration 15/31
-2022-10-08 16:15:57,564  Epoch 57: iteration 16/31
-2022-10-08 16:15:57,585  Epoch 57: iteration 17/31
-2022-10-08 16:15:57,606  Epoch 57: iteration 18/31
-2022-10-08 16:15:57,627  Epoch 57: iteration 19/31
-2022-10-08 16:15:57,648  Epoch 57: iteration 20/31
-2022-10-08 16:15:57,669  Epoch 57: iteration 21/31
-2022-10-08 16:15:57,690  Epoch 57: iteration 22/31
-2022-10-08 16:15:57,711  Epoch 57: iteration 23/31
-2022-10-08 16:15:57,732  Epoch 57: iteration 24/31
-2022-10-08 16:15:57,753  Epoch 57: iteration 25/31
-2022-10-08 16:15:57,775  Epoch 57: iteration 26/31
-2022-10-08 16:15:57,796  Epoch 57: iteration 27/31
-2022-10-08 16:15:57,817  Epoch 57: iteration 28/31
-2022-10-08 16:15:57,838  Epoch 57: iteration 29/31
-2022-10-08 16:15:57,859  Epoch 57: iteration 30/31
-2022-10-08 16:15:57,880  Epoch 57: iteration 31/31
-2022-10-08 16:15:57,899 
-2022-10-08 16:15:57,899 Epoch 57 --> loss:0.1064, acc:96.33%, test_loss:0.4383, test_acc:88.10%, Time per epoch: 1.5759
-2022-10-08 16:15:58,830  Epoch 58: iteration 1/31
-2022-10-08 16:15:58,851  Epoch 58: iteration 2/31
-2022-10-08 16:15:58,872  Epoch 58: iteration 3/31
-2022-10-08 16:15:58,892  Epoch 58: iteration 4/31
-2022-10-08 16:15:58,913  Epoch 58: iteration 5/31
-2022-10-08 16:15:58,934  Epoch 58: iteration 6/31
-2022-10-08 16:15:58,955  Epoch 58: iteration 7/31
-2022-10-08 16:15:58,976  Epoch 58: iteration 8/31
-2022-10-08 16:15:58,997  Epoch 58: iteration 9/31
-2022-10-08 16:15:59,017  Epoch 58: iteration 10/31
-2022-10-08 16:15:59,038  Epoch 58: iteration 11/31
-2022-10-08 16:15:59,059  Epoch 58: iteration 12/31
-2022-10-08 16:15:59,080  Epoch 58: iteration 13/31
-2022-10-08 16:15:59,101  Epoch 58: iteration 14/31
-2022-10-08 16:15:59,122  Epoch 58: iteration 15/31
-2022-10-08 16:15:59,143  Epoch 58: iteration 16/31
-2022-10-08 16:15:59,165  Epoch 58: iteration 17/31
-2022-10-08 16:15:59,186  Epoch 58: iteration 18/31
-2022-10-08 16:15:59,206  Epoch 58: iteration 19/31
-2022-10-08 16:15:59,227  Epoch 58: iteration 20/31
-2022-10-08 16:15:59,248  Epoch 58: iteration 21/31
-2022-10-08 16:15:59,269  Epoch 58: iteration 22/31
-2022-10-08 16:15:59,290  Epoch 58: iteration 23/31
-2022-10-08 16:15:59,311  Epoch 58: iteration 24/31
-2022-10-08 16:15:59,332  Epoch 58: iteration 25/31
-2022-10-08 16:15:59,353  Epoch 58: iteration 26/31
-2022-10-08 16:15:59,374  Epoch 58: iteration 27/31
-2022-10-08 16:15:59,395  Epoch 58: iteration 28/31
-2022-10-08 16:15:59,416  Epoch 58: iteration 29/31
-2022-10-08 16:15:59,443  Epoch 58: iteration 30/31
-2022-10-08 16:15:59,469  Epoch 58: iteration 31/31
-2022-10-08 16:15:59,489 
-2022-10-08 16:15:59,489 Epoch 58 --> loss:0.0952, acc:96.73%, test_loss:0.4412, test_acc:86.90%, Time per epoch: 1.5900
-2022-10-08 16:16:00,416  Epoch 59: iteration 1/31
-2022-10-08 16:16:00,436  Epoch 59: iteration 2/31
-2022-10-08 16:16:00,457  Epoch 59: iteration 3/31
-2022-10-08 16:16:00,477  Epoch 59: iteration 4/31
-2022-10-08 16:16:00,498  Epoch 59: iteration 5/31
-2022-10-08 16:16:00,519  Epoch 59: iteration 6/31
-2022-10-08 16:16:00,540  Epoch 59: iteration 7/31
-2022-10-08 16:16:00,560  Epoch 59: iteration 8/31
-2022-10-08 16:16:00,581  Epoch 59: iteration 9/31
-2022-10-08 16:16:00,601  Epoch 59: iteration 10/31
-2022-10-08 16:16:00,621  Epoch 59: iteration 11/31
-2022-10-08 16:16:00,642  Epoch 59: iteration 12/31
-2022-10-08 16:16:00,663  Epoch 59: iteration 13/31
-2022-10-08 16:16:00,683  Epoch 59: iteration 14/31
-2022-10-08 16:16:00,704  Epoch 59: iteration 15/31
-2022-10-08 16:16:00,725  Epoch 59: iteration 16/31
-2022-10-08 16:16:00,746  Epoch 59: iteration 17/31
-2022-10-08 16:16:00,767  Epoch 59: iteration 18/31
-2022-10-08 16:16:00,788  Epoch 59: iteration 19/31
-2022-10-08 16:16:00,809  Epoch 59: iteration 20/31
-2022-10-08 16:16:00,830  Epoch 59: iteration 21/31
-2022-10-08 16:16:00,851  Epoch 59: iteration 22/31
-2022-10-08 16:16:00,872  Epoch 59: iteration 23/31
-2022-10-08 16:16:00,893  Epoch 59: iteration 24/31
-2022-10-08 16:16:00,914  Epoch 59: iteration 25/31
-2022-10-08 16:16:00,935  Epoch 59: iteration 26/31
-2022-10-08 16:16:00,956  Epoch 59: iteration 27/31
-2022-10-08 16:16:00,977  Epoch 59: iteration 28/31
-2022-10-08 16:16:00,998  Epoch 59: iteration 29/31
-2022-10-08 16:16:01,018  Epoch 59: iteration 30/31
-2022-10-08 16:16:01,038  Epoch 59: iteration 31/31
-2022-10-08 16:16:01,056 
-2022-10-08 16:16:01,056 Epoch 59 --> loss:0.1057, acc:96.73%, test_loss:0.4443, test_acc:85.71%, Time per epoch: 1.5672
-2022-10-08 16:16:01,986  Epoch 60: iteration 1/31
-2022-10-08 16:16:02,007  Epoch 60: iteration 2/31
-2022-10-08 16:16:02,028  Epoch 60: iteration 3/31
-2022-10-08 16:16:02,048  Epoch 60: iteration 4/31
-2022-10-08 16:16:02,068  Epoch 60: iteration 5/31
-2022-10-08 16:16:02,090  Epoch 60: iteration 6/31
-2022-10-08 16:16:02,111  Epoch 60: iteration 7/31
-2022-10-08 16:16:02,132  Epoch 60: iteration 8/31
-2022-10-08 16:16:02,153  Epoch 60: iteration 9/31
-2022-10-08 16:16:02,173  Epoch 60: iteration 10/31
-2022-10-08 16:16:02,194  Epoch 60: iteration 11/31
-2022-10-08 16:16:02,216  Epoch 60: iteration 12/31
-2022-10-08 16:16:02,237  Epoch 60: iteration 13/31
-2022-10-08 16:16:02,258  Epoch 60: iteration 14/31
-2022-10-08 16:16:02,279  Epoch 60: iteration 15/31
-2022-10-08 16:16:02,299  Epoch 60: iteration 16/31
-2022-10-08 16:16:02,320  Epoch 60: iteration 17/31
-2022-10-08 16:16:02,341  Epoch 60: iteration 18/31
-2022-10-08 16:16:02,362  Epoch 60: iteration 19/31
-2022-10-08 16:16:02,382  Epoch 60: iteration 20/31
-2022-10-08 16:16:02,403  Epoch 60: iteration 21/31
-2022-10-08 16:16:02,424  Epoch 60: iteration 22/31
-2022-10-08 16:16:02,445  Epoch 60: iteration 23/31
-2022-10-08 16:16:02,465  Epoch 60: iteration 24/31
-2022-10-08 16:16:02,486  Epoch 60: iteration 25/31
-2022-10-08 16:16:02,513  Epoch 60: iteration 26/31
-2022-10-08 16:16:02,540  Epoch 60: iteration 27/31
-2022-10-08 16:16:02,564  Epoch 60: iteration 28/31
-2022-10-08 16:16:02,586  Epoch 60: iteration 29/31
-2022-10-08 16:16:02,608  Epoch 60: iteration 30/31
-2022-10-08 16:16:02,630  Epoch 60: iteration 31/31
-2022-10-08 16:16:02,649 
-2022-10-08 16:16:02,649 Epoch 60 --> loss:0.0965, acc:96.03%, test_loss:0.4441, test_acc:86.90%, Time per epoch: 1.5926
-2022-10-08 16:16:03,573  Epoch 61: iteration 1/31
-2022-10-08 16:16:03,594  Epoch 61: iteration 2/31
-2022-10-08 16:16:03,615  Epoch 61: iteration 3/31
-2022-10-08 16:16:03,635  Epoch 61: iteration 4/31
-2022-10-08 16:16:03,656  Epoch 61: iteration 5/31
-2022-10-08 16:16:03,677  Epoch 61: iteration 6/31
-2022-10-08 16:16:03,698  Epoch 61: iteration 7/31
-2022-10-08 16:16:03,720  Epoch 61: iteration 8/31
-2022-10-08 16:16:03,741  Epoch 61: iteration 9/31
-2022-10-08 16:16:03,762  Epoch 61: iteration 10/31
-2022-10-08 16:16:03,783  Epoch 61: iteration 11/31
-2022-10-08 16:16:03,804  Epoch 61: iteration 12/31
-2022-10-08 16:16:03,825  Epoch 61: iteration 13/31
-2022-10-08 16:16:03,847  Epoch 61: iteration 14/31
-2022-10-08 16:16:03,868  Epoch 61: iteration 15/31
-2022-10-08 16:16:03,888  Epoch 61: iteration 16/31
-2022-10-08 16:16:03,910  Epoch 61: iteration 17/31
-2022-10-08 16:16:03,931  Epoch 61: iteration 18/31
-2022-10-08 16:16:03,952  Epoch 61: iteration 19/31
-2022-10-08 16:16:03,973  Epoch 61: iteration 20/31
-2022-10-08 16:16:03,995  Epoch 61: iteration 21/31
-2022-10-08 16:16:04,016  Epoch 61: iteration 22/31
-2022-10-08 16:16:04,037  Epoch 61: iteration 23/31
-2022-10-08 16:16:04,058  Epoch 61: iteration 24/31
-2022-10-08 16:16:04,079  Epoch 61: iteration 25/31
-2022-10-08 16:16:04,100  Epoch 61: iteration 26/31
-2022-10-08 16:16:04,121  Epoch 61: iteration 27/31
-2022-10-08 16:16:04,140  Epoch 61: iteration 28/31
-2022-10-08 16:16:04,161  Epoch 61: iteration 29/31
-2022-10-08 16:16:04,181  Epoch 61: iteration 30/31
-2022-10-08 16:16:04,202  Epoch 61: iteration 31/31
-2022-10-08 16:16:04,221 
-2022-10-08 16:16:04,221 Epoch 61 --> loss:0.1049, acc:96.63%, test_loss:0.4243, test_acc:86.90%, Time per epoch: 1.5716
-2022-10-08 16:16:05,151  Epoch 62: iteration 1/31
-2022-10-08 16:16:05,172  Epoch 62: iteration 2/31
-2022-10-08 16:16:05,193  Epoch 62: iteration 3/31
-2022-10-08 16:16:05,214  Epoch 62: iteration 4/31
-2022-10-08 16:16:05,236  Epoch 62: iteration 5/31
-2022-10-08 16:16:05,256  Epoch 62: iteration 6/31
-2022-10-08 16:16:05,278  Epoch 62: iteration 7/31
-2022-10-08 16:16:05,300  Epoch 62: iteration 8/31
-2022-10-08 16:16:05,321  Epoch 62: iteration 9/31
-2022-10-08 16:16:05,341  Epoch 62: iteration 10/31
-2022-10-08 16:16:05,362  Epoch 62: iteration 11/31
-2022-10-08 16:16:05,383  Epoch 62: iteration 12/31
-2022-10-08 16:16:05,404  Epoch 62: iteration 13/31
-2022-10-08 16:16:05,425  Epoch 62: iteration 14/31
-2022-10-08 16:16:05,445  Epoch 62: iteration 15/31
-2022-10-08 16:16:05,465  Epoch 62: iteration 16/31
-2022-10-08 16:16:05,486  Epoch 62: iteration 17/31
-2022-10-08 16:16:05,506  Epoch 62: iteration 18/31
-2022-10-08 16:16:05,526  Epoch 62: iteration 19/31
-2022-10-08 16:16:05,547  Epoch 62: iteration 20/31
-2022-10-08 16:16:05,567  Epoch 62: iteration 21/31
-2022-10-08 16:16:05,588  Epoch 62: iteration 22/31
-2022-10-08 16:16:05,608  Epoch 62: iteration 23/31
-2022-10-08 16:16:05,627  Epoch 62: iteration 24/31
-2022-10-08 16:16:05,648  Epoch 62: iteration 25/31
-2022-10-08 16:16:05,668  Epoch 62: iteration 26/31
-2022-10-08 16:16:05,688  Epoch 62: iteration 27/31
-2022-10-08 16:16:05,708  Epoch 62: iteration 28/31
-2022-10-08 16:16:05,729  Epoch 62: iteration 29/31
-2022-10-08 16:16:05,749  Epoch 62: iteration 30/31
-2022-10-08 16:16:05,769  Epoch 62: iteration 31/31
-2022-10-08 16:16:05,788 
-2022-10-08 16:16:05,788 Epoch 62 --> loss:0.1012, acc:97.02%, test_loss:0.4438, test_acc:86.90%, Time per epoch: 1.5670
-2022-10-08 16:16:06,711  Epoch 63: iteration 1/31
-2022-10-08 16:16:06,732  Epoch 63: iteration 2/31
-2022-10-08 16:16:06,753  Epoch 63: iteration 3/31
-2022-10-08 16:16:06,774  Epoch 63: iteration 4/31
-2022-10-08 16:16:06,795  Epoch 63: iteration 5/31
-2022-10-08 16:16:06,815  Epoch 63: iteration 6/31
-2022-10-08 16:16:06,835  Epoch 63: iteration 7/31
-2022-10-08 16:16:06,855  Epoch 63: iteration 8/31
-2022-10-08 16:16:06,877  Epoch 63: iteration 9/31
-2022-10-08 16:16:06,897  Epoch 63: iteration 10/31
-2022-10-08 16:16:06,917  Epoch 63: iteration 11/31
-2022-10-08 16:16:06,937  Epoch 63: iteration 12/31
-2022-10-08 16:16:06,957  Epoch 63: iteration 13/31
-2022-10-08 16:16:06,977  Epoch 63: iteration 14/31
-2022-10-08 16:16:06,998  Epoch 63: iteration 15/31
-2022-10-08 16:16:07,025  Epoch 63: iteration 16/31
-2022-10-08 16:16:07,052  Epoch 63: iteration 17/31
-2022-10-08 16:16:07,077  Epoch 63: iteration 18/31
-2022-10-08 16:16:07,100  Epoch 63: iteration 19/31
-2022-10-08 16:16:07,121  Epoch 63: iteration 20/31
-2022-10-08 16:16:07,142  Epoch 63: iteration 21/31
-2022-10-08 16:16:07,163  Epoch 63: iteration 22/31
-2022-10-08 16:16:07,184  Epoch 63: iteration 23/31
-2022-10-08 16:16:07,205  Epoch 63: iteration 24/31
-2022-10-08 16:16:07,226  Epoch 63: iteration 25/31
-2022-10-08 16:16:07,247  Epoch 63: iteration 26/31
-2022-10-08 16:16:07,269  Epoch 63: iteration 27/31
-2022-10-08 16:16:07,289  Epoch 63: iteration 28/31
-2022-10-08 16:16:07,310  Epoch 63: iteration 29/31
-2022-10-08 16:16:07,331  Epoch 63: iteration 30/31
-2022-10-08 16:16:07,351  Epoch 63: iteration 31/31
-2022-10-08 16:16:07,370 
-2022-10-08 16:16:07,370 Epoch 63 --> loss:0.0929, acc:96.03%, test_loss:0.4239, test_acc:86.90%, Time per epoch: 1.5820
-2022-10-08 16:16:08,299  Epoch 64: iteration 1/31
-2022-10-08 16:16:08,319  Epoch 64: iteration 2/31
-2022-10-08 16:16:08,340  Epoch 64: iteration 3/31
-2022-10-08 16:16:08,360  Epoch 64: iteration 4/31
-2022-10-08 16:16:08,382  Epoch 64: iteration 5/31
-2022-10-08 16:16:08,403  Epoch 64: iteration 6/31
-2022-10-08 16:16:08,424  Epoch 64: iteration 7/31
-2022-10-08 16:16:08,444  Epoch 64: iteration 8/31
-2022-10-08 16:16:08,466  Epoch 64: iteration 9/31
-2022-10-08 16:16:08,486  Epoch 64: iteration 10/31
-2022-10-08 16:16:08,507  Epoch 64: iteration 11/31
-2022-10-08 16:16:08,528  Epoch 64: iteration 12/31
-2022-10-08 16:16:08,549  Epoch 64: iteration 13/31
-2022-10-08 16:16:08,570  Epoch 64: iteration 14/31
-2022-10-08 16:16:08,591  Epoch 64: iteration 15/31
-2022-10-08 16:16:08,612  Epoch 64: iteration 16/31
-2022-10-08 16:16:08,639  Epoch 64: iteration 17/31
-2022-10-08 16:16:08,666  Epoch 64: iteration 18/31
-2022-10-08 16:16:08,692  Epoch 64: iteration 19/31
-2022-10-08 16:16:08,714  Epoch 64: iteration 20/31
-2022-10-08 16:16:08,736  Epoch 64: iteration 21/31
-2022-10-08 16:16:08,758  Epoch 64: iteration 22/31
-2022-10-08 16:16:08,779  Epoch 64: iteration 23/31
-2022-10-08 16:16:08,801  Epoch 64: iteration 24/31
-2022-10-08 16:16:08,822  Epoch 64: iteration 25/31
-2022-10-08 16:16:08,843  Epoch 64: iteration 26/31
-2022-10-08 16:16:08,864  Epoch 64: iteration 27/31
-2022-10-08 16:16:08,885  Epoch 64: iteration 28/31
-2022-10-08 16:16:08,906  Epoch 64: iteration 29/31
-2022-10-08 16:16:08,927  Epoch 64: iteration 30/31
-2022-10-08 16:16:08,949  Epoch 64: iteration 31/31
-2022-10-08 16:16:08,967 
-2022-10-08 16:16:08,968 Epoch 64 --> loss:0.0972, acc:96.33%, test_loss:0.4302, test_acc:88.10%, Time per epoch: 1.5975
-2022-10-08 16:16:09,891  Epoch 65: iteration 1/31
-2022-10-08 16:16:09,912  Epoch 65: iteration 2/31
-2022-10-08 16:16:09,933  Epoch 65: iteration 3/31
-2022-10-08 16:16:09,954  Epoch 65: iteration 4/31
-2022-10-08 16:16:09,975  Epoch 65: iteration 5/31
-2022-10-08 16:16:09,996  Epoch 65: iteration 6/31
-2022-10-08 16:16:10,017  Epoch 65: iteration 7/31
-2022-10-08 16:16:10,038  Epoch 65: iteration 8/31
-2022-10-08 16:16:10,059  Epoch 65: iteration 9/31
-2022-10-08 16:16:10,080  Epoch 65: iteration 10/31
-2022-10-08 16:16:10,102  Epoch 65: iteration 11/31
-2022-10-08 16:16:10,122  Epoch 65: iteration 12/31
-2022-10-08 16:16:10,143  Epoch 65: iteration 13/31
-2022-10-08 16:16:10,164  Epoch 65: iteration 14/31
-2022-10-08 16:16:10,184  Epoch 65: iteration 15/31
-2022-10-08 16:16:10,205  Epoch 65: iteration 16/31
-2022-10-08 16:16:10,226  Epoch 65: iteration 17/31
-2022-10-08 16:16:10,247  Epoch 65: iteration 18/31
-2022-10-08 16:16:10,268  Epoch 65: iteration 19/31
-2022-10-08 16:16:10,289  Epoch 65: iteration 20/31
-2022-10-08 16:16:10,310  Epoch 65: iteration 21/31
-2022-10-08 16:16:10,331  Epoch 65: iteration 22/31
-2022-10-08 16:16:10,351  Epoch 65: iteration 23/31
-2022-10-08 16:16:10,372  Epoch 65: iteration 24/31
-2022-10-08 16:16:10,393  Epoch 65: iteration 25/31
-2022-10-08 16:16:10,413  Epoch 65: iteration 26/31
-2022-10-08 16:16:10,434  Epoch 65: iteration 27/31
-2022-10-08 16:16:10,454  Epoch 65: iteration 28/31
-2022-10-08 16:16:10,473  Epoch 65: iteration 29/31
-2022-10-08 16:16:10,493  Epoch 65: iteration 30/31
-2022-10-08 16:16:10,514  Epoch 65: iteration 31/31
-2022-10-08 16:16:10,532 
-2022-10-08 16:16:10,532 Epoch 65 --> loss:0.0959, acc:96.63%, test_loss:0.4159, test_acc:86.90%, Time per epoch: 1.5647
-2022-10-08 16:16:11,463  Epoch 66: iteration 1/31
-2022-10-08 16:16:11,484  Epoch 66: iteration 2/31
-2022-10-08 16:16:11,505  Epoch 66: iteration 3/31
-2022-10-08 16:16:11,526  Epoch 66: iteration 4/31
-2022-10-08 16:16:11,546  Epoch 66: iteration 5/31
-2022-10-08 16:16:11,567  Epoch 66: iteration 6/31
-2022-10-08 16:16:11,588  Epoch 66: iteration 7/31
-2022-10-08 16:16:11,608  Epoch 66: iteration 8/31
-2022-10-08 16:16:11,629  Epoch 66: iteration 9/31
-2022-10-08 16:16:11,650  Epoch 66: iteration 10/31
-2022-10-08 16:16:11,671  Epoch 66: iteration 11/31
-2022-10-08 16:16:11,692  Epoch 66: iteration 12/31
-2022-10-08 16:16:11,712  Epoch 66: iteration 13/31
-2022-10-08 16:16:11,732  Epoch 66: iteration 14/31
-2022-10-08 16:16:11,753  Epoch 66: iteration 15/31
-2022-10-08 16:16:11,773  Epoch 66: iteration 16/31
-2022-10-08 16:16:11,794  Epoch 66: iteration 17/31
-2022-10-08 16:16:11,814  Epoch 66: iteration 18/31
-2022-10-08 16:16:11,836  Epoch 66: iteration 19/31
-2022-10-08 16:16:11,857  Epoch 66: iteration 20/31
-2022-10-08 16:16:11,876  Epoch 66: iteration 21/31
-2022-10-08 16:16:11,897  Epoch 66: iteration 22/31
-2022-10-08 16:16:11,918  Epoch 66: iteration 23/31
-2022-10-08 16:16:11,938  Epoch 66: iteration 24/31
-2022-10-08 16:16:11,958  Epoch 66: iteration 25/31
-2022-10-08 16:16:11,979  Epoch 66: iteration 26/31
-2022-10-08 16:16:11,999  Epoch 66: iteration 27/31
-2022-10-08 16:16:12,020  Epoch 66: iteration 28/31
-2022-10-08 16:16:12,040  Epoch 66: iteration 29/31
-2022-10-08 16:16:12,061  Epoch 66: iteration 30/31
-2022-10-08 16:16:12,082  Epoch 66: iteration 31/31
-2022-10-08 16:16:12,100 
-2022-10-08 16:16:12,100 Epoch 66 --> loss:0.0903, acc:97.12%, test_loss:0.4333, test_acc:86.90%, Time per epoch: 1.5677
-2022-10-08 16:16:13,032  Epoch 67: iteration 1/31
-2022-10-08 16:16:13,053  Epoch 67: iteration 2/31
-2022-10-08 16:16:13,074  Epoch 67: iteration 3/31
-2022-10-08 16:16:13,095  Epoch 67: iteration 4/31
-2022-10-08 16:16:13,116  Epoch 67: iteration 5/31
-2022-10-08 16:16:13,137  Epoch 67: iteration 6/31
-2022-10-08 16:16:13,158  Epoch 67: iteration 7/31
-2022-10-08 16:16:13,180  Epoch 67: iteration 8/31
-2022-10-08 16:16:13,201  Epoch 67: iteration 9/31
-2022-10-08 16:16:13,222  Epoch 67: iteration 10/31
-2022-10-08 16:16:13,243  Epoch 67: iteration 11/31
-2022-10-08 16:16:13,264  Epoch 67: iteration 12/31
-2022-10-08 16:16:13,285  Epoch 67: iteration 13/31
-2022-10-08 16:16:13,306  Epoch 67: iteration 14/31
-2022-10-08 16:16:13,327  Epoch 67: iteration 15/31
-2022-10-08 16:16:13,348  Epoch 67: iteration 16/31
-2022-10-08 16:16:13,369  Epoch 67: iteration 17/31
-2022-10-08 16:16:13,390  Epoch 67: iteration 18/31
-2022-10-08 16:16:13,412  Epoch 67: iteration 19/31
-2022-10-08 16:16:13,434  Epoch 67: iteration 20/31
-2022-10-08 16:16:13,457  Epoch 67: iteration 21/31
-2022-10-08 16:16:13,478  Epoch 67: iteration 22/31
-2022-10-08 16:16:13,499  Epoch 67: iteration 23/31
-2022-10-08 16:16:13,520  Epoch 67: iteration 24/31
-2022-10-08 16:16:13,541  Epoch 67: iteration 25/31
-2022-10-08 16:16:13,562  Epoch 67: iteration 26/31
-2022-10-08 16:16:13,585  Epoch 67: iteration 27/31
-2022-10-08 16:16:13,608  Epoch 67: iteration 28/31
-2022-10-08 16:16:13,629  Epoch 67: iteration 29/31
-2022-10-08 16:16:13,650  Epoch 67: iteration 30/31
-2022-10-08 16:16:13,671  Epoch 67: iteration 31/31
-2022-10-08 16:16:13,689 
-2022-10-08 16:16:13,689 Epoch 67 --> loss:0.1000, acc:96.33%, test_loss:0.4365, test_acc:86.90%, Time per epoch: 1.5888
-2022-10-08 16:16:14,630  Epoch 68: iteration 1/31
-2022-10-08 16:16:14,651  Epoch 68: iteration 2/31
-2022-10-08 16:16:14,672  Epoch 68: iteration 3/31
-2022-10-08 16:16:14,693  Epoch 68: iteration 4/31
-2022-10-08 16:16:14,714  Epoch 68: iteration 5/31
-2022-10-08 16:16:14,735  Epoch 68: iteration 6/31
-2022-10-08 16:16:14,756  Epoch 68: iteration 7/31
-2022-10-08 16:16:14,778  Epoch 68: iteration 8/31
-2022-10-08 16:16:14,798  Epoch 68: iteration 9/31
-2022-10-08 16:16:14,820  Epoch 68: iteration 10/31
-2022-10-08 16:16:14,840  Epoch 68: iteration 11/31
-2022-10-08 16:16:14,860  Epoch 68: iteration 12/31
-2022-10-08 16:16:14,881  Epoch 68: iteration 13/31
-2022-10-08 16:16:14,902  Epoch 68: iteration 14/31
-2022-10-08 16:16:14,923  Epoch 68: iteration 15/31
-2022-10-08 16:16:14,944  Epoch 68: iteration 16/31
-2022-10-08 16:16:14,966  Epoch 68: iteration 17/31
-2022-10-08 16:16:14,987  Epoch 68: iteration 18/31
-2022-10-08 16:16:15,010  Epoch 68: iteration 19/31
-2022-10-08 16:16:15,031  Epoch 68: iteration 20/31
-2022-10-08 16:16:15,052  Epoch 68: iteration 21/31
-2022-10-08 16:16:15,073  Epoch 68: iteration 22/31
-2022-10-08 16:16:15,094  Epoch 68: iteration 23/31
-2022-10-08 16:16:15,116  Epoch 68: iteration 24/31
-2022-10-08 16:16:15,138  Epoch 68: iteration 25/31
-2022-10-08 16:16:15,159  Epoch 68: iteration 26/31
-2022-10-08 16:16:15,180  Epoch 68: iteration 27/31
-2022-10-08 16:16:15,201  Epoch 68: iteration 28/31
-2022-10-08 16:16:15,222  Epoch 68: iteration 29/31
-2022-10-08 16:16:15,243  Epoch 68: iteration 30/31
-2022-10-08 16:16:15,264  Epoch 68: iteration 31/31
-2022-10-08 16:16:15,283 
-2022-10-08 16:16:15,283 Epoch 68 --> loss:0.0899, acc:96.23%, test_loss:0.4475, test_acc:86.90%, Time per epoch: 1.5938
-2022-10-08 16:16:16,213  Epoch 69: iteration 1/31
-2022-10-08 16:16:16,234  Epoch 69: iteration 2/31
-2022-10-08 16:16:16,254  Epoch 69: iteration 3/31
-2022-10-08 16:16:16,274  Epoch 69: iteration 4/31
-2022-10-08 16:16:16,295  Epoch 69: iteration 5/31
-2022-10-08 16:16:16,316  Epoch 69: iteration 6/31
-2022-10-08 16:16:16,337  Epoch 69: iteration 7/31
-2022-10-08 16:16:16,358  Epoch 69: iteration 8/31
-2022-10-08 16:16:16,380  Epoch 69: iteration 9/31
-2022-10-08 16:16:16,401  Epoch 69: iteration 10/31
-2022-10-08 16:16:16,422  Epoch 69: iteration 11/31
-2022-10-08 16:16:16,443  Epoch 69: iteration 12/31
-2022-10-08 16:16:16,465  Epoch 69: iteration 13/31
-2022-10-08 16:16:16,486  Epoch 69: iteration 14/31
-2022-10-08 16:16:16,507  Epoch 69: iteration 15/31
-2022-10-08 16:16:16,529  Epoch 69: iteration 16/31
-2022-10-08 16:16:16,551  Epoch 69: iteration 17/31
-2022-10-08 16:16:16,572  Epoch 69: iteration 18/31
-2022-10-08 16:16:16,594  Epoch 69: iteration 19/31
-2022-10-08 16:16:16,615  Epoch 69: iteration 20/31
-2022-10-08 16:16:16,635  Epoch 69: iteration 21/31
-2022-10-08 16:16:16,656  Epoch 69: iteration 22/31
-2022-10-08 16:16:16,677  Epoch 69: iteration 23/31
-2022-10-08 16:16:16,698  Epoch 69: iteration 24/31
-2022-10-08 16:16:16,719  Epoch 69: iteration 25/31
-2022-10-08 16:16:16,741  Epoch 69: iteration 26/31
-2022-10-08 16:16:16,761  Epoch 69: iteration 27/31
-2022-10-08 16:16:16,782  Epoch 69: iteration 28/31
-2022-10-08 16:16:16,802  Epoch 69: iteration 29/31
-2022-10-08 16:16:16,823  Epoch 69: iteration 30/31
-2022-10-08 16:16:16,846  Epoch 69: iteration 31/31
-2022-10-08 16:16:16,864 
-2022-10-08 16:16:16,864 Epoch 69 --> loss:0.0964, acc:97.12%, test_loss:0.4344, test_acc:86.90%, Time per epoch: 1.5811
-2022-10-08 16:16:17,804  Epoch 70: iteration 1/31
-2022-10-08 16:16:17,831  Epoch 70: iteration 2/31
-2022-10-08 16:16:17,855  Epoch 70: iteration 3/31
-2022-10-08 16:16:17,877  Epoch 70: iteration 4/31
-2022-10-08 16:16:17,899  Epoch 70: iteration 5/31
-2022-10-08 16:16:17,921  Epoch 70: iteration 6/31
-2022-10-08 16:16:17,942  Epoch 70: iteration 7/31
-2022-10-08 16:16:17,964  Epoch 70: iteration 8/31
-2022-10-08 16:16:17,985  Epoch 70: iteration 9/31
-2022-10-08 16:16:18,006  Epoch 70: iteration 10/31
-2022-10-08 16:16:18,028  Epoch 70: iteration 11/31
-2022-10-08 16:16:18,048  Epoch 70: iteration 12/31
-2022-10-08 16:16:18,069  Epoch 70: iteration 13/31
-2022-10-08 16:16:18,091  Epoch 70: iteration 14/31
-2022-10-08 16:16:18,112  Epoch 70: iteration 15/31
-2022-10-08 16:16:18,133  Epoch 70: iteration 16/31
-2022-10-08 16:16:18,155  Epoch 70: iteration 17/31
-2022-10-08 16:16:18,176  Epoch 70: iteration 18/31
-2022-10-08 16:16:18,197  Epoch 70: iteration 19/31
-2022-10-08 16:16:18,219  Epoch 70: iteration 20/31
-2022-10-08 16:16:18,240  Epoch 70: iteration 21/31
-2022-10-08 16:16:18,260  Epoch 70: iteration 22/31
-2022-10-08 16:16:18,281  Epoch 70: iteration 23/31
-2022-10-08 16:16:18,302  Epoch 70: iteration 24/31
-2022-10-08 16:16:18,323  Epoch 70: iteration 25/31
-2022-10-08 16:16:18,344  Epoch 70: iteration 26/31
-2022-10-08 16:16:18,365  Epoch 70: iteration 27/31
-2022-10-08 16:16:18,386  Epoch 70: iteration 28/31
-2022-10-08 16:16:18,406  Epoch 70: iteration 29/31
-2022-10-08 16:16:18,427  Epoch 70: iteration 30/31
-2022-10-08 16:16:18,448  Epoch 70: iteration 31/31
-2022-10-08 16:16:18,467 
-2022-10-08 16:16:18,467 Epoch 70 --> loss:0.0944, acc:96.63%, test_loss:0.4427, test_acc:86.90%, Time per epoch: 1.6024
-2022-10-08 16:16:19,392  Epoch 71: iteration 1/31
-2022-10-08 16:16:19,413  Epoch 71: iteration 2/31
-2022-10-08 16:16:19,434  Epoch 71: iteration 3/31
-2022-10-08 16:16:19,455  Epoch 71: iteration 4/31
-2022-10-08 16:16:19,476  Epoch 71: iteration 5/31
-2022-10-08 16:16:19,497  Epoch 71: iteration 6/31
-2022-10-08 16:16:19,517  Epoch 71: iteration 7/31
-2022-10-08 16:16:19,538  Epoch 71: iteration 8/31
-2022-10-08 16:16:19,559  Epoch 71: iteration 9/31
-2022-10-08 16:16:19,580  Epoch 71: iteration 10/31
-2022-10-08 16:16:19,601  Epoch 71: iteration 11/31
-2022-10-08 16:16:19,622  Epoch 71: iteration 12/31
-2022-10-08 16:16:19,643  Epoch 71: iteration 13/31
-2022-10-08 16:16:19,664  Epoch 71: iteration 14/31
-2022-10-08 16:16:19,684  Epoch 71: iteration 15/31
-2022-10-08 16:16:19,704  Epoch 71: iteration 16/31
-2022-10-08 16:16:19,725  Epoch 71: iteration 17/31
-2022-10-08 16:16:19,745  Epoch 71: iteration 18/31
-2022-10-08 16:16:19,766  Epoch 71: iteration 19/31
-2022-10-08 16:16:19,787  Epoch 71: iteration 20/31
-2022-10-08 16:16:19,808  Epoch 71: iteration 21/31
-2022-10-08 16:16:19,829  Epoch 71: iteration 22/31
-2022-10-08 16:16:19,849  Epoch 71: iteration 23/31
-2022-10-08 16:16:19,870  Epoch 71: iteration 24/31
-2022-10-08 16:16:19,891  Epoch 71: iteration 25/31
-2022-10-08 16:16:19,911  Epoch 71: iteration 26/31
-2022-10-08 16:16:19,931  Epoch 71: iteration 27/31
-2022-10-08 16:16:19,950  Epoch 71: iteration 28/31
-2022-10-08 16:16:19,971  Epoch 71: iteration 29/31
-2022-10-08 16:16:19,992  Epoch 71: iteration 30/31
-2022-10-08 16:16:20,013  Epoch 71: iteration 31/31
-2022-10-08 16:16:20,031 
-2022-10-08 16:16:20,031 Epoch 71 --> loss:0.0809, acc:96.53%, test_loss:0.4426, test_acc:86.90%, Time per epoch: 1.5641
-2022-10-08 16:16:20,965  Epoch 72: iteration 1/31
-2022-10-08 16:16:20,985  Epoch 72: iteration 2/31
-2022-10-08 16:16:21,006  Epoch 72: iteration 3/31
-2022-10-08 16:16:21,026  Epoch 72: iteration 4/31
-2022-10-08 16:16:21,047  Epoch 72: iteration 5/31
-2022-10-08 16:16:21,068  Epoch 72: iteration 6/31
-2022-10-08 16:16:21,089  Epoch 72: iteration 7/31
-2022-10-08 16:16:21,110  Epoch 72: iteration 8/31
-2022-10-08 16:16:21,131  Epoch 72: iteration 9/31
-2022-10-08 16:16:21,152  Epoch 72: iteration 10/31
-2022-10-08 16:16:21,173  Epoch 72: iteration 11/31
-2022-10-08 16:16:21,196  Epoch 72: iteration 12/31
-2022-10-08 16:16:21,217  Epoch 72: iteration 13/31
-2022-10-08 16:16:21,238  Epoch 72: iteration 14/31
-2022-10-08 16:16:21,258  Epoch 72: iteration 15/31
-2022-10-08 16:16:21,279  Epoch 72: iteration 16/31
-2022-10-08 16:16:21,298  Epoch 72: iteration 17/31
-2022-10-08 16:16:21,318  Epoch 72: iteration 18/31
-2022-10-08 16:16:21,339  Epoch 72: iteration 19/31
-2022-10-08 16:16:21,359  Epoch 72: iteration 20/31
-2022-10-08 16:16:21,380  Epoch 72: iteration 21/31
-2022-10-08 16:16:21,399  Epoch 72: iteration 22/31
-2022-10-08 16:16:21,420  Epoch 72: iteration 23/31
-2022-10-08 16:16:21,440  Epoch 72: iteration 24/31
-2022-10-08 16:16:21,459  Epoch 72: iteration 25/31
-2022-10-08 16:16:21,479  Epoch 72: iteration 26/31
-2022-10-08 16:16:21,500  Epoch 72: iteration 27/31
-2022-10-08 16:16:21,521  Epoch 72: iteration 28/31
-2022-10-08 16:16:21,542  Epoch 72: iteration 29/31
-2022-10-08 16:16:21,563  Epoch 72: iteration 30/31
-2022-10-08 16:16:21,584  Epoch 72: iteration 31/31
-2022-10-08 16:16:21,602 
-2022-10-08 16:16:21,603 Epoch 72 --> loss:0.0918, acc:96.43%, test_loss:0.4418, test_acc:86.90%, Time per epoch: 1.5715
-2022-10-08 16:16:22,535  Epoch 73: iteration 1/31
-2022-10-08 16:16:22,555  Epoch 73: iteration 2/31
-2022-10-08 16:16:22,576  Epoch 73: iteration 3/31
-2022-10-08 16:16:22,597  Epoch 73: iteration 4/31
-2022-10-08 16:16:22,618  Epoch 73: iteration 5/31
-2022-10-08 16:16:22,639  Epoch 73: iteration 6/31
-2022-10-08 16:16:22,660  Epoch 73: iteration 7/31
-2022-10-08 16:16:22,681  Epoch 73: iteration 8/31
-2022-10-08 16:16:22,702  Epoch 73: iteration 9/31
-2022-10-08 16:16:22,723  Epoch 73: iteration 10/31
-2022-10-08 16:16:22,744  Epoch 73: iteration 11/31
-2022-10-08 16:16:22,765  Epoch 73: iteration 12/31
-2022-10-08 16:16:22,786  Epoch 73: iteration 13/31
-2022-10-08 16:16:22,807  Epoch 73: iteration 14/31
-2022-10-08 16:16:22,828  Epoch 73: iteration 15/31
-2022-10-08 16:16:22,849  Epoch 73: iteration 16/31
-2022-10-08 16:16:22,870  Epoch 73: iteration 17/31
-2022-10-08 16:16:22,891  Epoch 73: iteration 18/31
-2022-10-08 16:16:22,912  Epoch 73: iteration 19/31
-2022-10-08 16:16:22,933  Epoch 73: iteration 20/31
-2022-10-08 16:16:22,954  Epoch 73: iteration 21/31
-2022-10-08 16:16:22,975  Epoch 73: iteration 22/31
-2022-10-08 16:16:22,996  Epoch 73: iteration 23/31
-2022-10-08 16:16:23,017  Epoch 73: iteration 24/31
-2022-10-08 16:16:23,038  Epoch 73: iteration 25/31
-2022-10-08 16:16:23,059  Epoch 73: iteration 26/31
-2022-10-08 16:16:23,080  Epoch 73: iteration 27/31
-2022-10-08 16:16:23,102  Epoch 73: iteration 28/31
-2022-10-08 16:16:23,123  Epoch 73: iteration 29/31
-2022-10-08 16:16:23,144  Epoch 73: iteration 30/31
-2022-10-08 16:16:23,165  Epoch 73: iteration 31/31
-2022-10-08 16:16:23,184 
-2022-10-08 16:16:23,184 Epoch 73 --> loss:0.0842, acc:96.73%, test_loss:0.4311, test_acc:86.90%, Time per epoch: 1.5811
-2022-10-08 16:16:24,124  Epoch 74: iteration 1/31
-2022-10-08 16:16:24,145  Epoch 74: iteration 2/31
-2022-10-08 16:16:24,165  Epoch 74: iteration 3/31
-2022-10-08 16:16:24,186  Epoch 74: iteration 4/31
-2022-10-08 16:16:24,207  Epoch 74: iteration 5/31
-2022-10-08 16:16:24,228  Epoch 74: iteration 6/31
-2022-10-08 16:16:24,249  Epoch 74: iteration 7/31
-2022-10-08 16:16:24,270  Epoch 74: iteration 8/31
-2022-10-08 16:16:24,291  Epoch 74: iteration 9/31
-2022-10-08 16:16:24,312  Epoch 74: iteration 10/31
-2022-10-08 16:16:24,333  Epoch 74: iteration 11/31
-2022-10-08 16:16:24,354  Epoch 74: iteration 12/31
-2022-10-08 16:16:24,375  Epoch 74: iteration 13/31
-2022-10-08 16:16:24,395  Epoch 74: iteration 14/31
-2022-10-08 16:16:24,416  Epoch 74: iteration 15/31
-2022-10-08 16:16:24,437  Epoch 74: iteration 16/31
-2022-10-08 16:16:24,458  Epoch 74: iteration 17/31
-2022-10-08 16:16:24,479  Epoch 74: iteration 18/31
-2022-10-08 16:16:24,501  Epoch 74: iteration 19/31
-2022-10-08 16:16:24,522  Epoch 74: iteration 20/31
-2022-10-08 16:16:24,543  Epoch 74: iteration 21/31
-2022-10-08 16:16:24,564  Epoch 74: iteration 22/31
-2022-10-08 16:16:24,585  Epoch 74: iteration 23/31
-2022-10-08 16:16:24,606  Epoch 74: iteration 24/31
-2022-10-08 16:16:24,627  Epoch 74: iteration 25/31
-2022-10-08 16:16:24,648  Epoch 74: iteration 26/31
-2022-10-08 16:16:24,669  Epoch 74: iteration 27/31
-2022-10-08 16:16:24,690  Epoch 74: iteration 28/31
-2022-10-08 16:16:24,711  Epoch 74: iteration 29/31
-2022-10-08 16:16:24,732  Epoch 74: iteration 30/31
-2022-10-08 16:16:24,753  Epoch 74: iteration 31/31
-2022-10-08 16:16:24,772 
-2022-10-08 16:16:24,772 Epoch 74 --> loss:0.0735, acc:96.63%, test_loss:0.4300, test_acc:86.90%, Time per epoch: 1.5884
-2022-10-08 16:16:25,710  Epoch 75: iteration 1/31
-2022-10-08 16:16:25,730  Epoch 75: iteration 2/31
-2022-10-08 16:16:25,750  Epoch 75: iteration 3/31
-2022-10-08 16:16:25,771  Epoch 75: iteration 4/31
-2022-10-08 16:16:25,792  Epoch 75: iteration 5/31
-2022-10-08 16:16:25,813  Epoch 75: iteration 6/31
-2022-10-08 16:16:25,834  Epoch 75: iteration 7/31
-2022-10-08 16:16:25,855  Epoch 75: iteration 8/31
-2022-10-08 16:16:25,885  Epoch 75: iteration 9/31
-2022-10-08 16:16:25,911  Epoch 75: iteration 10/31
-2022-10-08 16:16:25,933  Epoch 75: iteration 11/31
-2022-10-08 16:16:25,954  Epoch 75: iteration 12/31
-2022-10-08 16:16:25,976  Epoch 75: iteration 13/31
-2022-10-08 16:16:25,996  Epoch 75: iteration 14/31
-2022-10-08 16:16:26,017  Epoch 75: iteration 15/31
-2022-10-08 16:16:26,038  Epoch 75: iteration 16/31
-2022-10-08 16:16:26,059  Epoch 75: iteration 17/31
-2022-10-08 16:16:26,080  Epoch 75: iteration 18/31
-2022-10-08 16:16:26,101  Epoch 75: iteration 19/31
-2022-10-08 16:16:26,122  Epoch 75: iteration 20/31
-2022-10-08 16:16:26,143  Epoch 75: iteration 21/31
-2022-10-08 16:16:26,164  Epoch 75: iteration 22/31
-2022-10-08 16:16:26,185  Epoch 75: iteration 23/31
-2022-10-08 16:16:26,206  Epoch 75: iteration 24/31
-2022-10-08 16:16:26,227  Epoch 75: iteration 25/31
-2022-10-08 16:16:26,248  Epoch 75: iteration 26/31
-2022-10-08 16:16:26,269  Epoch 75: iteration 27/31
-2022-10-08 16:16:26,291  Epoch 75: iteration 28/31
-2022-10-08 16:16:26,312  Epoch 75: iteration 29/31
-2022-10-08 16:16:26,333  Epoch 75: iteration 30/31
-2022-10-08 16:16:26,354  Epoch 75: iteration 31/31
-2022-10-08 16:16:26,372 
-2022-10-08 16:16:26,372 Epoch 75 --> loss:0.0800, acc:96.63%, test_loss:0.4395, test_acc:86.90%, Time per epoch: 1.5996
-2022-10-08 16:16:27,301  Epoch 76: iteration 1/31
-2022-10-08 16:16:27,322  Epoch 76: iteration 2/31
-2022-10-08 16:16:27,341  Epoch 76: iteration 3/31
-2022-10-08 16:16:27,361  Epoch 76: iteration 4/31
-2022-10-08 16:16:27,382  Epoch 76: iteration 5/31
-2022-10-08 16:16:27,403  Epoch 76: iteration 6/31
-2022-10-08 16:16:27,424  Epoch 76: iteration 7/31
-2022-10-08 16:16:27,445  Epoch 76: iteration 8/31
-2022-10-08 16:16:27,465  Epoch 76: iteration 9/31
-2022-10-08 16:16:27,486  Epoch 76: iteration 10/31
-2022-10-08 16:16:27,507  Epoch 76: iteration 11/31
-2022-10-08 16:16:27,527  Epoch 76: iteration 12/31
-2022-10-08 16:16:27,548  Epoch 76: iteration 13/31
-2022-10-08 16:16:27,569  Epoch 76: iteration 14/31
-2022-10-08 16:16:27,589  Epoch 76: iteration 15/31
-2022-10-08 16:16:27,610  Epoch 76: iteration 16/31
-2022-10-08 16:16:27,631  Epoch 76: iteration 17/31
-2022-10-08 16:16:27,651  Epoch 76: iteration 18/31
-2022-10-08 16:16:27,672  Epoch 76: iteration 19/31
-2022-10-08 16:16:27,693  Epoch 76: iteration 20/31
-2022-10-08 16:16:27,715  Epoch 76: iteration 21/31
-2022-10-08 16:16:27,736  Epoch 76: iteration 22/31
-2022-10-08 16:16:27,757  Epoch 76: iteration 23/31
-2022-10-08 16:16:27,778  Epoch 76: iteration 24/31
-2022-10-08 16:16:27,800  Epoch 76: iteration 25/31
-2022-10-08 16:16:27,821  Epoch 76: iteration 26/31
-2022-10-08 16:16:27,842  Epoch 76: iteration 27/31
-2022-10-08 16:16:27,863  Epoch 76: iteration 28/31
-2022-10-08 16:16:27,884  Epoch 76: iteration 29/31
-2022-10-08 16:16:27,905  Epoch 76: iteration 30/31
-2022-10-08 16:16:27,926  Epoch 76: iteration 31/31
-2022-10-08 16:16:27,944 
-2022-10-08 16:16:27,944 Epoch 76 --> loss:0.0859, acc:96.83%, test_loss:0.4483, test_acc:86.90%, Time per epoch: 1.5717
-2022-10-08 16:16:28,867  Epoch 77: iteration 1/31
-2022-10-08 16:16:28,888  Epoch 77: iteration 2/31
-2022-10-08 16:16:28,910  Epoch 77: iteration 3/31
-2022-10-08 16:16:28,932  Epoch 77: iteration 4/31
-2022-10-08 16:16:28,955  Epoch 77: iteration 5/31
-2022-10-08 16:16:28,976  Epoch 77: iteration 6/31
-2022-10-08 16:16:28,997  Epoch 77: iteration 7/31
-2022-10-08 16:16:29,024  Epoch 77: iteration 8/31
-2022-10-08 16:16:29,051  Epoch 77: iteration 9/31
-2022-10-08 16:16:29,075  Epoch 77: iteration 10/31
-2022-10-08 16:16:29,098  Epoch 77: iteration 11/31
-2022-10-08 16:16:29,120  Epoch 77: iteration 12/31
-2022-10-08 16:16:29,142  Epoch 77: iteration 13/31
-2022-10-08 16:16:29,165  Epoch 77: iteration 14/31
-2022-10-08 16:16:29,186  Epoch 77: iteration 15/31
-2022-10-08 16:16:29,207  Epoch 77: iteration 16/31
-2022-10-08 16:16:29,228  Epoch 77: iteration 17/31
-2022-10-08 16:16:29,249  Epoch 77: iteration 18/31
-2022-10-08 16:16:29,270  Epoch 77: iteration 19/31
-2022-10-08 16:16:29,291  Epoch 77: iteration 20/31
-2022-10-08 16:16:29,312  Epoch 77: iteration 21/31
-2022-10-08 16:16:29,334  Epoch 77: iteration 22/31
-2022-10-08 16:16:29,356  Epoch 77: iteration 23/31
-2022-10-08 16:16:29,379  Epoch 77: iteration 24/31
-2022-10-08 16:16:29,401  Epoch 77: iteration 25/31
-2022-10-08 16:16:29,422  Epoch 77: iteration 26/31
-2022-10-08 16:16:29,444  Epoch 77: iteration 27/31
-2022-10-08 16:16:29,465  Epoch 77: iteration 28/31
-2022-10-08 16:16:29,486  Epoch 77: iteration 29/31
-2022-10-08 16:16:29,507  Epoch 77: iteration 30/31
-2022-10-08 16:16:29,528  Epoch 77: iteration 31/31
-2022-10-08 16:16:29,547 
-2022-10-08 16:16:29,547 Epoch 77 --> loss:0.0911, acc:96.63%, test_loss:0.4463, test_acc:86.90%, Time per epoch: 1.6030
-2022-10-08 16:16:30,468  Epoch 78: iteration 1/31
-2022-10-08 16:16:30,489  Epoch 78: iteration 2/31
-2022-10-08 16:16:30,512  Epoch 78: iteration 3/31
-2022-10-08 16:16:30,534  Epoch 78: iteration 4/31
-2022-10-08 16:16:30,555  Epoch 78: iteration 5/31
-2022-10-08 16:16:30,576  Epoch 78: iteration 6/31
-2022-10-08 16:16:30,597  Epoch 78: iteration 7/31
-2022-10-08 16:16:30,618  Epoch 78: iteration 8/31
-2022-10-08 16:16:30,640  Epoch 78: iteration 9/31
-2022-10-08 16:16:30,660  Epoch 78: iteration 10/31
-2022-10-08 16:16:30,681  Epoch 78: iteration 11/31
-2022-10-08 16:16:30,701  Epoch 78: iteration 12/31
-2022-10-08 16:16:30,721  Epoch 78: iteration 13/31
-2022-10-08 16:16:30,741  Epoch 78: iteration 14/31
-2022-10-08 16:16:30,762  Epoch 78: iteration 15/31
-2022-10-08 16:16:30,782  Epoch 78: iteration 16/31
-2022-10-08 16:16:30,802  Epoch 78: iteration 17/31
-2022-10-08 16:16:30,822  Epoch 78: iteration 18/31
-2022-10-08 16:16:30,843  Epoch 78: iteration 19/31
-2022-10-08 16:16:30,863  Epoch 78: iteration 20/31
-2022-10-08 16:16:30,883  Epoch 78: iteration 21/31
-2022-10-08 16:16:30,904  Epoch 78: iteration 22/31
-2022-10-08 16:16:30,924  Epoch 78: iteration 23/31
-2022-10-08 16:16:30,944  Epoch 78: iteration 24/31
-2022-10-08 16:16:30,965  Epoch 78: iteration 25/31
-2022-10-08 16:16:30,985  Epoch 78: iteration 26/31
-2022-10-08 16:16:31,005  Epoch 78: iteration 27/31
-2022-10-08 16:16:31,026  Epoch 78: iteration 28/31
-2022-10-08 16:16:31,046  Epoch 78: iteration 29/31
-2022-10-08 16:16:31,067  Epoch 78: iteration 30/31
-2022-10-08 16:16:31,087  Epoch 78: iteration 31/31
-2022-10-08 16:16:31,105 
-2022-10-08 16:16:31,105 Epoch 78 --> loss:0.0749, acc:96.63%, test_loss:0.4486, test_acc:86.90%, Time per epoch: 1.5582
-2022-10-08 16:16:32,025  Epoch 79: iteration 1/31
-2022-10-08 16:16:32,045  Epoch 79: iteration 2/31
-2022-10-08 16:16:32,066  Epoch 79: iteration 3/31
-2022-10-08 16:16:32,087  Epoch 79: iteration 4/31
-2022-10-08 16:16:32,108  Epoch 79: iteration 5/31
-2022-10-08 16:16:32,128  Epoch 79: iteration 6/31
-2022-10-08 16:16:32,149  Epoch 79: iteration 7/31
-2022-10-08 16:16:32,169  Epoch 79: iteration 8/31
-2022-10-08 16:16:32,189  Epoch 79: iteration 9/31
-2022-10-08 16:16:32,210  Epoch 79: iteration 10/31
-2022-10-08 16:16:32,230  Epoch 79: iteration 11/31
-2022-10-08 16:16:32,251  Epoch 79: iteration 12/31
-2022-10-08 16:16:32,271  Epoch 79: iteration 13/31
-2022-10-08 16:16:32,291  Epoch 79: iteration 14/31
-2022-10-08 16:16:32,312  Epoch 79: iteration 15/31
-2022-10-08 16:16:32,333  Epoch 79: iteration 16/31
-2022-10-08 16:16:32,353  Epoch 79: iteration 17/31
-2022-10-08 16:16:32,374  Epoch 79: iteration 18/31
-2022-10-08 16:16:32,395  Epoch 79: iteration 19/31
-2022-10-08 16:16:32,415  Epoch 79: iteration 20/31
-2022-10-08 16:16:32,436  Epoch 79: iteration 21/31
-2022-10-08 16:16:32,456  Epoch 79: iteration 22/31
-2022-10-08 16:16:32,477  Epoch 79: iteration 23/31
-2022-10-08 16:16:32,498  Epoch 79: iteration 24/31
-2022-10-08 16:16:32,518  Epoch 79: iteration 25/31
-2022-10-08 16:16:32,539  Epoch 79: iteration 26/31
-2022-10-08 16:16:32,559  Epoch 79: iteration 27/31
-2022-10-08 16:16:32,581  Epoch 79: iteration 28/31
-2022-10-08 16:16:32,601  Epoch 79: iteration 29/31
-2022-10-08 16:16:32,622  Epoch 79: iteration 30/31
-2022-10-08 16:16:32,643  Epoch 79: iteration 31/31
-2022-10-08 16:16:32,661 
-2022-10-08 16:16:32,661 Epoch 79 --> loss:0.0764, acc:96.73%, test_loss:0.4599, test_acc:86.90%, Time per epoch: 1.5562
-2022-10-08 16:16:33,585  Epoch 80: iteration 1/31
-2022-10-08 16:16:33,605  Epoch 80: iteration 2/31
-2022-10-08 16:16:33,626  Epoch 80: iteration 3/31
-2022-10-08 16:16:33,646  Epoch 80: iteration 4/31
-2022-10-08 16:16:33,667  Epoch 80: iteration 5/31
-2022-10-08 16:16:33,687  Epoch 80: iteration 6/31
-2022-10-08 16:16:33,708  Epoch 80: iteration 7/31
-2022-10-08 16:16:33,728  Epoch 80: iteration 8/31
-2022-10-08 16:16:33,748  Epoch 80: iteration 9/31
-2022-10-08 16:16:33,769  Epoch 80: iteration 10/31
-2022-10-08 16:16:33,789  Epoch 80: iteration 11/31
-2022-10-08 16:16:33,809  Epoch 80: iteration 12/31
-2022-10-08 16:16:33,830  Epoch 80: iteration 13/31
-2022-10-08 16:16:33,850  Epoch 80: iteration 14/31
-2022-10-08 16:16:33,870  Epoch 80: iteration 15/31
-2022-10-08 16:16:33,891  Epoch 80: iteration 16/31
-2022-10-08 16:16:33,911  Epoch 80: iteration 17/31
-2022-10-08 16:16:33,933  Epoch 80: iteration 18/31
-2022-10-08 16:16:33,953  Epoch 80: iteration 19/31
-2022-10-08 16:16:33,974  Epoch 80: iteration 20/31
-2022-10-08 16:16:33,995  Epoch 80: iteration 21/31
-2022-10-08 16:16:34,015  Epoch 80: iteration 22/31
-2022-10-08 16:16:34,036  Epoch 80: iteration 23/31
-2022-10-08 16:16:34,057  Epoch 80: iteration 24/31
-2022-10-08 16:16:34,078  Epoch 80: iteration 25/31
-2022-10-08 16:16:34,099  Epoch 80: iteration 26/31
-2022-10-08 16:16:34,121  Epoch 80: iteration 27/31
-2022-10-08 16:16:34,142  Epoch 80: iteration 28/31
-2022-10-08 16:16:34,164  Epoch 80: iteration 29/31
-2022-10-08 16:16:34,185  Epoch 80: iteration 30/31
-2022-10-08 16:16:34,207  Epoch 80: iteration 31/31
-2022-10-08 16:16:34,225 
-2022-10-08 16:16:34,225 Epoch 80 --> loss:0.0805, acc:96.92%, test_loss:0.4577, test_acc:86.90%, Time per epoch: 1.5639
-2022-10-08 16:16:35,147  Epoch 81: iteration 1/31
-2022-10-08 16:16:35,168  Epoch 81: iteration 2/31
-2022-10-08 16:16:35,190  Epoch 81: iteration 3/31
-2022-10-08 16:16:35,211  Epoch 81: iteration 4/31
-2022-10-08 16:16:35,232  Epoch 81: iteration 5/31
-2022-10-08 16:16:35,253  Epoch 81: iteration 6/31
-2022-10-08 16:16:35,274  Epoch 81: iteration 7/31
-2022-10-08 16:16:35,295  Epoch 81: iteration 8/31
-2022-10-08 16:16:35,316  Epoch 81: iteration 9/31
-2022-10-08 16:16:35,338  Epoch 81: iteration 10/31
-2022-10-08 16:16:35,359  Epoch 81: iteration 11/31
-2022-10-08 16:16:35,380  Epoch 81: iteration 12/31
-2022-10-08 16:16:35,401  Epoch 81: iteration 13/31
-2022-10-08 16:16:35,422  Epoch 81: iteration 14/31
-2022-10-08 16:16:35,443  Epoch 81: iteration 15/31
-2022-10-08 16:16:35,464  Epoch 81: iteration 16/31
-2022-10-08 16:16:35,485  Epoch 81: iteration 17/31
-2022-10-08 16:16:35,506  Epoch 81: iteration 18/31
-2022-10-08 16:16:35,527  Epoch 81: iteration 19/31
-2022-10-08 16:16:35,549  Epoch 81: iteration 20/31
-2022-10-08 16:16:35,570  Epoch 81: iteration 21/31
-2022-10-08 16:16:35,592  Epoch 81: iteration 22/31
-2022-10-08 16:16:35,613  Epoch 81: iteration 23/31
-2022-10-08 16:16:35,635  Epoch 81: iteration 24/31
-2022-10-08 16:16:35,657  Epoch 81: iteration 25/31
-2022-10-08 16:16:35,678  Epoch 81: iteration 26/31
-2022-10-08 16:16:35,699  Epoch 81: iteration 27/31
-2022-10-08 16:16:35,720  Epoch 81: iteration 28/31
-2022-10-08 16:16:35,741  Epoch 81: iteration 29/31
-2022-10-08 16:16:35,762  Epoch 81: iteration 30/31
-2022-10-08 16:16:35,784  Epoch 81: iteration 31/31
-2022-10-08 16:16:35,802 
-2022-10-08 16:16:35,802 Epoch 81 --> loss:0.0743, acc:96.13%, test_loss:0.4704, test_acc:88.10%, Time per epoch: 1.5768
-2022-10-08 16:16:36,729  Epoch 82: iteration 1/31
-2022-10-08 16:16:36,749  Epoch 82: iteration 2/31
-2022-10-08 16:16:36,770  Epoch 82: iteration 3/31
-2022-10-08 16:16:36,791  Epoch 82: iteration 4/31
-2022-10-08 16:16:36,812  Epoch 82: iteration 5/31
-2022-10-08 16:16:36,833  Epoch 82: iteration 6/31
-2022-10-08 16:16:36,854  Epoch 82: iteration 7/31
-2022-10-08 16:16:36,875  Epoch 82: iteration 8/31
-2022-10-08 16:16:36,896  Epoch 82: iteration 9/31
-2022-10-08 16:16:36,917  Epoch 82: iteration 10/31
-2022-10-08 16:16:36,938  Epoch 82: iteration 11/31
-2022-10-08 16:16:36,958  Epoch 82: iteration 12/31
-2022-10-08 16:16:36,979  Epoch 82: iteration 13/31
-2022-10-08 16:16:37,000  Epoch 82: iteration 14/31
-2022-10-08 16:16:37,021  Epoch 82: iteration 15/31
-2022-10-08 16:16:37,042  Epoch 82: iteration 16/31
-2022-10-08 16:16:37,063  Epoch 82: iteration 17/31
-2022-10-08 16:16:37,084  Epoch 82: iteration 18/31
-2022-10-08 16:16:37,105  Epoch 82: iteration 19/31
-2022-10-08 16:16:37,127  Epoch 82: iteration 20/31
-2022-10-08 16:16:37,148  Epoch 82: iteration 21/31
-2022-10-08 16:16:37,169  Epoch 82: iteration 22/31
-2022-10-08 16:16:37,190  Epoch 82: iteration 23/31
-2022-10-08 16:16:37,211  Epoch 82: iteration 24/31
-2022-10-08 16:16:37,233  Epoch 82: iteration 25/31
-2022-10-08 16:16:37,254  Epoch 82: iteration 26/31
-2022-10-08 16:16:37,275  Epoch 82: iteration 27/31
-2022-10-08 16:16:37,296  Epoch 82: iteration 28/31
-2022-10-08 16:16:37,317  Epoch 82: iteration 29/31
-2022-10-08 16:16:37,338  Epoch 82: iteration 30/31
-2022-10-08 16:16:37,360  Epoch 82: iteration 31/31
-2022-10-08 16:16:37,378 
-2022-10-08 16:16:37,378 Epoch 82 --> loss:0.0981, acc:95.63%, test_loss:0.4627, test_acc:86.90%, Time per epoch: 1.5761
-2022-10-08 16:16:38,302  Epoch 83: iteration 1/31
-2022-10-08 16:16:38,323  Epoch 83: iteration 2/31
-2022-10-08 16:16:38,344  Epoch 83: iteration 3/31
-2022-10-08 16:16:38,364  Epoch 83: iteration 4/31
-2022-10-08 16:16:38,385  Epoch 83: iteration 5/31
-2022-10-08 16:16:38,405  Epoch 83: iteration 6/31
-2022-10-08 16:16:38,426  Epoch 83: iteration 7/31
-2022-10-08 16:16:38,446  Epoch 83: iteration 8/31
-2022-10-08 16:16:38,467  Epoch 83: iteration 9/31
-2022-10-08 16:16:38,488  Epoch 83: iteration 10/31
-2022-10-08 16:16:38,509  Epoch 83: iteration 11/31
-2022-10-08 16:16:38,530  Epoch 83: iteration 12/31
-2022-10-08 16:16:38,551  Epoch 83: iteration 13/31
-2022-10-08 16:16:38,572  Epoch 83: iteration 14/31
-2022-10-08 16:16:38,593  Epoch 83: iteration 15/31
-2022-10-08 16:16:38,614  Epoch 83: iteration 16/31
-2022-10-08 16:16:38,635  Epoch 83: iteration 17/31
-2022-10-08 16:16:38,655  Epoch 83: iteration 18/31
-2022-10-08 16:16:38,676  Epoch 83: iteration 19/31
-2022-10-08 16:16:38,696  Epoch 83: iteration 20/31
-2022-10-08 16:16:38,720  Epoch 83: iteration 21/31
-2022-10-08 16:16:38,741  Epoch 83: iteration 22/31
-2022-10-08 16:16:38,762  Epoch 83: iteration 23/31
-2022-10-08 16:16:38,783  Epoch 83: iteration 24/31
-2022-10-08 16:16:38,804  Epoch 83: iteration 25/31
-2022-10-08 16:16:38,825  Epoch 83: iteration 26/31
-2022-10-08 16:16:38,846  Epoch 83: iteration 27/31
-2022-10-08 16:16:38,866  Epoch 83: iteration 28/31
-2022-10-08 16:16:38,886  Epoch 83: iteration 29/31
-2022-10-08 16:16:38,906  Epoch 83: iteration 30/31
-2022-10-08 16:16:38,926  Epoch 83: iteration 31/31
-2022-10-08 16:16:38,944 
-2022-10-08 16:16:38,944 Epoch 83 --> loss:0.0877, acc:96.13%, test_loss:0.4629, test_acc:86.90%, Time per epoch: 1.5660
-2022-10-08 16:16:39,872  Epoch 84: iteration 1/31
-2022-10-08 16:16:39,893  Epoch 84: iteration 2/31
-2022-10-08 16:16:39,914  Epoch 84: iteration 3/31
-2022-10-08 16:16:39,934  Epoch 84: iteration 4/31
-2022-10-08 16:16:39,955  Epoch 84: iteration 5/31
-2022-10-08 16:16:39,976  Epoch 84: iteration 6/31
-2022-10-08 16:16:39,997  Epoch 84: iteration 7/31
-2022-10-08 16:16:40,018  Epoch 84: iteration 8/31
-2022-10-08 16:16:40,039  Epoch 84: iteration 9/31
-2022-10-08 16:16:40,059  Epoch 84: iteration 10/31
-2022-10-08 16:16:40,080  Epoch 84: iteration 11/31
-2022-10-08 16:16:40,101  Epoch 84: iteration 12/31
-2022-10-08 16:16:40,121  Epoch 84: iteration 13/31
-2022-10-08 16:16:40,142  Epoch 84: iteration 14/31
-2022-10-08 16:16:40,163  Epoch 84: iteration 15/31
-2022-10-08 16:16:40,184  Epoch 84: iteration 16/31
-2022-10-08 16:16:40,205  Epoch 84: iteration 17/31
-2022-10-08 16:16:40,225  Epoch 84: iteration 18/31
-2022-10-08 16:16:40,246  Epoch 84: iteration 19/31
-2022-10-08 16:16:40,267  Epoch 84: iteration 20/31
-2022-10-08 16:16:40,288  Epoch 84: iteration 21/31
-2022-10-08 16:16:40,309  Epoch 84: iteration 22/31
-2022-10-08 16:16:40,330  Epoch 84: iteration 23/31
-2022-10-08 16:16:40,352  Epoch 84: iteration 24/31
-2022-10-08 16:16:40,372  Epoch 84: iteration 25/31
-2022-10-08 16:16:40,393  Epoch 84: iteration 26/31
-2022-10-08 16:16:40,414  Epoch 84: iteration 27/31
-2022-10-08 16:16:40,434  Epoch 84: iteration 28/31
-2022-10-08 16:16:40,455  Epoch 84: iteration 29/31
-2022-10-08 16:16:40,475  Epoch 84: iteration 30/31
-2022-10-08 16:16:40,496  Epoch 84: iteration 31/31
-2022-10-08 16:16:40,514 
-2022-10-08 16:16:40,514 Epoch 84 --> loss:0.0722, acc:96.83%, test_loss:0.4548, test_acc:86.90%, Time per epoch: 1.5693
-2022-10-08 16:16:41,423  Epoch 85: iteration 1/31
-2022-10-08 16:16:41,444  Epoch 85: iteration 2/31
-2022-10-08 16:16:41,464  Epoch 85: iteration 3/31
-2022-10-08 16:16:41,485  Epoch 85: iteration 4/31
-2022-10-08 16:16:41,512  Epoch 85: iteration 5/31
-2022-10-08 16:16:41,539  Epoch 85: iteration 6/31
-2022-10-08 16:16:41,561  Epoch 85: iteration 7/31
-2022-10-08 16:16:41,583  Epoch 85: iteration 8/31
-2022-10-08 16:16:41,604  Epoch 85: iteration 9/31
-2022-10-08 16:16:41,625  Epoch 85: iteration 10/31
-2022-10-08 16:16:41,646  Epoch 85: iteration 11/31
-2022-10-08 16:16:41,667  Epoch 85: iteration 12/31
-2022-10-08 16:16:41,687  Epoch 85: iteration 13/31
-2022-10-08 16:16:41,707  Epoch 85: iteration 14/31
-2022-10-08 16:16:41,728  Epoch 85: iteration 15/31
-2022-10-08 16:16:41,749  Epoch 85: iteration 16/31
-2022-10-08 16:16:41,769  Epoch 85: iteration 17/31
-2022-10-08 16:16:41,790  Epoch 85: iteration 18/31
-2022-10-08 16:16:41,810  Epoch 85: iteration 19/31
-2022-10-08 16:16:41,831  Epoch 85: iteration 20/31
-2022-10-08 16:16:41,852  Epoch 85: iteration 21/31
-2022-10-08 16:16:41,872  Epoch 85: iteration 22/31
-2022-10-08 16:16:41,892  Epoch 85: iteration 23/31
-2022-10-08 16:16:41,913  Epoch 85: iteration 24/31
-2022-10-08 16:16:41,934  Epoch 85: iteration 25/31
-2022-10-08 16:16:41,954  Epoch 85: iteration 26/31
-2022-10-08 16:16:41,975  Epoch 85: iteration 27/31
-2022-10-08 16:16:41,995  Epoch 85: iteration 28/31
-2022-10-08 16:16:42,016  Epoch 85: iteration 29/31
-2022-10-08 16:16:42,036  Epoch 85: iteration 30/31
-2022-10-08 16:16:42,057  Epoch 85: iteration 31/31
-2022-10-08 16:16:42,075 
-2022-10-08 16:16:42,075 Epoch 85 --> loss:0.0833, acc:95.93%, test_loss:0.4642, test_acc:88.10%, Time per epoch: 1.5611
-2022-10-08 16:16:42,996  Epoch 86: iteration 1/31
-2022-10-08 16:16:43,016  Epoch 86: iteration 2/31
-2022-10-08 16:16:43,036  Epoch 86: iteration 3/31
-2022-10-08 16:16:43,057  Epoch 86: iteration 4/31
-2022-10-08 16:16:43,077  Epoch 86: iteration 5/31
-2022-10-08 16:16:43,098  Epoch 86: iteration 6/31
-2022-10-08 16:16:43,118  Epoch 86: iteration 7/31
-2022-10-08 16:16:43,139  Epoch 86: iteration 8/31
-2022-10-08 16:16:43,160  Epoch 86: iteration 9/31
-2022-10-08 16:16:43,181  Epoch 86: iteration 10/31
-2022-10-08 16:16:43,202  Epoch 86: iteration 11/31
-2022-10-08 16:16:43,223  Epoch 86: iteration 12/31
-2022-10-08 16:16:43,244  Epoch 86: iteration 13/31
-2022-10-08 16:16:43,265  Epoch 86: iteration 14/31
-2022-10-08 16:16:43,292  Epoch 86: iteration 15/31
-2022-10-08 16:16:43,318  Epoch 86: iteration 16/31
-2022-10-08 16:16:43,341  Epoch 86: iteration 17/31
-2022-10-08 16:16:43,363  Epoch 86: iteration 18/31
-2022-10-08 16:16:43,384  Epoch 86: iteration 19/31
-2022-10-08 16:16:43,405  Epoch 86: iteration 20/31
-2022-10-08 16:16:43,427  Epoch 86: iteration 21/31
-2022-10-08 16:16:43,455  Epoch 86: iteration 22/31
-2022-10-08 16:16:43,482  Epoch 86: iteration 23/31
-2022-10-08 16:16:43,504  Epoch 86: iteration 24/31
-2022-10-08 16:16:43,526  Epoch 86: iteration 25/31
-2022-10-08 16:16:43,548  Epoch 86: iteration 26/31
-2022-10-08 16:16:43,569  Epoch 86: iteration 27/31
-2022-10-08 16:16:43,590  Epoch 86: iteration 28/31
-2022-10-08 16:16:43,612  Epoch 86: iteration 29/31
-2022-10-08 16:16:43,633  Epoch 86: iteration 30/31
-2022-10-08 16:16:43,654  Epoch 86: iteration 31/31
-2022-10-08 16:16:43,673 
-2022-10-08 16:16:43,673 Epoch 86 --> loss:0.0674, acc:96.53%, test_loss:0.4513, test_acc:88.10%, Time per epoch: 1.5978
-2022-10-08 16:16:44,588  Epoch 87: iteration 1/31
-2022-10-08 16:16:44,609  Epoch 87: iteration 2/31
-2022-10-08 16:16:44,629  Epoch 87: iteration 3/31
-2022-10-08 16:16:44,649  Epoch 87: iteration 4/31
-2022-10-08 16:16:44,669  Epoch 87: iteration 5/31
-2022-10-08 16:16:44,690  Epoch 87: iteration 6/31
-2022-10-08 16:16:44,710  Epoch 87: iteration 7/31
-2022-10-08 16:16:44,731  Epoch 87: iteration 8/31
-2022-10-08 16:16:44,751  Epoch 87: iteration 9/31
-2022-10-08 16:16:44,772  Epoch 87: iteration 10/31
-2022-10-08 16:16:44,793  Epoch 87: iteration 11/31
-2022-10-08 16:16:44,814  Epoch 87: iteration 12/31
-2022-10-08 16:16:44,834  Epoch 87: iteration 13/31
-2022-10-08 16:16:44,856  Epoch 87: iteration 14/31
-2022-10-08 16:16:44,876  Epoch 87: iteration 15/31
-2022-10-08 16:16:44,897  Epoch 87: iteration 16/31
-2022-10-08 16:16:44,918  Epoch 87: iteration 17/31
-2022-10-08 16:16:44,939  Epoch 87: iteration 18/31
-2022-10-08 16:16:44,960  Epoch 87: iteration 19/31
-2022-10-08 16:16:44,981  Epoch 87: iteration 20/31
-2022-10-08 16:16:45,001  Epoch 87: iteration 21/31
-2022-10-08 16:16:45,021  Epoch 87: iteration 22/31
-2022-10-08 16:16:45,042  Epoch 87: iteration 23/31
-2022-10-08 16:16:45,062  Epoch 87: iteration 24/31
-2022-10-08 16:16:45,083  Epoch 87: iteration 25/31
-2022-10-08 16:16:45,103  Epoch 87: iteration 26/31
-2022-10-08 16:16:45,124  Epoch 87: iteration 27/31
-2022-10-08 16:16:45,144  Epoch 87: iteration 28/31
-2022-10-08 16:16:45,165  Epoch 87: iteration 29/31
-2022-10-08 16:16:45,185  Epoch 87: iteration 30/31
-2022-10-08 16:16:45,206  Epoch 87: iteration 31/31
-2022-10-08 16:16:45,224 
-2022-10-08 16:16:45,224 Epoch 87 --> loss:0.0678, acc:96.73%, test_loss:0.4552, test_acc:86.90%, Time per epoch: 1.5513
-2022-10-08 16:16:46,154  Epoch 88: iteration 1/31
-2022-10-08 16:16:46,180  Epoch 88: iteration 2/31
-2022-10-08 16:16:46,202  Epoch 88: iteration 3/31
-2022-10-08 16:16:46,224  Epoch 88: iteration 4/31
-2022-10-08 16:16:46,245  Epoch 88: iteration 5/31
-2022-10-08 16:16:46,266  Epoch 88: iteration 6/31
-2022-10-08 16:16:46,286  Epoch 88: iteration 7/31
-2022-10-08 16:16:46,306  Epoch 88: iteration 8/31
-2022-10-08 16:16:46,326  Epoch 88: iteration 9/31
-2022-10-08 16:16:46,346  Epoch 88: iteration 10/31
-2022-10-08 16:16:46,366  Epoch 88: iteration 11/31
-2022-10-08 16:16:46,386  Epoch 88: iteration 12/31
-2022-10-08 16:16:46,407  Epoch 88: iteration 13/31
-2022-10-08 16:16:46,427  Epoch 88: iteration 14/31
-2022-10-08 16:16:46,447  Epoch 88: iteration 15/31
-2022-10-08 16:16:46,467  Epoch 88: iteration 16/31
-2022-10-08 16:16:46,487  Epoch 88: iteration 17/31
-2022-10-08 16:16:46,507  Epoch 88: iteration 18/31
-2022-10-08 16:16:46,528  Epoch 88: iteration 19/31
-2022-10-08 16:16:46,548  Epoch 88: iteration 20/31
-2022-10-08 16:16:46,568  Epoch 88: iteration 21/31
-2022-10-08 16:16:46,589  Epoch 88: iteration 22/31
-2022-10-08 16:16:46,609  Epoch 88: iteration 23/31
-2022-10-08 16:16:46,629  Epoch 88: iteration 24/31
-2022-10-08 16:16:46,650  Epoch 88: iteration 25/31
-2022-10-08 16:16:46,670  Epoch 88: iteration 26/31
-2022-10-08 16:16:46,691  Epoch 88: iteration 27/31
-2022-10-08 16:16:46,711  Epoch 88: iteration 28/31
-2022-10-08 16:16:46,731  Epoch 88: iteration 29/31
-2022-10-08 16:16:46,752  Epoch 88: iteration 30/31
-2022-10-08 16:16:46,774  Epoch 88: iteration 31/31
-2022-10-08 16:16:46,793 
-2022-10-08 16:16:46,793 Epoch 88 --> loss:0.0809, acc:96.23%, test_loss:0.4580, test_acc:86.90%, Time per epoch: 1.5685
-2022-10-08 16:16:47,705  Epoch 89: iteration 1/31
-2022-10-08 16:16:47,726  Epoch 89: iteration 2/31
-2022-10-08 16:16:47,746  Epoch 89: iteration 3/31
-2022-10-08 16:16:47,767  Epoch 89: iteration 4/31
-2022-10-08 16:16:47,788  Epoch 89: iteration 5/31
-2022-10-08 16:16:47,810  Epoch 89: iteration 6/31
-2022-10-08 16:16:47,830  Epoch 89: iteration 7/31
-2022-10-08 16:16:47,851  Epoch 89: iteration 8/31
-2022-10-08 16:16:47,871  Epoch 89: iteration 9/31
-2022-10-08 16:16:47,892  Epoch 89: iteration 10/31
-2022-10-08 16:16:47,913  Epoch 89: iteration 11/31
-2022-10-08 16:16:47,933  Epoch 89: iteration 12/31
-2022-10-08 16:16:47,954  Epoch 89: iteration 13/31
-2022-10-08 16:16:47,974  Epoch 89: iteration 14/31
-2022-10-08 16:16:47,995  Epoch 89: iteration 15/31
-2022-10-08 16:16:48,015  Epoch 89: iteration 16/31
-2022-10-08 16:16:48,036  Epoch 89: iteration 17/31
-2022-10-08 16:16:48,057  Epoch 89: iteration 18/31
-2022-10-08 16:16:48,077  Epoch 89: iteration 19/31
-2022-10-08 16:16:48,098  Epoch 89: iteration 20/31
-2022-10-08 16:16:48,119  Epoch 89: iteration 21/31
-2022-10-08 16:16:48,140  Epoch 89: iteration 22/31
-2022-10-08 16:16:48,161  Epoch 89: iteration 23/31
-2022-10-08 16:16:48,182  Epoch 89: iteration 24/31
-2022-10-08 16:16:48,203  Epoch 89: iteration 25/31
-2022-10-08 16:16:48,224  Epoch 89: iteration 26/31
-2022-10-08 16:16:48,245  Epoch 89: iteration 27/31
-2022-10-08 16:16:48,266  Epoch 89: iteration 28/31
-2022-10-08 16:16:48,287  Epoch 89: iteration 29/31
-2022-10-08 16:16:48,307  Epoch 89: iteration 30/31
-2022-10-08 16:16:48,328  Epoch 89: iteration 31/31
-2022-10-08 16:16:48,346 
-2022-10-08 16:16:48,347 Epoch 89 --> loss:0.0592, acc:96.53%, test_loss:0.4667, test_acc:86.90%, Time per epoch: 1.5535
-2022-10-08 16:16:49,264  Epoch 90: iteration 1/31
-2022-10-08 16:16:49,285  Epoch 90: iteration 2/31
-2022-10-08 16:16:49,306  Epoch 90: iteration 3/31
-2022-10-08 16:16:49,327  Epoch 90: iteration 4/31
-2022-10-08 16:16:49,348  Epoch 90: iteration 5/31
-2022-10-08 16:16:49,368  Epoch 90: iteration 6/31
-2022-10-08 16:16:49,389  Epoch 90: iteration 7/31
-2022-10-08 16:16:49,410  Epoch 90: iteration 8/31
-2022-10-08 16:16:49,431  Epoch 90: iteration 9/31
-2022-10-08 16:16:49,452  Epoch 90: iteration 10/31
-2022-10-08 16:16:49,473  Epoch 90: iteration 11/31
-2022-10-08 16:16:49,494  Epoch 90: iteration 12/31
-2022-10-08 16:16:49,515  Epoch 90: iteration 13/31
-2022-10-08 16:16:49,536  Epoch 90: iteration 14/31
-2022-10-08 16:16:49,557  Epoch 90: iteration 15/31
-2022-10-08 16:16:49,578  Epoch 90: iteration 16/31
-2022-10-08 16:16:49,598  Epoch 90: iteration 17/31
-2022-10-08 16:16:49,619  Epoch 90: iteration 18/31
-2022-10-08 16:16:49,640  Epoch 90: iteration 19/31
-2022-10-08 16:16:49,661  Epoch 90: iteration 20/31
-2022-10-08 16:16:49,682  Epoch 90: iteration 21/31
-2022-10-08 16:16:49,702  Epoch 90: iteration 22/31
-2022-10-08 16:16:49,724  Epoch 90: iteration 23/31
-2022-10-08 16:16:49,745  Epoch 90: iteration 24/31
-2022-10-08 16:16:49,765  Epoch 90: iteration 25/31
-2022-10-08 16:16:49,786  Epoch 90: iteration 26/31
-2022-10-08 16:16:49,808  Epoch 90: iteration 27/31
-2022-10-08 16:16:49,830  Epoch 90: iteration 28/31
-2022-10-08 16:16:49,851  Epoch 90: iteration 29/31
-2022-10-08 16:16:49,872  Epoch 90: iteration 30/31
-2022-10-08 16:16:49,893  Epoch 90: iteration 31/31
-2022-10-08 16:16:49,912 
-2022-10-08 16:16:49,912 Epoch 90 --> loss:0.0676, acc:96.23%, test_loss:0.4764, test_acc:86.90%, Time per epoch: 1.5651
-2022-10-08 16:16:50,824  Epoch 91: iteration 1/31
-2022-10-08 16:16:50,844  Epoch 91: iteration 2/31
-2022-10-08 16:16:50,865  Epoch 91: iteration 3/31
-2022-10-08 16:16:50,886  Epoch 91: iteration 4/31
-2022-10-08 16:16:50,907  Epoch 91: iteration 5/31
-2022-10-08 16:16:50,928  Epoch 91: iteration 6/31
-2022-10-08 16:16:50,949  Epoch 91: iteration 7/31
-2022-10-08 16:16:50,970  Epoch 91: iteration 8/31
-2022-10-08 16:16:50,991  Epoch 91: iteration 9/31
-2022-10-08 16:16:51,011  Epoch 91: iteration 10/31
-2022-10-08 16:16:51,032  Epoch 91: iteration 11/31
-2022-10-08 16:16:51,053  Epoch 91: iteration 12/31
-2022-10-08 16:16:51,074  Epoch 91: iteration 13/31
-2022-10-08 16:16:51,095  Epoch 91: iteration 14/31
-2022-10-08 16:16:51,116  Epoch 91: iteration 15/31
-2022-10-08 16:16:51,137  Epoch 91: iteration 16/31
-2022-10-08 16:16:51,157  Epoch 91: iteration 17/31
-2022-10-08 16:16:51,178  Epoch 91: iteration 18/31
-2022-10-08 16:16:51,199  Epoch 91: iteration 19/31
-2022-10-08 16:16:51,220  Epoch 91: iteration 20/31
-2022-10-08 16:16:51,241  Epoch 91: iteration 21/31
-2022-10-08 16:16:51,263  Epoch 91: iteration 22/31
-2022-10-08 16:16:51,284  Epoch 91: iteration 23/31
-2022-10-08 16:16:51,304  Epoch 91: iteration 24/31
-2022-10-08 16:16:51,325  Epoch 91: iteration 25/31
-2022-10-08 16:16:51,346  Epoch 91: iteration 26/31
-2022-10-08 16:16:51,367  Epoch 91: iteration 27/31
-2022-10-08 16:16:51,388  Epoch 91: iteration 28/31
-2022-10-08 16:16:51,408  Epoch 91: iteration 29/31
-2022-10-08 16:16:51,429  Epoch 91: iteration 30/31
-2022-10-08 16:16:51,451  Epoch 91: iteration 31/31
-2022-10-08 16:16:51,469 
-2022-10-08 16:16:51,469 Epoch 91 --> loss:0.0623, acc:97.22%, test_loss:0.4626, test_acc:86.90%, Time per epoch: 1.5572
-2022-10-08 16:16:52,387  Epoch 92: iteration 1/31
-2022-10-08 16:16:52,408  Epoch 92: iteration 2/31
-2022-10-08 16:16:52,429  Epoch 92: iteration 3/31
-2022-10-08 16:16:52,450  Epoch 92: iteration 4/31
-2022-10-08 16:16:52,471  Epoch 92: iteration 5/31
-2022-10-08 16:16:52,492  Epoch 92: iteration 6/31
-2022-10-08 16:16:52,512  Epoch 92: iteration 7/31
-2022-10-08 16:16:52,533  Epoch 92: iteration 8/31
-2022-10-08 16:16:52,554  Epoch 92: iteration 9/31
-2022-10-08 16:16:52,575  Epoch 92: iteration 10/31
-2022-10-08 16:16:52,596  Epoch 92: iteration 11/31
-2022-10-08 16:16:52,616  Epoch 92: iteration 12/31
-2022-10-08 16:16:52,637  Epoch 92: iteration 13/31
-2022-10-08 16:16:52,658  Epoch 92: iteration 14/31
-2022-10-08 16:16:52,678  Epoch 92: iteration 15/31
-2022-10-08 16:16:52,699  Epoch 92: iteration 16/31
-2022-10-08 16:16:52,719  Epoch 92: iteration 17/31
-2022-10-08 16:16:52,741  Epoch 92: iteration 18/31
-2022-10-08 16:16:52,762  Epoch 92: iteration 19/31
-2022-10-08 16:16:52,784  Epoch 92: iteration 20/31
-2022-10-08 16:16:52,805  Epoch 92: iteration 21/31
-2022-10-08 16:16:52,825  Epoch 92: iteration 22/31
-2022-10-08 16:16:52,847  Epoch 92: iteration 23/31
-2022-10-08 16:16:52,868  Epoch 92: iteration 24/31
-2022-10-08 16:16:52,889  Epoch 92: iteration 25/31
-2022-10-08 16:16:52,909  Epoch 92: iteration 26/31
-2022-10-08 16:16:52,930  Epoch 92: iteration 27/31
-2022-10-08 16:16:52,951  Epoch 92: iteration 28/31
-2022-10-08 16:16:52,971  Epoch 92: iteration 29/31
-2022-10-08 16:16:52,992  Epoch 92: iteration 30/31
-2022-10-08 16:16:53,013  Epoch 92: iteration 31/31
-2022-10-08 16:16:53,031 
-2022-10-08 16:16:53,031 Epoch 92 --> loss:0.0832, acc:96.33%, test_loss:0.4706, test_acc:88.10%, Time per epoch: 1.5618
-2022-10-08 16:16:53,943  Epoch 93: iteration 1/31
-2022-10-08 16:16:53,963  Epoch 93: iteration 2/31
-2022-10-08 16:16:53,984  Epoch 93: iteration 3/31
-2022-10-08 16:16:54,005  Epoch 93: iteration 4/31
-2022-10-08 16:16:54,026  Epoch 93: iteration 5/31
-2022-10-08 16:16:54,047  Epoch 93: iteration 6/31
-2022-10-08 16:16:54,068  Epoch 93: iteration 7/31
-2022-10-08 16:16:54,089  Epoch 93: iteration 8/31
-2022-10-08 16:16:54,110  Epoch 93: iteration 9/31
-2022-10-08 16:16:54,131  Epoch 93: iteration 10/31
-2022-10-08 16:16:54,152  Epoch 93: iteration 11/31
-2022-10-08 16:16:54,173  Epoch 93: iteration 12/31
-2022-10-08 16:16:54,194  Epoch 93: iteration 13/31
-2022-10-08 16:16:54,215  Epoch 93: iteration 14/31
-2022-10-08 16:16:54,236  Epoch 93: iteration 15/31
-2022-10-08 16:16:54,257  Epoch 93: iteration 16/31
-2022-10-08 16:16:54,278  Epoch 93: iteration 17/31
-2022-10-08 16:16:54,300  Epoch 93: iteration 18/31
-2022-10-08 16:16:54,321  Epoch 93: iteration 19/31
-2022-10-08 16:16:54,342  Epoch 93: iteration 20/31
-2022-10-08 16:16:54,363  Epoch 93: iteration 21/31
-2022-10-08 16:16:54,383  Epoch 93: iteration 22/31
-2022-10-08 16:16:54,404  Epoch 93: iteration 23/31
-2022-10-08 16:16:54,425  Epoch 93: iteration 24/31
-2022-10-08 16:16:54,445  Epoch 93: iteration 25/31
-2022-10-08 16:16:54,466  Epoch 93: iteration 26/31
-2022-10-08 16:16:54,487  Epoch 93: iteration 27/31
-2022-10-08 16:16:54,507  Epoch 93: iteration 28/31
-2022-10-08 16:16:54,527  Epoch 93: iteration 29/31
-2022-10-08 16:16:54,548  Epoch 93: iteration 30/31
-2022-10-08 16:16:54,568  Epoch 93: iteration 31/31
-2022-10-08 16:16:54,586 
-2022-10-08 16:16:54,586 Epoch 93 --> loss:0.0666, acc:96.83%, test_loss:0.4602, test_acc:86.90%, Time per epoch: 1.5550
-2022-10-08 16:16:55,503  Epoch 94: iteration 1/31
-2022-10-08 16:16:55,524  Epoch 94: iteration 2/31
-2022-10-08 16:16:55,544  Epoch 94: iteration 3/31
-2022-10-08 16:16:55,571  Epoch 94: iteration 4/31
-2022-10-08 16:16:55,597  Epoch 94: iteration 5/31
-2022-10-08 16:16:55,622  Epoch 94: iteration 6/31
-2022-10-08 16:16:55,644  Epoch 94: iteration 7/31
-2022-10-08 16:16:55,665  Epoch 94: iteration 8/31
-2022-10-08 16:16:55,686  Epoch 94: iteration 9/31
-2022-10-08 16:16:55,707  Epoch 94: iteration 10/31
-2022-10-08 16:16:55,728  Epoch 94: iteration 11/31
-2022-10-08 16:16:55,750  Epoch 94: iteration 12/31
-2022-10-08 16:16:55,771  Epoch 94: iteration 13/31
-2022-10-08 16:16:55,792  Epoch 94: iteration 14/31
-2022-10-08 16:16:55,813  Epoch 94: iteration 15/31
-2022-10-08 16:16:55,834  Epoch 94: iteration 16/31
-2022-10-08 16:16:55,855  Epoch 94: iteration 17/31
-2022-10-08 16:16:55,876  Epoch 94: iteration 18/31
-2022-10-08 16:16:55,897  Epoch 94: iteration 19/31
-2022-10-08 16:16:55,918  Epoch 94: iteration 20/31
-2022-10-08 16:16:55,939  Epoch 94: iteration 21/31
-2022-10-08 16:16:55,960  Epoch 94: iteration 22/31
-2022-10-08 16:16:55,981  Epoch 94: iteration 23/31
-2022-10-08 16:16:56,002  Epoch 94: iteration 24/31
-2022-10-08 16:16:56,023  Epoch 94: iteration 25/31
-2022-10-08 16:16:56,044  Epoch 94: iteration 26/31
-2022-10-08 16:16:56,064  Epoch 94: iteration 27/31
-2022-10-08 16:16:56,085  Epoch 94: iteration 28/31
-2022-10-08 16:16:56,106  Epoch 94: iteration 29/31
-2022-10-08 16:16:56,127  Epoch 94: iteration 30/31
-2022-10-08 16:16:56,148  Epoch 94: iteration 31/31
-2022-10-08 16:16:56,167 
-2022-10-08 16:16:56,167 Epoch 94 --> loss:0.0672, acc:96.53%, test_loss:0.4717, test_acc:86.90%, Time per epoch: 1.5807
-2022-10-08 16:16:57,078  Epoch 95: iteration 1/31
-2022-10-08 16:16:57,099  Epoch 95: iteration 2/31
-2022-10-08 16:16:57,119  Epoch 95: iteration 3/31
-2022-10-08 16:16:57,140  Epoch 95: iteration 4/31
-2022-10-08 16:16:57,161  Epoch 95: iteration 5/31
-2022-10-08 16:16:57,182  Epoch 95: iteration 6/31
-2022-10-08 16:16:57,203  Epoch 95: iteration 7/31
-2022-10-08 16:16:57,225  Epoch 95: iteration 8/31
-2022-10-08 16:16:57,246  Epoch 95: iteration 9/31
-2022-10-08 16:16:57,267  Epoch 95: iteration 10/31
-2022-10-08 16:16:57,287  Epoch 95: iteration 11/31
-2022-10-08 16:16:57,308  Epoch 95: iteration 12/31
-2022-10-08 16:16:57,329  Epoch 95: iteration 13/31
-2022-10-08 16:16:57,350  Epoch 95: iteration 14/31
-2022-10-08 16:16:57,371  Epoch 95: iteration 15/31
-2022-10-08 16:16:57,392  Epoch 95: iteration 16/31
-2022-10-08 16:16:57,413  Epoch 95: iteration 17/31
-2022-10-08 16:16:57,434  Epoch 95: iteration 18/31
-2022-10-08 16:16:57,455  Epoch 95: iteration 19/31
-2022-10-08 16:16:57,476  Epoch 95: iteration 20/31
-2022-10-08 16:16:57,498  Epoch 95: iteration 21/31
-2022-10-08 16:16:57,519  Epoch 95: iteration 22/31
-2022-10-08 16:16:57,547  Epoch 95: iteration 23/31
-2022-10-08 16:16:57,572  Epoch 95: iteration 24/31
-2022-10-08 16:16:57,595  Epoch 95: iteration 25/31
-2022-10-08 16:16:57,616  Epoch 95: iteration 26/31
-2022-10-08 16:16:57,638  Epoch 95: iteration 27/31
-2022-10-08 16:16:57,659  Epoch 95: iteration 28/31
-2022-10-08 16:16:57,680  Epoch 95: iteration 29/31
-2022-10-08 16:16:57,701  Epoch 95: iteration 30/31
-2022-10-08 16:16:57,723  Epoch 95: iteration 31/31
-2022-10-08 16:16:57,741 
-2022-10-08 16:16:57,741 Epoch 95 --> loss:0.0635, acc:96.92%, test_loss:0.4919, test_acc:86.90%, Time per epoch: 1.5743
-2022-10-08 16:16:58,657  Epoch 96: iteration 1/31
-2022-10-08 16:16:58,678  Epoch 96: iteration 2/31
-2022-10-08 16:16:58,698  Epoch 96: iteration 3/31
-2022-10-08 16:16:58,719  Epoch 96: iteration 4/31
-2022-10-08 16:16:58,739  Epoch 96: iteration 5/31
-2022-10-08 16:16:58,760  Epoch 96: iteration 6/31
-2022-10-08 16:16:58,781  Epoch 96: iteration 7/31
-2022-10-08 16:16:58,802  Epoch 96: iteration 8/31
-2022-10-08 16:16:58,822  Epoch 96: iteration 9/31
-2022-10-08 16:16:58,843  Epoch 96: iteration 10/31
-2022-10-08 16:16:58,864  Epoch 96: iteration 11/31
-2022-10-08 16:16:58,886  Epoch 96: iteration 12/31
-2022-10-08 16:16:58,907  Epoch 96: iteration 13/31
-2022-10-08 16:16:58,928  Epoch 96: iteration 14/31
-2022-10-08 16:16:58,949  Epoch 96: iteration 15/31
-2022-10-08 16:16:58,969  Epoch 96: iteration 16/31
-2022-10-08 16:16:58,990  Epoch 96: iteration 17/31
-2022-10-08 16:16:59,011  Epoch 96: iteration 18/31
-2022-10-08 16:16:59,031  Epoch 96: iteration 19/31
-2022-10-08 16:16:59,052  Epoch 96: iteration 20/31
-2022-10-08 16:16:59,072  Epoch 96: iteration 21/31
-2022-10-08 16:16:59,092  Epoch 96: iteration 22/31
-2022-10-08 16:16:59,112  Epoch 96: iteration 23/31
-2022-10-08 16:16:59,133  Epoch 96: iteration 24/31
-2022-10-08 16:16:59,153  Epoch 96: iteration 25/31
-2022-10-08 16:16:59,173  Epoch 96: iteration 26/31
-2022-10-08 16:16:59,194  Epoch 96: iteration 27/31
-2022-10-08 16:16:59,215  Epoch 96: iteration 28/31
-2022-10-08 16:16:59,236  Epoch 96: iteration 29/31
-2022-10-08 16:16:59,256  Epoch 96: iteration 30/31
-2022-10-08 16:16:59,276  Epoch 96: iteration 31/31
-2022-10-08 16:16:59,294 
-2022-10-08 16:16:59,295 Epoch 96 --> loss:0.0717, acc:96.63%, test_loss:0.4958, test_acc:86.90%, Time per epoch: 1.5532
-2022-10-08 16:17:00,206  Epoch 97: iteration 1/31
-2022-10-08 16:17:00,226  Epoch 97: iteration 2/31
-2022-10-08 16:17:00,247  Epoch 97: iteration 3/31
-2022-10-08 16:17:00,268  Epoch 97: iteration 4/31
-2022-10-08 16:17:00,288  Epoch 97: iteration 5/31
-2022-10-08 16:17:00,308  Epoch 97: iteration 6/31
-2022-10-08 16:17:00,328  Epoch 97: iteration 7/31
-2022-10-08 16:17:00,349  Epoch 97: iteration 8/31
-2022-10-08 16:17:00,369  Epoch 97: iteration 9/31
-2022-10-08 16:17:00,390  Epoch 97: iteration 10/31
-2022-10-08 16:17:00,410  Epoch 97: iteration 11/31
-2022-10-08 16:17:00,431  Epoch 97: iteration 12/31
-2022-10-08 16:17:00,451  Epoch 97: iteration 13/31
-2022-10-08 16:17:00,472  Epoch 97: iteration 14/31
-2022-10-08 16:17:00,492  Epoch 97: iteration 15/31
-2022-10-08 16:17:00,512  Epoch 97: iteration 16/31
-2022-10-08 16:17:00,533  Epoch 97: iteration 17/31
-2022-10-08 16:17:00,553  Epoch 97: iteration 18/31
-2022-10-08 16:17:00,574  Epoch 97: iteration 19/31
-2022-10-08 16:17:00,595  Epoch 97: iteration 20/31
-2022-10-08 16:17:00,616  Epoch 97: iteration 21/31
-2022-10-08 16:17:00,637  Epoch 97: iteration 22/31
-2022-10-08 16:17:00,658  Epoch 97: iteration 23/31
-2022-10-08 16:17:00,679  Epoch 97: iteration 24/31
-2022-10-08 16:17:00,700  Epoch 97: iteration 25/31
-2022-10-08 16:17:00,721  Epoch 97: iteration 26/31
-2022-10-08 16:17:00,742  Epoch 97: iteration 27/31
-2022-10-08 16:17:00,763  Epoch 97: iteration 28/31
-2022-10-08 16:17:00,783  Epoch 97: iteration 29/31
-2022-10-08 16:17:00,804  Epoch 97: iteration 30/31
-2022-10-08 16:17:00,825  Epoch 97: iteration 31/31
-2022-10-08 16:17:00,844 
-2022-10-08 16:17:00,844 Epoch 97 --> loss:0.0575, acc:96.33%, test_loss:0.4927, test_acc:86.90%, Time per epoch: 1.5489
-2022-10-08 16:17:01,760  Epoch 98: iteration 1/31
-2022-10-08 16:17:01,781  Epoch 98: iteration 2/31
-2022-10-08 16:17:01,801  Epoch 98: iteration 3/31
-2022-10-08 16:17:01,821  Epoch 98: iteration 4/31
-2022-10-08 16:17:01,842  Epoch 98: iteration 5/31
-2022-10-08 16:17:01,861  Epoch 98: iteration 6/31
-2022-10-08 16:17:01,881  Epoch 98: iteration 7/31
-2022-10-08 16:17:01,902  Epoch 98: iteration 8/31
-2022-10-08 16:17:01,922  Epoch 98: iteration 9/31
-2022-10-08 16:17:01,943  Epoch 98: iteration 10/31
-2022-10-08 16:17:01,963  Epoch 98: iteration 11/31
-2022-10-08 16:17:01,983  Epoch 98: iteration 12/31
-2022-10-08 16:17:02,004  Epoch 98: iteration 13/31
-2022-10-08 16:17:02,024  Epoch 98: iteration 14/31
-2022-10-08 16:17:02,044  Epoch 98: iteration 15/31
-2022-10-08 16:17:02,064  Epoch 98: iteration 16/31
-2022-10-08 16:17:02,083  Epoch 98: iteration 17/31
-2022-10-08 16:17:02,103  Epoch 98: iteration 18/31
-2022-10-08 16:17:02,123  Epoch 98: iteration 19/31
-2022-10-08 16:17:02,144  Epoch 98: iteration 20/31
-2022-10-08 16:17:02,164  Epoch 98: iteration 21/31
-2022-10-08 16:17:02,184  Epoch 98: iteration 22/31
-2022-10-08 16:17:02,204  Epoch 98: iteration 23/31
-2022-10-08 16:17:02,224  Epoch 98: iteration 24/31
-2022-10-08 16:17:02,245  Epoch 98: iteration 25/31
-2022-10-08 16:17:02,265  Epoch 98: iteration 26/31
-2022-10-08 16:17:02,286  Epoch 98: iteration 27/31
-2022-10-08 16:17:02,306  Epoch 98: iteration 28/31
-2022-10-08 16:17:02,326  Epoch 98: iteration 29/31
-2022-10-08 16:17:02,346  Epoch 98: iteration 30/31
-2022-10-08 16:17:02,366  Epoch 98: iteration 31/31
-2022-10-08 16:17:02,384 
-2022-10-08 16:17:02,384 Epoch 98 --> loss:0.0645, acc:96.73%, test_loss:0.4784, test_acc:88.10%, Time per epoch: 1.5406
-2022-10-08 16:17:03,295  Epoch 99: iteration 1/31
-2022-10-08 16:17:03,315  Epoch 99: iteration 2/31
-2022-10-08 16:17:03,336  Epoch 99: iteration 3/31
-2022-10-08 16:17:03,356  Epoch 99: iteration 4/31
-2022-10-08 16:17:03,377  Epoch 99: iteration 5/31
-2022-10-08 16:17:03,397  Epoch 99: iteration 6/31
-2022-10-08 16:17:03,417  Epoch 99: iteration 7/31
-2022-10-08 16:17:03,437  Epoch 99: iteration 8/31
-2022-10-08 16:17:03,457  Epoch 99: iteration 9/31
-2022-10-08 16:17:03,478  Epoch 99: iteration 10/31
-2022-10-08 16:17:03,498  Epoch 99: iteration 11/31
-2022-10-08 16:17:03,518  Epoch 99: iteration 12/31
-2022-10-08 16:17:03,539  Epoch 99: iteration 13/31
-2022-10-08 16:17:03,559  Epoch 99: iteration 14/31
-2022-10-08 16:17:03,579  Epoch 99: iteration 15/31
-2022-10-08 16:17:03,600  Epoch 99: iteration 16/31
-2022-10-08 16:17:03,620  Epoch 99: iteration 17/31
-2022-10-08 16:17:03,640  Epoch 99: iteration 18/31
-2022-10-08 16:17:03,661  Epoch 99: iteration 19/31
-2022-10-08 16:17:03,681  Epoch 99: iteration 20/31
-2022-10-08 16:17:03,701  Epoch 99: iteration 21/31
-2022-10-08 16:17:03,722  Epoch 99: iteration 22/31
-2022-10-08 16:17:03,742  Epoch 99: iteration 23/31
-2022-10-08 16:17:03,762  Epoch 99: iteration 24/31
-2022-10-08 16:17:03,781  Epoch 99: iteration 25/31
-2022-10-08 16:17:03,802  Epoch 99: iteration 26/31
-2022-10-08 16:17:03,822  Epoch 99: iteration 27/31
-2022-10-08 16:17:03,842  Epoch 99: iteration 28/31
-2022-10-08 16:17:03,862  Epoch 99: iteration 29/31
-2022-10-08 16:17:03,882  Epoch 99: iteration 30/31
-2022-10-08 16:17:03,903  Epoch 99: iteration 31/31
-2022-10-08 16:17:03,921 
-2022-10-08 16:17:03,921 Epoch 99 --> loss:0.0553, acc:96.92%, test_loss:0.4830, test_acc:86.90%, Time per epoch: 1.5365
-2022-10-08 16:17:04,838  Epoch 100: iteration 1/31
-2022-10-08 16:17:04,858  Epoch 100: iteration 2/31
-2022-10-08 16:17:04,878  Epoch 100: iteration 3/31
-2022-10-08 16:17:04,899  Epoch 100: iteration 4/31
-2022-10-08 16:17:04,919  Epoch 100: iteration 5/31
-2022-10-08 16:17:04,940  Epoch 100: iteration 6/31
-2022-10-08 16:17:04,961  Epoch 100: iteration 7/31
-2022-10-08 16:17:04,982  Epoch 100: iteration 8/31
-2022-10-08 16:17:05,003  Epoch 100: iteration 9/31
-2022-10-08 16:17:05,024  Epoch 100: iteration 10/31
-2022-10-08 16:17:05,044  Epoch 100: iteration 11/31
-2022-10-08 16:17:05,065  Epoch 100: iteration 12/31
-2022-10-08 16:17:05,085  Epoch 100: iteration 13/31
-2022-10-08 16:17:05,106  Epoch 100: iteration 14/31
-2022-10-08 16:17:05,132  Epoch 100: iteration 15/31
-2022-10-08 16:17:05,159  Epoch 100: iteration 16/31
-2022-10-08 16:17:05,182  Epoch 100: iteration 17/31
-2022-10-08 16:17:05,203  Epoch 100: iteration 18/31
-2022-10-08 16:17:05,225  Epoch 100: iteration 19/31
-2022-10-08 16:17:05,245  Epoch 100: iteration 20/31
-2022-10-08 16:17:05,265  Epoch 100: iteration 21/31
-2022-10-08 16:17:05,285  Epoch 100: iteration 22/31
-2022-10-08 16:17:05,306  Epoch 100: iteration 23/31
-2022-10-08 16:17:05,326  Epoch 100: iteration 24/31
-2022-10-08 16:17:05,346  Epoch 100: iteration 25/31
-2022-10-08 16:17:05,366  Epoch 100: iteration 26/31
-2022-10-08 16:17:05,387  Epoch 100: iteration 27/31
-2022-10-08 16:17:05,407  Epoch 100: iteration 28/31
-2022-10-08 16:17:05,427  Epoch 100: iteration 29/31
-2022-10-08 16:17:05,448  Epoch 100: iteration 30/31
-2022-10-08 16:17:05,468  Epoch 100: iteration 31/31
-2022-10-08 16:17:05,486 
-2022-10-08 16:17:05,486 Epoch 100 --> loss:0.0537, acc:96.92%, test_loss:0.5047, test_acc:86.90%, Time per epoch: 1.5649
-2022-10-08 16:17:05,666 Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
-2022-10-08 16:17:05,666 NumExpr defaulting to 8 threads.
-2022-10-08 16:17:06,002 Confusion Matrix plot is saved to Output/Savee/Savee_VO_confusion2.png
-2022-10-08 16:17:06,164 Loss plot is saved to Output/Savee/Savee_VO_loss2.png
-2022-10-08 16:17:06,316 Accuracy plot is saved to Output/Savee/Savee_VO_acc2.png
-2022-10-08 16:17:06,316 Finished training! Total Time: 169.0958

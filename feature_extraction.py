@@ -1,4 +1,5 @@
 import os
+import math
 import pandas as pd
 from zipfile import ZipFile
 from sklearn.model_selection import StratifiedShuffleSplit
@@ -9,7 +10,6 @@ import glob
 import pickle
 import joblib
 
-from Extract_Features_trash import extract_features
 from utils.util import mkdirs
 
 def load_features(config, file_name: str):
@@ -19,38 +19,75 @@ def load_features(config, file_name: str):
         config:
         train (bool):
     Returns:
-        - X ([np.ndarray]): features
+        - X1 ([np.ndarray]): audio features
+        - X2 ([np.ndarray]): audio spec features
+        - Z ([np.ndarray]): video features
         - Y ([np.ndarray]): labels
     """
-    feature_path = os.path.join(config.feature_folder, file_name)
+    feature_path = os.path.join(config.feature_folder,config.dataset, file_name)
 
-    features = pd.DataFrame(
+    df = pd.DataFrame(
         data = joblib.load(feature_path),
-        columns = ['features','spec', 'emotion']
+        columns = ['audio_features','spec', 'indicator','video_features','emotion','file_name']
     )
 
-    X1 = list(features['features'])
-    X2 = list(features['spec'])
-    Y = list(features['emotion'])
-    Y = np.array(Y)
-    return X1,X2, Y
+    # df['indicator'] = pd.factorize(df['indicator'])[0]
+    # df['file_name'] = pd.factorize(df['file_name'])[0]
+
+    # X1 = list(features['audio_features'])
+    # X1_Category = list(features['indicator'])
+    # X2 = list(features['spec'])
+    # Z = list(features['video_features'])
+    # Y = list(features['emotion'])
+    # Y = np.array(Y)
+    # G = list(features['file_name'])
+    # # convert File_names and X1_Category into array of int
+    # G_data = {"File_name": G}
+    # G = pd.factorize(G_data['File_name'])[0]
+    # X1_Category_data = {"X1_Category":X1_Category}
+    # X1_Category = pd.factorize(X1_Category_data['X1_Category'])[0]
+
+    return df
 
 
 def get_data_path(config):
-    # dataset_list=glob.glob(r'./Dataset/*.zip')
-    # Zip_file_path = dataset_list[2] # CREMA
 
-    with ZipFile(config.Zip_file_path, 'r') as zip:
-        Name_list = np.array(zip.namelist())
-        files = Name_list[[x.endswith(".wav") for x in Name_list]]
-        
-    if config.data_size != 'None':
-        files=files[:config.data_size]
-    print(files.shape)
-    shuffle(files) # file names are randomly shuffled every time
+    with ZipFile(config.Zip_file_path, 'r') as zipfile:
+        Name_list = np.array(zipfile.namelist())
+        Audio_files = Name_list[[x.endswith(".wav") and x.startswith(config.dataset) for x in Name_list]]
+        Video_files = Name_list[[x.endswith(".csv") and x.startswith(config.dataset) for x in Name_list]]
+    
+    config.logger.info('The dataset has '+str(len(Audio_files))+' audio samples and '+str(len(Video_files))+' video files.')
+    assert len(Audio_files)==len(Video_files), f"number of audio files and video files are expected to be the same, got different."
+    
+    if config.dataset=='Ravdess':
+        assert len(Audio_files) == 1440, f"number of samples mismatches 1440 for {config.dataset}, got: {len(Audio_files)}"
+    elif config.dataset =='Savee':
+        assert len(Audio_files)==480, f"number of samples mismatches 480 for {config.dataset}, got: {len(Audio_files)}"
+    elif config.dataset =='RML':
+        assert len(Audio_files)==720, f"number of samples mismatches 720 for {config.dataset}, got: {len(Audio_files)}"
+    # if config.data_size != 'None':
+    #     Audio_files=Audio_files[:config.data_size]
+    #     Video_files=Video_files[:config.data_size]
+
+    temp = list(zip(Audio_files, Video_files))
+    shuffle(temp)
+    res1, res2 = zip(*temp)
+    # res1 and res2 come out as tuples, and so must be converted to lists.
+    res1, res2 = list(res1), list(res2)
+
+    res1=np.array(res1)
+    res2=np.array(res2)
+    files=np.vstack((res1,res2))
+
     return files
 
-def get_min_max(config,files:list):
+def get_audio_min_max(config,files):
+
+    if len(files[0].tolist())!=0:
+        files=files[0].tolist() # extract audio files
+    else:
+        config.logger.error('No audio wav files detected, so there is no min max of audio.')
 
     min_,max_ = 100,0
     for file in files:
@@ -62,11 +99,34 @@ def get_min_max(config,files:list):
             elif t > max_:
                 max_ = t
                 max_sf=file
-    # min_,max_,max_sf=get_min_max(files)
-    print(min_)
-    print(max_)
-    print(max_sf)
+    config.logger.info('The min length of audio file is '+str(min_))
+    config.logger.info('The max length of audio file is '+str(max_))
+    config.logger.info('The audio file with the maximum length comes from '+str(max_sf))
+
     return min_,max_
+
+def get_video_min_max(config,files):
+
+    if len(files[1].tolist())!=0:
+        files=files[1].tolist() # extract video csv files
+    else:
+        config.logger.error('No video csv files detected, so there is no min max of video.')
+
+    min_,max_ = 10000,0
+    for file in files:
+        with ZipFile(config.Zip_file_path, 'r').open(file) as f:
+            df=pd.read_csv(f)
+            if df.shape[0] < min_:
+                min_ = df.shape[0]
+            elif df.shape[0] > max_:
+                max_ = df.shape[0]
+                max_sf=file
+    config.logger.info('The min length of video file is '+str(min_))
+    config.logger.info('The max length of video file is '+str(max_))
+    config.logger.info('The video file with the maximum length comes from '+str(max_sf))
+
+    return min_,max_
+
 
 def features(X,sr:float,FRAME_SIZE:int,HOP_LENGTH:int):
     stft = np.abs(librosa.stft(X))
@@ -154,31 +214,60 @@ def addAWGN(signal, num_bits=16, augmented_num=2, snr_low=15, snr_high=30):
     # Generate noisy signal
     return signal + K.T * noise
 
-def extract_features(config,file,max_,trainset):
+def extract_audio_features(config,file,max_,trainset):
+    file=file+'.wav'
     with ZipFile(config.Zip_file_path, 'r').open(file) as f:
         X,sr=librosa.load(f,sr=config.sample_rate)
     max_x = X.shape[0] / sr
     if max_x < max_:
         length = (max_ * sr) - X.shape[0]
-        X = np.pad(X, (0, int(length)), 'constant')
+        left_pad = math.floor(length/2)
+        right_pad = math.ceil(length/2)
+        X = np.pad(X, ((left_pad,right_pad)), 'constant')
+
     if trainset == True:
         augmented_signals = addAWGN(X)
         ext_features=[]
         ext_spec = []
+        indicator = []
         for i in range(augmented_signals.shape[0]):
             ext_features_aug,ext_spec_aug = features(augmented_signals[i], sr,1024,256)
             ext_features.append(ext_features_aug)
             ext_spec.append(ext_spec_aug)
+            indicator.append("AWGN")
         ext_features_ori,ext_spec_ori = features(X, sr,1024,256)
         ext_features.append(ext_features_ori)
         ext_spec.append(ext_spec_ori)
+        indicator.append("Original")
     else:
         ext_features,ext_spec = features(X, sr,1024,256)
         ext_features = [ext_features]
         ext_spec = [ext_spec]
-    return ext_features,ext_spec
+    return ext_features,ext_spec,indicator
 
-def split_data(config,files):
+def extract_video_features(config,file,max_):
+    file=file+'.csv'
+    with ZipFile(config.Zip_file_path, 'r').open(file) as f:
+        df=pd.read_csv(f)
+    df.columns = df.columns.str.replace(' ', '')
+    df=df[config.video_features]
+
+    assert df.shape[1]==len(config.video_features), "extracted fewer/more video features"
+    max_x = df.shape[0]
+
+    if max_x < max_:
+        length = max_-max_x
+        X = np.pad(df.values, ((0,int(length)), (0,0)), 'constant')
+    else:
+        X = df.values
+    # X=X.T
+    # print(X.shape)
+    return X.T # shape = video_features * t
+
+def get_filenames(config,files):
+    # extract only audio files because we only need file names
+    if files.shape[0]==2:
+        files=files[0].tolist() 
     Y = []
     new_files=[]
     for file in files: # only training samples need to be augmented
@@ -193,115 +282,92 @@ def split_data(config,files):
                 label = config.Emotions_map[file_name.split('_')[1][0]]
             else:
                 label = config.Emotions_map[file_name.split('_')[1][:2]]
+        elif config.dataset=="RML":
+            label = file_name.split('_')[len(file_name.split('_'))-1].split('.')[0]
+            label = config.Emotions_map[label[:2]]
         if label in config.class_labels:
             Y.append(label)
-            new_files.append(file)
+            new_files.append(os.path.join(os.path.dirname(file),file_name.split('.')[0]))
+            
     new_files=np.array(new_files)
-    sss = StratifiedShuffleSplit(test_size=config.test_ratio, random_state=config.seed)
-    for train_index, test_index in sss.split(new_files,Y):
-        train_set, test_set = new_files[train_index], new_files[test_index]
-        # Y_train, Y_test = Y[train_index], Y[test_index]
+    # sss = StratifiedShuffleSplit(test_size=config.test_ratio, random_state=config.seed)
+    # for train_index, test_index in sss.split(new_files,Y):
+    #     train_set, test_set = new_files[train_index], new_files[test_index]
     
-    val_set = test_set
-    return train_set, val_set, test_set
+    return new_files
 
-def get_features(config, train):
-    if train == True:
-        files = get_data_path(config)
-        # train test split
-        train_set, val_set, test_set = split_data(config,files)
+def get_features(config):
 
-        _,max_ = get_min_max(config,files)
+    files = get_data_path(config) # files are with .wav and .csv
 
-        # get X_train and Y_train, with augmentation
-        X1_train,X2_train,Y_train=[],[],[]
-        train_feature = []
-        for file in train_set: # only training samples need to be augmented
-            file_name = os.path.basename(file)
-            if config.dataset=="Crema":
-                label = file_name.split('_')[2] 
-                label = config.Emotions_map[file_name.split('_')[2]]
-            elif config.dataset=="Ravdess":
-                label = config.Emotions_map[file_name.split('-')[2]]
-            elif config.dataset=="Savee":
-                if file_name.split('_')[1][1].isnumeric():
-                    label = config.Emotions_map[file_name.split('_')[1][0]]
-                else:
-                    label = config.Emotions_map[file_name.split('_')[1][:2]]
+    _,max_audio = get_audio_min_max(config,files)
+    _,max_video = get_video_min_max(config,files)
+
+    # files are on longer with .wav and .csv
+    data_set = get_filenames(config,files) 
+
+
+    # get X_train and Y_train, with augmentation
+    dataset_feature = []
+    for file in data_set: # only training samples need to be augmented
+        if config.dataset=="Crema":
+            label = file.split('_')[2]                 
+            label = config.Emotions_map[file.split('_')[2]]
+            file_name = file #.split('_')[0]
+        elif config.dataset=="Ravdess":
+            label = config.Emotions_map[file.split('-')[2]]
+            file_name = file#.split('-')[6].split('.')[0]
+        elif config.dataset=="Savee":
+            file_name = file#file.split('_')[0]
+            if file.split('_')[len(file.split('_'))-1][1].isnumeric():
+                label = config.Emotions_map[file.split('_')[len(file.split('_'))-1][0]]
+            else:
+                label = config.Emotions_map[file.split('_')[len(file.split('_'))-1][:2]]
+        elif config.dataset=="RML":
+            label = file.split('_')[len(file.split('_'))-1].split('.')[0]
+            label = config.Emotions_map[label[:2]]
+            file_name = file#.split('_')[0]
+        if label in config.class_labels:
+            # print('train')
             print(label)
-            if label in config.class_labels:
-                # Y_train.append(label)
-                features,spec = extract_features(config, file, max_,trainset=True) # features is a list of three lists
-                for i in range(len(features)):
-                    train_feature.append([features[i],spec[i],config.class_labels.index(label)])
-                    X1_train.append(features[i])#[file, i, config.class_labels.index(label)])
-                    X2_train.append(spec[i])#[file, i, config.class_labels.index(label)])
-                    Y_train.append(config.class_labels.index(label))
+            audio_features,audio_spec,indicator = extract_audio_features(config, file, max_audio,True) # features is a list of three lists
+            video_features = extract_video_features(config, file, max_video)
+            for i in range(len(audio_features)):
+                dataset_feature.append([audio_features[i],audio_spec[i],indicator[i],video_features, config.class_labels.index(label),file_name])
 
+    # test_feature = []
+    # for file in test_set: # only training samples need to be augmented
+    #     if config.dataset=="Crema":
+    #         label = file.split('_')[2] 
+    #         label = config.Emotions_map[file.split('_')[2]]
+    #         file_name = file.split('_')[0]
+    #     elif config.dataset=="Ravdess":
+    #         label = config.Emotions_map[file.split('-')[2]]
+    #         file_name = file.split('-')[6].split('.')[0]
+    #     elif config.dataset=="Savee":
+    #         file_name = file.split('_')[0]
+    #         if file.split('_')[1][1].isnumeric():
+    #             label = config.Emotions_map[file.split('_')[1][0]]
+    #         else:
+    #             label = config.Emotions_map[file.split('_')[1][:2]]
+    #     elif config.dataset=="RML":
+    #         label = file.split('_')[len(file.split('_'))-1].split('.')[0]
+    #         label = config.Emotions_map[label[:2]]
+    #         file_name = file.split('_')[0]
+    #     if label in config.class_labels:
+    #         # print('train')
+    #         print(label)
+    #         audio_features,audio_spec,indicator = extract_audio_features(config, file, max_audio,False) # features is a list of three lists
+    #         video_features = extract_video_features(config, file, max_video)
+    #         test_feature.append([audio_features[0],audio_spec[0],video_features, config.class_labels.index(label),group])
 
-        X1_val,X2_val,Y_val=[],[],[]
-        val_feature = []
-        for file in val_set: # only training samples need to be augmented
-            file_name = os.path.basename(file)
-            if config.dataset=="Crema":
-                label = file_name.split('_')[2] 
-                label = config.Emotions_map[file_name.split('_')[2]]
-            elif config.dataset=="Ravdess":
-                label = config.Emotions_map[file_name.split('-')[2]]
-            elif config.dataset=="Savee":
-                if file_name.split('_')[1][1].isnumeric():
-                    label = config.Emotions_map[file_name.split('_')[1][0]]
-                else:
-                    label = config.Emotions_map[file_name.split('_')[1][:2]]
-            print(label)
-            if label in config.class_labels:
-                features,spec = extract_features(config, file, max_,trainset=False) # features is a list of three lists
-                val_feature.append([features[0],spec[0],config.class_labels.index(label)])
-                X1_val.append(features[0])
-                X2_val.append(spec[0])
-                Y_val.append(config.class_labels.index(label))
+    # path to save features
+    feature_path_dataset = os.path.join(config.feature_folder,config.dataset, "dataset.p")
 
-        X1_test,X2_test,Y_test=[],[],[]
-        test_feature = []
-        for file in test_set: # only training samples need to be augmented
-            file_name = os.path.basename(file)
-            if config.dataset=="Crema":
-                label = file_name.split('_')[2] 
-                label = config.Emotions_map[file_name.split('_')[2]]
-            elif config.dataset=="Ravdess":
-                label = config.Emotions_map[file_name.split('-')[2]]
-            elif config.dataset=="Savee":
-                if file_name.split('_')[1][1].isnumeric():
-                    label = config.Emotions_map[file_name.split('_')[1][0]]
-                else:
-                    label = config.Emotions_map[file_name.split('_')[1][:2]]
-            print(label)
-            if label in config.class_labels:
-                features,spec = extract_features(config, file, max_,trainset=False) # features is a list of three lists
-                test_feature.append([features[0],spec[0],config.class_labels.index(label)])
-                X1_test.append(features[0])
-                X2_test.append(spec[0])
-                Y_test.append(config.class_labels.index(label))
-        
-        Y_train = np.array(Y_train)
-        Y_val = np.array(Y_val)
-        Y_test = np.array(Y_test)
+    # save features
+    pickle.dump(dataset_feature, open(feature_path_dataset, 'wb'))
 
-
-        # if config.feature_folder does not exist，create a new one
-        mkdirs(config.feature_folder)
-        # path to save features
-        feature_path_train = os.path.join(config.feature_folder, "train.p" if train == True else "predict.p")
-        feature_path_val = os.path.join(config.feature_folder, "val.p" if train == True else "predict.p")
-        feature_path_test = os.path.join(config.feature_folder, "test.p" if train == True else "predict.p")
-
-        # save features
-        pickle.dump(train_feature, open(feature_path_train, 'wb'))
-        pickle.dump(val_feature, open(feature_path_val, 'wb'))
-        pickle.dump(test_feature, open(feature_path_test, 'wb'))
-
-    return X1_train,X2_train,Y_train,X1_val,X2_val,Y_val,X1_test,X2_test,Y_test
-
-
+    config.logger.info("Finished extracting features!")
+    print("Finished extracting features!")
 
 
